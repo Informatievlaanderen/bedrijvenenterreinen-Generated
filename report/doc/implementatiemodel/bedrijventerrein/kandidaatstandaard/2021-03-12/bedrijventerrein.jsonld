@@ -475,8 +475,8 @@
 "name": {
 "nl": "in gebruik"},
 "inpackage": "ACTIVE_PACKAGE",
-"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinInGebruik", "definition" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."}, "label" : {"nl": "in gebruik"}, "ap-label-nl" : {"nl": "in gebruik"}, "ap-definition-nl" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."},
-"extra": {"EA-Name" : "inGebruik", "EA-Guid" : "{60158476-5242-4218-B7B1-D83D6AE9B1B1}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "GebruikStatus", "RangeData" : {"EA-Name" : "GebruikStatus", "EA-GUID" : "{4711B178-2363-4b8a-BC88-BEF2DC2CEA9E}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "in gebruik", "definition" : "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is.", "usage" : "", "ap-label-nl" : "in gebruik", "ap-definition-nl" : "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is.", "ap-usageNote-nl" : "", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinInGebruik", "RawTags" : [{ "key": "label-nl", "value": "in gebruik", "note": "null" }, { "key": "definition-nl", "value": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is.", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinInGebruik", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinInGebruik", "definition" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."}, "label" : {"nl": "in gebruik"}, "ap-label-nl" : {"nl": "in gebruik"}, "ap-definition-nl" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."}},
+"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelInGebruik", "definition" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."}, "label" : {"nl": "in gebruik"}, "ap-label-nl" : {"nl": "in gebruik"}, "ap-definition-nl" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."},
+"extra": {"EA-Name" : "inGebruik", "EA-Guid" : "{60158476-5242-4218-B7B1-D83D6AE9B1B1}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "GebruikStatus", "RangeData" : {"EA-Name" : "GebruikStatus", "EA-GUID" : "{4711B178-2363-4b8a-BC88-BEF2DC2CEA9E}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "in gebruik", "definition" : "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is.", "usage" : "", "ap-label-nl" : "in gebruik", "ap-definition-nl" : "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is.", "ap-usageNote-nl" : "", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelInGebruik", "RawTags" : [{ "key": "label-nl", "value": "in gebruik", "note": "null" }, { "key": "definition-nl", "value": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is.", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelInGebruik", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelInGebruik", "definition" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."}, "label" : {"nl": "in gebruik"}, "ap-label-nl" : {"nl": "in gebruik"}, "ap-definition-nl" : {"nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."}},
 "description": {
 "nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."},
 "usage": {
@@ -518,31 +518,6 @@
 "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
 ],
 "minCardinality": "0",
-"maxCardinality": "1"}
-, {
-"@id": "https://data.vlaanderen.be/ns/bedrijventerrein#middelenOpenbaarDomein",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "voorziene middelen"},
-"inpackage": "ACTIVE_PACKAGE",
-"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneMiddelenOpenbaardomein", "ap-usageNote-nl" : {"nl": "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn."}, "usage" : {"nl": "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn."}, "definition" : {"nl": "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone."}, "label" : {"nl": "voorziene middelen"}, "ap-label-nl" : {"nl": "voorziene middelen"}, "ap-definition-nl" : {"nl": "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone."},
-"extra": {"EA-Name" : "voorzieneMiddelen", "EA-Guid" : "{B434B77E-AA55-421b-80B6-53FD9AC270A8}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "MiddelenOpenbaarDomein", "RangeData" : {"EA-Name" : "MiddelenOpenbaarDomein", "EA-GUID" : "{781D79C6-9F50-4c44-A904-B54D377C7AA1}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "voorziene middelen", "definition" : "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone.", "usage" : "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn.", "ap-label-nl" : "voorziene middelen", "ap-definition-nl" : "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone.", "ap-usageNote-nl" : "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn.", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneMiddelenOpenbaardomein", "RawTags" : [{ "key": "name", "value": "middelenOpenbaarDomein", "note": "null" }, { "key": "ap-definition-nl", "value": "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn.", "note": "null" }, { "key": "ap-label-nl", "value": "voorziene middelen", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneMiddelenOpenbaardomein", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneMiddelenOpenbaardomein", "ap-usageNote-nl" : {"nl": "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn."}, "usage" : {"nl": "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn."}, "definition" : {"nl": "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone."}, "label" : {"nl": "voorziene middelen"}, "ap-label-nl" : {"nl": "voorziene middelen"}, "ap-definition-nl" : {"nl": "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone."}},
-"description": {
-"nl": "De middelen die voorzien zijn voor het openbare domein dat is gelegen in de beheerde bedrijvenzone."},
-"usage": {
-"nl": "Op dit moment is het voldoende om te weten of er al dan niet middelen voorzien zijn."},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
-],
-"range": [
-{"EA-Name" : "MiddelenOpenbaarDomein", "EA-GUID" : "{781D79C6-9F50-4c44-A904-B54D377C7AA1}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
 "maxCardinality": "1"}
 , {
 "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
@@ -619,56 +594,6 @@
 ],
 "minCardinality": "1",
 "maxCardinality": "1"}
-, {
-"@id": "https://data.vlaanderen.be/ns/bedrijventerrein#subsidie",
-"@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-"name": {
-"nl": "subsidie"},
-"inpackage": "ACTIVE_PACKAGE",
-"definition" : {"nl": "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone."}, "label" : {"nl": "subsidie"}, "ap-label-nl" : {"nl": "subsidie"}, "ap-definition-nl" : {"nl": "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone."},
-"extra": {"EA-Name" : "subsidie", "EA-Guid" : "{CB0ACF3A-6D80-42d4-8F72-42574E048802}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Boolean", "RangeData" : {"EA-Name" : "Boolean", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#boolean" }, "label" : "subsidie", "definition" : "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone.", "usage" : "", "ap-label-nl" : "subsidie", "ap-definition-nl" : "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone.", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-nl", "value": "subsidie", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone.", "note": "null" }], "Scope" : "FULL_DEFINITON", "definition" : {"nl": "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone."}, "label" : {"nl": "subsidie"}, "ap-label-nl" : {"nl": "subsidie"}, "ap-definition-nl" : {"nl": "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone."}},
-"description": {
-"nl": "Geeft aan of er al dan niet subsidies actief zijn voor de Beheerde Bedrijvenzone."},
-"usage": {
-},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
-],
-"range": [
-{"EA-Name" : "Boolean", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#boolean" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "1"}
-, {
-"@id": "https://data.vlaanderen.be/ns/bedrijventerrein#subsidietype",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "subsidietype"},
-"inpackage": "ACTIVE_PACKAGE",
-"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneSubsidietype", "definition" : {"nl": "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone."}, "label" : {"nl": "subsidietype"}, "ap-label-nl" : {"nl": "subsidietype"}, "ap-definition-nl" : {"nl": "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone."},
-"extra": {"EA-Name" : "subsidietype", "EA-Guid" : "{554E6832-EADF-4a3a-816A-B14B54363B95}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Subsidietype", "RangeData" : {"EA-Name" : "Subsidietype", "EA-GUID" : "{DB4BA198-9B73-44da-A0EB-4482A8FB5FB7}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "subsidietype", "definition" : "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone.", "usage" : "", "ap-label-nl" : "subsidietype", "ap-definition-nl" : "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone.", "ap-usageNote-nl" : "", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneSubsidietype", "RawTags" : [{ "key": "definition-nl", "value": "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone.", "note": "null" }, { "key": "label-nl", "value": "subsidietype", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneSubsidietype", "note": "null" }], "Scope" : "FULL_DEFINITON", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijvenzoneSubsidietype", "definition" : {"nl": "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone."}, "label" : {"nl": "subsidietype"}, "ap-label-nl" : {"nl": "subsidietype"}, "ap-definition-nl" : {"nl": "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone."}},
-"description": {
-"nl": "De aard van de subsidie geassocieerd met een Beheerde Bedrijvenzone."},
-"usage": {
-},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
-],
-"range": [
-{"EA-Name" : "Subsidietype", "EA-GUID" : "{DB4BA198-9B73-44da-A0EB-4482A8FB5FB7}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
-],
-"generalization": [
-
-],
-"minCardinality": "0",
-"maxCardinality": "*"}
 , {
 "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#voorzieneUitgifte",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
@@ -1196,8 +1121,8 @@
 "name": {
 "nl": "type"},
 "inpackage": "OTHER_PACKAGE",
-"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinRuimtelijkeEenheidtype", "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."},
-"extra": {"EA-Name" : "^ruimtelijkeenheidtype", "EA-Guid" : "{612C4C59-C0C1-431c-B23D-BF4FCF0A233C}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "RuimtelijkeEenheidtype", "RangeData" : {"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "type", "definition" : "De aard van een ruimtelijke eenheid.", "usage" : "", "ap-label-nl" : "type", "ap-definition-nl" : "De aard van een ruimtelijke eenheid.", "ap-usageNote-nl" : "", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinRuimtelijkeEenheidtype", "RawTags" : [{ "key": "uri", "value": "http:\/\/data.vlaanderen.be\/ns\/perceel#RuimtelijkeEenheid.type", "note": "null" }, { "key": "definition-nl", "value": "De aard van een ruimtelijke eenheid.", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinRuimtelijkeEenheidtype", "note": "null" }], "Scope" : "TRANSLATIONS_ONLY", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinRuimtelijkeEenheidtype", "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."}},
+"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelRuimtelijkeEenheidtype", "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."},
+"extra": {"EA-Name" : "^ruimtelijkeenheidtype", "EA-Guid" : "{612C4C59-C0C1-431c-B23D-BF4FCF0A233C}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "RuimtelijkeEenheidtype", "RangeData" : {"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "type", "definition" : "De aard van een ruimtelijke eenheid.", "usage" : "", "ap-label-nl" : "type", "ap-definition-nl" : "De aard van een ruimtelijke eenheid.", "ap-usageNote-nl" : "", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelRuimtelijkeEenheidtype", "RawTags" : [{ "key": "uri", "value": "http:\/\/data.vlaanderen.be\/ns\/perceel#RuimtelijkeEenheid.type", "note": "null" }, { "key": "definition-nl", "value": "De aard van een ruimtelijke eenheid.", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelRuimtelijkeEenheidtype", "note": "null" }], "Scope" : "TRANSLATIONS_ONLY", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelRuimtelijkeEenheidtype", "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."}},
 "description": {
 "nl": "De aard van een ruimtelijke eenheid."},
 "usage": {
