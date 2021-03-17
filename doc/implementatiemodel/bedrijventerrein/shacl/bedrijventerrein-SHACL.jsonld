@@ -67,7 +67,6 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "De aard van een ruimtelijke eenheid.",
           "sh:maxCount": "1",
@@ -141,7 +140,7 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelRuimtelijkeEenheidtype",
+          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "De aard van een ruimtelijke eenheid.",
           "sh:maxCount": "1",
@@ -254,7 +253,6 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "De aard van een ruimtelijke eenheid.",
           "sh:maxCount": "1",
@@ -327,7 +325,6 @@
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "sh:description": "Percentage van het perceel dat gedekt wordt door de functie.",
           "sh:maxCount": "1",
-          "sh:minCount": "1",
           "sh:name": "percentage",
           "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage"
         }
@@ -374,7 +371,7 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeenheidtype",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
+          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",

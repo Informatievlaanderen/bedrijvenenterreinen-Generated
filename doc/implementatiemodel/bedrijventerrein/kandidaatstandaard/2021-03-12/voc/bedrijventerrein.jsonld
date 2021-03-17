@@ -139,6 +139,26 @@
       }
     },
     {
+      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
+      ],
+      "generalization": [],
+      "name": {
+        "nl": "type"
+      },
+      "range": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ],
+      "usage": {
+        "nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
+      }
+    },
+    {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#aanbieder",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "description": {
@@ -408,7 +428,9 @@
       "range": [
         "http://www.w3.org/2001/XMLSchema#integer"
       ],
-      "usage": {}
+      "usage": {
+        "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling",
@@ -527,13 +549,6 @@
     }
   ],
   "externalproperties": [
-    {
-      "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
-      "@type": "rdf:Property",
-      "name": {
-        "nl": "type"
-      }
-    },
     {
       "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "rdf:Property",

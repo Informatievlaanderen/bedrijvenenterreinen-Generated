@@ -110,8 +110,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/3d9fe011f6e3f02f41dbe20620575aec19cb1441">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/3d9fe011f6e3f02f41dbe20620575aec19cb1441</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/3d9fe011f6e3f02f41dbe20620575aec19cb1441/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/3d9fe011f6e3f02f41dbe20620575aec19cb1441/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/494101d06f5abff1c9b578e67e7358126432b683">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/494101d06f5abff1c9b578e67e7358126432b683</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/494101d06f5abff1c9b578e67e7358126432b683/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/494101d06f5abff1c9b578e67e7358126432b683/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href="https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html">https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html</a></dd>
 
@@ -516,7 +516,7 @@ Dit omvat niet alle informatie van de authentieke bron bedrijventerreinen, enkel
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">De aard van een ruimtelijke eenheid.</td>
-                        <td property="vann:usageNote"></td>
+                        <td property="vann:usageNote">De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse Bedrijventerrein wordt immers niet verder onderverdeeld in verschillende eniteiten.</td>
                         <td><a href="https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype">Link</a></td>
                       </tr>
                     
@@ -1122,7 +1122,7 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">De aard van een ruimtelijke eenheid.</td>
-                        <td property="vann:usageNote">moet de waarde _:OntwikkelbareBedrijvenzone hebben</td>
+                        <td property="vann:usageNote">De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse Beheerde Bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.</td>
                         <td><a href="https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype">Link</a></td>
                       </tr>
                     
@@ -1461,10 +1461,10 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         <td><a href="https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus">Link</a></td>
                       </tr>
                     
-                      <tr id="Ontwikkelbare%20Bedrijvenzone%3Atype" typeof="rdfs:Property" resource="http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type">
+                      <tr id="Ontwikkelbare%20Bedrijvenzone%3Atype" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype">
                         <td>
                           <code property="rdfs:label">
-                            <a href="http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type" data-toggle="tooltip" data-content="http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type" data-placement="right">
+                            <a href="https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype" data-placement="right">
                             type</a>
                           </code>
                         </td>
@@ -1477,7 +1477,7 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">De aard van een ruimtelijke eenheid.</td>
-                        <td property="vann:usageNote"></td>
+                        <td property="vann:usageNote">De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.</td>
                         <td><a href="https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype">Link</a></td>
                       </tr>
                     
@@ -1774,9 +1774,9 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                             
                           
                         </td>
-                        <td>1</td>
+                        <td>0..1</td>
                         <td property="rdfs:comment">Percentage van het perceel dat gedekt wordt door de functie.</td>
-                        <td property="vann:usageNote"></td>
+                        <td property="vann:usageNote">Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven.</td>
                         <td></td>
                       </tr>
                       
