@@ -365,7 +365,6 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "De aard van een ruimtelijke eenheid.",
           "sh:maxCount": "1",

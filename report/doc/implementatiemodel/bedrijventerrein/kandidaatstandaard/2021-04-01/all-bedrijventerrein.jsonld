@@ -631,7 +631,6 @@
         "nl": "type"
       },
       "inpackage": "ACTIVE_PACKAGE",
-      "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
       "ap-usageNote-nl": {
         "nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
       },
@@ -682,16 +681,11 @@
         "ap-usageNote-nl": {
           "nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
         },
-        "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
+        "ap-codelist": "",
         "RawTags": [
           {
             "key": "definition-nl",
             "value": "De aard van een ruimtelijke eenheid.",
-            "note": "null"
-          },
-          {
-            "key": "ap-codelist",
-            "value": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
             "note": "null"
           },
           {
@@ -5663,105 +5657,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-      },
-      "label": {
-        "nl": "is deel van"
-      },
-      "ap-label-nl": {
-        "nl": "is deel van"
-      },
-      "ap-definition-nl": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-      },
-      "extra": {
-        "EA-Name": "isDeelVan",
-        "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "OntwikkelbareBedrijvenzone",
-        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
-        "EA-Range": "Bedrijventerrein",
-        "RangeData": {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "is deel van"
-        },
-        "definition": {
-          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "is deel van"
-        },
-        "ap-definition-nl": {
-          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "ap-definition-nl",
-            "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Geeft aan waartoe een entiteit behoort.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "is deel van",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/isPartOf",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "description": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "is deel van"
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
         "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       },
       "label": {
@@ -5938,6 +5833,105 @@
         {
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
           "EA-Name": "Bedrijventerreinperceel"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isPartOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "is deel van"
+      },
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      },
+      "label": {
+        "nl": "is deel van"
+      },
+      "ap-label-nl": {
+        "nl": "is deel van"
+      },
+      "ap-definition-nl": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      },
+      "extra": {
+        "EA-Name": "isDeelVan",
+        "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "OntwikkelbareBedrijvenzone",
+        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+        "EA-Range": "Bedrijventerrein",
+        "RangeData": {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "is deel van"
+        },
+        "definition": {
+          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "is deel van"
+        },
+        "ap-definition-nl": {
+          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Geeft aan waartoe een entiteit behoort.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "is deel van",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/isPartOf",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "description": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "EA-Name": "OntwikkelbareBedrijvenzone"
         }
       ],
       "range": [
@@ -9959,18 +9953,18 @@
   "eap": "OSLO-Bedrijventerrein-impl.eap",
   "diagram": "OSLO-BedrijventerreinImplementatieModel",
   "template": "bedrijventerrein-impl.j2",
-  "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/KandidaatStandaard",
-  "publication-date": "2020-04-5",
+  "publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/ErkendeStandaard",
+  "publication-date": "2021-04-01",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "bedrijventerrein",
   "site": "site-skeleton/bedrijventerrein",
   "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html",
+  "standaardregisterurl": "",
   "dependencies": [
     {
       "package": "OSLO-Generiek",
       "packagelabel": "Appplicatieprofiel Generiek-basis",
-      "packageurl": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+      "packageurl": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
     },
     {
       "package": "OSLO-Perceel",
@@ -9985,14 +9979,14 @@
   ],
   "config": "config/config-ap.json",
   "dummy": 1,
-  "urlref": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-03-12",
+  "urlref": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01",
   "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
   "branchtag": "master",
   "filename": "config/bedrijventerrein.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2020-05-04"
   },
-  "documentcommit": "763d855bd4fe721d1df8a1c40adb49e20176546e",
-  "toolchaincommit": "a21718680fe76885b521b17b5e1d5f627f0dd69a",
+  "documentcommit": "95228cda0d55285ce0b196042916762ef631ffd1",
+  "toolchaincommit": "30786363c26c6d167d3d68424b595d33a3c275eb",
   "hostname": "https://bedrijventerrein.dev-vlaanderen.be"
 }

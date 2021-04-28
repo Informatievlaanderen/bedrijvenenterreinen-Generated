@@ -4,25 +4,25 @@
       "nl": "Bedrijventerrein"
     },
     "uri": "https://data.vlaanderen.be/ns/bedrijventerrein",
-    "issued": "2020-04-5",
+    "issued": "2021-04-01",
     "baseURI": "https://data.vlaanderen.be/ns/bedrijventerrein#",
     "filename": "bedrijventerrein",
     "navigation": {
       "prev": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2020-05-04",
-      "self": "https://bedrijventerrein.dev-vlaanderen.be/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-03-12"
+      "self": "https://bedrijventerrein.dev-vlaanderen.be/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01"
     },
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "status": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/KandidaatStandaard",
+    "status": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/763d855bd4fe721d1df8a1c40adb49e20176546e",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/763d855bd4fe721d1df8a1c40adb49e20176546e/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/95228cda0d55285ce0b196042916762ef631ffd1",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/95228cda0d55285ce0b196042916762ef631ffd1/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html",
+    "standaardregisterurl": "",
     "dependencies": [
       {
         "package": "OSLO-Generiek",
         "packagelabel": "Appplicatieprofiel Generiek-basis",
-        "packageurl": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
+        "packageurl": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/"
       },
       {
         "package": "OSLO-Perceel",
@@ -1693,7 +1693,7 @@
         "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
       },
       "usage": {},
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Agent",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Agent",
       "parents": [],
       "properties": [
         {
@@ -1757,7 +1757,7 @@
           "label": "Agent",
           "package": "OSLO-Generiek",
           "uri": "http://purl.org/dc/terms/Agent",
-          "scoped_uri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Agent"
+          "scoped_uri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Agent"
         }
       ],
       "properties": [
@@ -2358,7 +2358,7 @@
       "usage": {
         "nl": "Typisch volgt de duur uit het opgeven ve begin- en eindtijdstip."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Periode",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Periode",
       "parents": [],
       "properties": [
         {
@@ -2447,7 +2447,7 @@
       "usage": {
         "nl": "Enkel de informatie die minimaal gewenst is werd opgenomen. Uitgebreidere contactbeschrijvingen staan in de specificatie generiek-basis."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#ContactInfo",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#ContactInfo",
       "parents": [],
       "properties": [
         {
@@ -2572,7 +2572,7 @@
       "usage": {
         "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Identificator",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Identificator",
       "parents": [],
       "properties": [
         {
@@ -2767,7 +2767,7 @@
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Geometrie",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Geometrie",
       "parents": [],
       "properties": [
         {
@@ -2854,7 +2854,7 @@
         "nl": "Identificator van een object opgesplitst in zijn onderdelen."
       },
       "usage": {},
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#GestructureerdeIdentificator",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#GestructureerdeIdentificator",
       "parents": [],
       "properties": [
         {
@@ -2975,7 +2975,7 @@
       "usage": {
         "nl": "Datatype kan een URI zijn of een GetypeerdeString. In het eerste geval wordt verwezen naar op het web gepubliceerde eenheden, bij voorkeur deze van qudt, bv http://qudt.org/vocab/unit/M voor meter. In het geval van een  GetypeerdeString gaat de voorkeur naar de UCUM-codes, bv \"km/h\"^^http://w3id.org/lindt/custom_datatypes#ucumunit."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#StandaardEenheid",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#StandaardEenheid",
       "parents": [],
       "properties": []
     },
@@ -3227,7 +3227,7 @@
       "usage": {
         "nl": "In praktijk de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid, zie xsd datatypes float, double, decimal, integer etc."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Getal",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#Getal",
       "parents": [],
       "properties": []
     },
@@ -3243,7 +3243,7 @@
       "usage": {
         "nl": "Bv de hoogte van een object , het gewicht, de temperatuur etc. Het gaat om een kenmerk dat numeriek uitgedrukt kan worden en in een bepaalde eenheid. Kwalitatieve aanduidingen zoals hoog, laag ed vallen hier dus niet onder."
       },
-      "scopeduri": "https://otl-test.data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#KwantitatieveWaarde",
+      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/#KwantitatieveWaarde",
       "parents": [],
       "properties": [
         {
@@ -3354,5 +3354,5 @@
     }
   ],
   "parents": [],
-  "documentroot": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-03-12"
+  "documentroot": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01"
 }
