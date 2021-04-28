@@ -12,10 +12,10 @@
       "self": "https://bedrijventerrein.dev-vlaanderen.be/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01"
     },
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "status": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/ErkendeStandaard",
-    "statuslabel": "Onbekend",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/febf40b11d5bc6a57f17df5b8e52e95c6c21c5c5",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/febf40b11d5bc6a57f17df5b8e52e95c6c21c5c5/CHANGELOG",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/3fd3787eb54ccc46945b72430692059ccfccd2d5",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/3fd3787eb54ccc46945b72430692059ccfccd2d5/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
