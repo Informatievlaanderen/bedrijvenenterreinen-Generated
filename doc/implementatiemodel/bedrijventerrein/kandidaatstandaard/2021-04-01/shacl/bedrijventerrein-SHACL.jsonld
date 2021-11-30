@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": "https://data.vlaanderen.be/shacl/bedrijventerrein",
+    "@vocab": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein",
     "qb": "http://purl.org/linked-data/cube#",
     "qb:codeList": {
       "@type": "@id"
@@ -31,10 +31,10 @@
       "@type": "@id"
     }
   },
-  "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein",
+  "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein",
   "shapes": [
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -107,7 +107,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinperceelShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinperceelShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -220,7 +220,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BeheerdeBedrijvenzoneShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeheerdeBedrijvenzoneShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -308,7 +308,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#FunctiewaardeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctiewaardeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -332,7 +332,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -423,7 +423,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -446,7 +446,7 @@
       "sh:targetClass": "http://data.europa.eu/m8g/PeriodOfTime"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#AgentShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#AgentShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -462,7 +462,7 @@
       "sh:targetClass": "http://purl.org/dc/terms/Agent"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -491,147 +491,147 @@
       "sh:targetClass": "http://schema.org/ContactPoint"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BeperkingShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeperkingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BeschikbaarheidShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeschikbaarheidShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#DominanteEconomischeActiviteitShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#DominanteEconomischeActiviteitShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#BestemmingShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BestemmingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#PlanningsniveauShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PlanningsniveauShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#StatusShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StatusShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#StatusOntwikkelingShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StatusOntwikkelingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#DossierfaseShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#DossierfaseShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#MiddelenOpenbaarDomeinShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#MiddelenOpenbaarDomeinShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#GebruikStatusShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GebruikStatusShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "http://www.w3.org/2004/02/skos/core#Concept"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -674,7 +674,7 @@
       "sh:targetClass": "http://www.w3.org/ns/adms#Identifier"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#GeometrieShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -696,7 +696,7 @@
       "sh:targetClass": "http://www.w3.org/ns/locn#Geometry"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#GeregistreerdeOrganisatieShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeregistreerdeOrganisatieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -726,7 +726,7 @@
       "sh:targetClass": "http://www.w3.org/ns/regorg#RegisteredOrganization"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -757,14 +757,14 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#RechtShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechtShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -780,7 +780,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#Recht"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -812,7 +812,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -844,7 +844,7 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
@@ -860,14 +860,14 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#GetalShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GetalShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [],
       "sh:targetClass": "https://schema.org/Number"
     },
     {
-      "@id": "https://data.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape",
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
       "sh:property": [
