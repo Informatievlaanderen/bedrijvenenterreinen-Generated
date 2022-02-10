@@ -2930,7 +2930,7 @@
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
-      "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod",
+      "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode",
       "ap-usageNote-nl": {
         "nl": "TODO"
       },
@@ -2965,11 +2965,11 @@
         "ap-usageNote-nl": {
           "nl": "TODO"
         },
-        "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod",
+        "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode",
         "RawTags": [
           {
             "key": "ap-codelist",
-            "value": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod",
+            "value": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode",
             "note": "null"
           },
           {
@@ -9978,7 +9978,7 @@
     }
   ],
   "config": "config/config-ap.json",
-  "dummy": 2,
+  "dummy": 3,
   "urlref": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01",
   "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
   "branchtag": "master",
@@ -9986,7 +9986,7 @@
   "navigation": {
     "prev": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2020-05-04"
   },
-  "documentcommit": "d18fe56ecc64ef8fc12addc1580e3f0d2266c052",
-  "toolchaincommit": "3c1e88254fc67249dd7410d3224409e0d4f6e1d2",
+  "documentcommit": "014642c027d3d990f01072fd27fcc05289654aa7",
+  "toolchaincommit": "bd55a1dca5a32dbe8c35e40034548f6602c3ec24",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }
