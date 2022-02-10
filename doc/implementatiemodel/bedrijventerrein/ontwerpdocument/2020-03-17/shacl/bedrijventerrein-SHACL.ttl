@@ -8,46 +8,46 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein> <https://data.vlaanderen.be/shacl/bedrijventerreinshapes> <https://data.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinperceelShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#BeheerdeBedrijvenzoneShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#FunctiewaardeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#AgentShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#BeperkingShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#BeschikbaarheidShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#DominanteEconomischeActiviteitShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#BestemmingShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#PlanningsniveauShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#StatusShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#StatusOntwikkelingShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#DossierfaseShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#MiddelenOpenbaarDomeinShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#GeometrieShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#GeregistreerdeOrganisatieShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#RechtShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#GetalShape>,
-    <https://data.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape> .
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein> <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerreinshapes> <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinperceelShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeheerdeBedrijvenzoneShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctiewaardeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#AgentShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeperkingShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeschikbaarheidShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#DominanteEconomischeActiviteitShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BestemmingShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PlanningsniveauShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StatusShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StatusOntwikkelingShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#DossierfaseShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#MiddelenOpenbaarDomeinShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeregistreerdeOrganisatieShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechtShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GetalShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#AgentShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#AgentShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class schema:ContactPoint;
@@ -59,11 +59,11 @@
   ];
   shacl:targetClass dc:Agent .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/PeriodOfTime>;
@@ -125,7 +125,7 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinperceelShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinperceelShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/PeriodOfTime>;
@@ -220,7 +220,7 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BeheerdeBedrijvenzoneShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeheerdeBedrijvenzoneShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/PeriodOfTime>;
@@ -317,19 +317,19 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BeperkingShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeperkingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BeschikbaarheidShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BeschikbaarheidShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#BestemmingShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BestemmingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -352,19 +352,19 @@
   ];
   shacl:targetClass schema:ContactPoint .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#DominanteEconomischeActiviteitShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#DominanteEconomischeActiviteitShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#DossierfaseShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#DossierfaseShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#FunctiewaardeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctiewaardeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelFunctie>;
@@ -384,11 +384,11 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#GeometrieShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype rdfs:Literal;
@@ -405,7 +405,7 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/locn#Geometry> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#GeregistreerdeOrganisatieShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeregistreerdeOrganisatieShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -429,7 +429,7 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/regorg#RegisteredOrganization> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -454,11 +454,11 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#GetalShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GetalShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass schemas:Number .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
@@ -493,7 +493,7 @@
   ];
   shacl:targetClass <http://www.w3.org/ns/adms#Identifier> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:string;
@@ -517,15 +517,15 @@
   ];
   shacl:targetClass schemas:QuantitativeValue .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#MiddelenOpenbaarDomeinShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#MiddelenOpenbaarDomeinShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class <http://data.europa.eu/m8g/PeriodOfTime>;
@@ -602,15 +602,15 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:dateTime;
@@ -628,11 +628,11 @@
   ];
   shacl:targetClass <http://data.europa.eu/m8g/PeriodOfTime> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#PlanningsniveauShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PlanningsniveauShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#RechtShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechtShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class skos:Concept;
@@ -644,11 +644,11 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/perceel#Recht> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:boolean;
@@ -674,7 +674,7 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:datatype xsd:boolean;
@@ -700,27 +700,27 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass <https://data.vlaanderen.be/ns/generiek#StandaardEenheid> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#StatusOntwikkelingShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StatusOntwikkelingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#StatusShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StatusShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:property [
     shacl:class skos:Concept;
@@ -732,6 +732,6 @@
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid> .
 
-<https://data.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape> a shacl:NodeShape;
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
