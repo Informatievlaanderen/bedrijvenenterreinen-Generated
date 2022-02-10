@@ -14,8 +14,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/68282b38886c6d7cebd09bd266eca19fb5bdb102",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/68282b38886c6d7cebd09bd266eca19fb5bdb102/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fe56ecc64ef8fc12addc1580e3f0d2266c052",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fe56ecc64ef8fc12addc1580e3f0d2266c052/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
