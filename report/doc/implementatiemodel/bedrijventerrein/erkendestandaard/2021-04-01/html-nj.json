@@ -14,8 +14,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/014642c027d3d990f01072fd27fcc05289654aa7",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/014642c027d3d990f01072fd27fcc05289654aa7/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/34968ec77d33f45074da182266effcce77c7379f",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/34968ec77d33f45074da182266effcce77c7379f/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -2307,42 +2307,6 @@
           ],
           "cardinality": "1",
           "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelFunctie"
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
-          "name": {
-            "nl": "percentage"
-          },
-          "sort_nl": "percentage",
-          "description": {
-            "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-          },
-          "usage": {
-            "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-          },
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
-              "EA-Name": "Functiewaarde"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Integer",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
-              "range_label": {
-                "nl": "Integer"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
         }
       ]
     },

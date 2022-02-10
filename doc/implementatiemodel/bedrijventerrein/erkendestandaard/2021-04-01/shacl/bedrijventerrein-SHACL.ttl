@@ -352,12 +352,6 @@
     shacl:minCount 1;
     shacl:name "functietype";
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde.type>
-  ], [
-    shacl:datatype xsd:integer;
-    shacl:description "Percentage van het perceel dat gedekt wordt door de functie.";
-    shacl:maxCount 1;
-    shacl:name "percentage";
-    shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#percentage>
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde> .
 

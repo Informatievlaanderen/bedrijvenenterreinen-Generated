@@ -413,26 +413,6 @@
       }
     },
     {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "description": {
-        "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-      },
-      "domain": [
-        "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde"
-      ],
-      "generalization": [],
-      "name": {
-        "nl": "percentage"
-      },
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#integer"
-      ],
-      "usage": {
-        "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-      }
-    },
-    {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "description": {
