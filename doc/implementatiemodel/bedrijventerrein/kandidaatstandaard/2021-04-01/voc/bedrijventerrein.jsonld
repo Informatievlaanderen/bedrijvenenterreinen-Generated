@@ -100,7 +100,9 @@
         "nl": "Functiewaarde"
       },
       "parents": [],
-      "usage": {}
+      "usage": {
+        "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+      }
     },
     {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
@@ -410,26 +412,6 @@
       ],
       "usage": {
         "nl": "De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein."
-      }
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "description": {
-        "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-      },
-      "domain": [
-        "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde"
-      ],
-      "generalization": [],
-      "name": {
-        "nl": "percentage"
-      },
-      "range": [
-        "http://www.w3.org/2001/XMLSchema#integer"
-      ],
-      "usage": {
-        "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
       }
     },
     {

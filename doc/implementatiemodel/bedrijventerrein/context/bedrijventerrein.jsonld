@@ -176,10 +176,6 @@
     "Dossierfase": "http://www.w3.org/2004/02/skos/core#Concept",
     "Functietype": "http://www.w3.org/2004/02/skos/core#Concept",
     "Functiewaarde": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
-    "Functiewaarde.percentage": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
-      "@type": "http://www.w3.org/2001/XMLSchema#integer"
-    },
     "Functiewaarde.type": {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde.type",
       "@type": "@id"

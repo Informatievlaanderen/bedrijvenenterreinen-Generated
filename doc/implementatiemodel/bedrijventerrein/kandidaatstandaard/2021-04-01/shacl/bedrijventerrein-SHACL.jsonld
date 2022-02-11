@@ -320,13 +320,6 @@
           "sh:minCount": "1",
           "sh:name": "functietype",
           "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde.type"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "sh:description": "Percentage van het perceel dat gedekt wordt door de functie.",
-          "sh:maxCount": "1",
-          "sh:name": "percentage",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage"
         }
       ],
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde"

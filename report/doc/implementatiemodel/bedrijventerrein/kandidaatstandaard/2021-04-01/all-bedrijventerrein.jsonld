@@ -377,6 +377,12 @@
     {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
       "@type": "http://www.w3.org/2002/07/owl#Class",
+      "ap-usageNote-nl": {
+        "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+      },
+      "usage": {
+        "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+      },
       "definition": {
         "nl": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."
       },
@@ -403,14 +409,18 @@
         "definition": {
           "nl": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."
         },
-        "usage": "",
+        "usage": {
+          "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+        },
         "ap-label-nl": {
           "nl": "Functiewaarde"
         },
         "ap-definition-nl": {
           "nl": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."
         },
-        "ap-usageNote-nl": "",
+        "ap-usageNote-nl": {
+          "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+        },
         "ap-codelist": "",
         "RawTags": [
           {
@@ -422,6 +432,11 @@
             "key": "label-nl",
             "value": "Functiewaarde",
             "note": "null"
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "value": "NOTE",
+            "note": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
           }
         ],
         "Scope": "FULL_DEFINITON"
@@ -433,7 +448,6 @@
       "description": {
         "nl": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."
       },
-      "usage": {},
       "parents": []
     },
     {
@@ -2144,103 +2158,6 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
-      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
-      "name": {
-        "nl": "percentage"
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "ap-usageNote-nl": {
-        "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-      },
-      "usage": {
-        "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-      },
-      "definition": {
-        "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-      },
-      "label": {
-        "nl": "percentage"
-      },
-      "ap-label-nl": {
-        "nl": "percentage"
-      },
-      "ap-definition-nl": {
-        "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-      },
-      "extra": {
-        "EA-Name": "percentage",
-        "EA-Guid": "{FE9E0EB4-6F88-4afe-9720-D0F551D88FB0}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "Functiewaarde",
-        "EA-Domain-Guid": "{885B7B4E-5AF5-455c-9C55-5A19EAF3BDC7}",
-        "EA-Range": "Integer",
-        "RangeData": {
-          "EA-Name": "Integer",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#integer"
-        },
-        "label": {
-          "nl": "percentage"
-        },
-        "definition": {
-          "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-        },
-        "usage": {
-          "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-        },
-        "ap-label-nl": {
-          "nl": "percentage"
-        },
-        "ap-definition-nl": {
-          "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-        },
-        "ap-usageNote-nl": {
-          "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-        },
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "value": "percentage",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Percentage van het perceel dat gedekt wordt door de functie.",
-            "note": "null"
-          },
-          {
-            "key": "ap-usageNote-nl",
-            "value": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven.",
-            "note": "null"
-          }
-        ],
-        "Scope": "FULL_DEFINITON"
-      },
-      "description": {
-        "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-      },
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
-          "EA-Name": "Functiewaarde"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Integer",
-          "EA-Package": "",
-          "uri": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "1"
-    },
-    {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
@@ -2930,7 +2847,7 @@
       "@id": "http://www.w3.org/2004/02/skos/core#Concept",
       "@type": "http://www.w3.org/2002/07/owl#Class",
       "inpackage": "OTHER_PACKAGE",
-      "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod",
+      "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode",
       "ap-usageNote-nl": {
         "nl": "TODO"
       },
@@ -2965,11 +2882,11 @@
         "ap-usageNote-nl": {
           "nl": "TODO"
         },
-        "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod",
+        "ap-codelist": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode",
         "RawTags": [
           {
             "key": "ap-codelist",
-            "value": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod",
+            "value": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode",
             "note": "null"
           },
           {
@@ -5657,105 +5574,6 @@
       },
       "inpackage": "ACTIVE_PACKAGE",
       "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-      },
-      "label": {
-        "nl": "is deel van"
-      },
-      "ap-label-nl": {
-        "nl": "is deel van"
-      },
-      "ap-definition-nl": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-      },
-      "extra": {
-        "EA-Name": "isDeelVan",
-        "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "OntwikkelbareBedrijvenzone",
-        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
-        "EA-Range": "Bedrijventerrein",
-        "RangeData": {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "is deel van"
-        },
-        "definition": {
-          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "is deel van"
-        },
-        "ap-definition-nl": {
-          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "ap-definition-nl",
-            "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Geeft aan waartoe een entiteit behoort.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "is deel van",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/isPartOf",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "TRANSLATIONS_ONLY"
-      },
-      "description": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "is deel van"
-      },
-      "inpackage": "ACTIVE_PACKAGE",
-      "definition": {
         "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       },
       "label": {
@@ -5833,6 +5651,105 @@
         {
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
           "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isPartOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "is deel van"
+      },
+      "inpackage": "ACTIVE_PACKAGE",
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      },
+      "label": {
+        "nl": "is deel van"
+      },
+      "ap-label-nl": {
+        "nl": "is deel van"
+      },
+      "ap-definition-nl": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      },
+      "extra": {
+        "EA-Name": "isDeelVan",
+        "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "OntwikkelbareBedrijvenzone",
+        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+        "EA-Range": "Bedrijventerrein",
+        "RangeData": {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "is deel van"
+        },
+        "definition": {
+          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "is deel van"
+        },
+        "ap-definition-nl": {
+          "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Geeft aan waartoe een entiteit behoort.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "is deel van",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/isPartOf",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "TRANSLATIONS_ONLY"
+      },
+      "description": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "EA-Name": "OntwikkelbareBedrijvenzone"
         }
       ],
       "range": [
@@ -9986,7 +9903,7 @@
   "navigation": {
     "prev": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2020-05-04"
   },
-  "documentcommit": "d18fe56ecc64ef8fc12addc1580e3f0d2266c052",
-  "toolchaincommit": "0390c499eaf0ac320d57c0b9c1de102cefda55f1",
+  "documentcommit": "ded3772e76fb25c8ff9ca0407a4432bff20f40db",
+  "toolchaincommit": "abc1cbe72087c360b5a61e7b69a33c6d0ebe2683",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }

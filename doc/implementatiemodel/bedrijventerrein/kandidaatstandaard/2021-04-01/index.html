@@ -110,8 +110,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fe56ecc64ef8fc12addc1580e3f0d2266c052">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fe56ecc64ef8fc12addc1580e3f0d2266c052</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fe56ecc64ef8fc12addc1580e3f0d2266c052/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fe56ecc64ef8fc12addc1580e3f0d2266c052/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/ded3772e76fb25c8ff9ca0407a4432bff20f40db">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/ded3772e76fb25c8ff9ca0407a4432bff20f40db</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/ded3772e76fb25c8ff9ca0407a4432bff20f40db/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/ded3772e76fb25c8ff9ca0407a4432bff20f40db/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href=""></a></dd>
 
@@ -1736,11 +1736,13 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                   <dl>
                     <dt>Beschrijving</dt><dd>Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages.</dd>
                     
+                    <dt>Gebruik</dt><dd>De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.
+Echter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel.</dd>
+                    
 		    
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor dit datatype zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Functiewaarde%3Apercentage">percentage</a>, 
                       <a href="#Functiewaarde%3Atype">type</a>.</dd>
                     
                   </dl>
@@ -1760,25 +1762,6 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                     </thead>
 
                     <tbody class="supertype">
-                      
-                      <tr id="Functiewaarde%3Apercentage" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/bedrijventerrein#percentage">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://data.vlaanderen.be/ns/bedrijventerrein#percentage" data-toggle="tooltip" data-content="https://data.vlaanderen.be/ns/bedrijventerrein#percentage" data-placement="right">percentage</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#integer" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#integer" data-placement="right">Integer</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">Percentage van het perceel dat gedekt wordt door de functie.</td>
-                        <td property="vann:usageNote">Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven.</td>
-                        <td></td>
-                      </tr>
                       
                       <tr id="Functiewaarde%3Atype" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde.type">
                         <td>
@@ -2406,7 +2389,7 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         <td>0..1</td>
                         <td property="rdfs:comment">De methode geeft aan op welke manier de geometrie tot stand is gekomen.</td>
                         <td property="vann:usageNote">enkel _:ingemeten of _:ingeschetst worden gebruikt</td>
-                        <td><a href="https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod">Link</a></td>
+                        <td><a href="https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode">Link</a></td>
                       </tr>
                       
                     </tbody>
