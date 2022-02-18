@@ -9,13 +9,13 @@
     "filename": "bedrijventerrein",
     "navigation": {
       "prev": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2020-05-04",
-      "self": "https://bedrijventerrrein.vlaanderen.be/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01"
+      "self": "https://bedrijventerrrein.vlaanderen.be/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01"
     },
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fe56ecc64ef8fc12addc1580e3f0d2266c052",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fe56ecc64ef8fc12addc1580e3f0d2266c052/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/e144cd1a61d9c51a66351d964a090e50577ccf14",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/e144cd1a61d9c51a66351d964a090e50577ccf14/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -2268,7 +2268,9 @@
       "description": {
         "nl": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."
       },
-      "usage": {},
+      "usage": {
+        "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+      },
       "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein#Functiewaarde",
       "parents": [],
       "properties": [
@@ -2307,42 +2309,6 @@
           ],
           "cardinality": "1",
           "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelFunctie"
-        },
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#percentage",
-          "name": {
-            "nl": "percentage"
-          },
-          "sort_nl": "percentage",
-          "description": {
-            "nl": "Percentage van het perceel dat gedekt wordt door de functie."
-          },
-          "usage": {
-            "nl": "Het bepalen van de dekkingsgraad van een functie is niet eenvoudig. Daarom wordt dit niet verplicht meegegeven."
-          },
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
-              "EA-Name": "Functiewaarde"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Integer",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
-              "range_label": {
-                "nl": "Integer"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
         }
       ]
     },
@@ -3094,7 +3060,7 @@
             }
           ],
           "cardinality": "0..1",
-          "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethod"
+          "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/2Dgeometriemethode"
         }
       ]
     },
@@ -3354,5 +3320,5 @@
     }
   ],
   "parents": [],
-  "documentroot": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01"
+  "documentroot": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01"
 }
