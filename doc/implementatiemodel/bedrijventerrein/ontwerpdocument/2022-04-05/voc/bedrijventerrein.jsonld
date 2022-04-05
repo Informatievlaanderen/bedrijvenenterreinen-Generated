@@ -46,7 +46,26 @@
     "foaf:name": "Data Vlaanderen"
   },
   "classes": [],
-  "properties": [],
+  "properties": [
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "description": {
+        "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+      ],
+      "generalization": [],
+      "name": {
+        "nl": "homepage aanbieding"
+      },
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "usage": {}
+    }
+  ],
   "externals": [],
   "externalproperties": [],
   "@context": {

@@ -255,7 +255,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2000/01/rdf-schema#Literal",
-          "sh:description": "String gebruikt om het object uniek te identificeren. ",
+          "sh:description": "String gebruikt om het object uniek te identificeren.",
           "sh:maxCount": "1",
           "sh:name": "identificator",
           "sh:path": "http://www.w3.org/2004/02/skos/core#notation"
@@ -346,14 +346,14 @@
           "sh:description": "Tijdsinterval waarbinnen iets geldig is.",
           "sh:maxCount": "1",
           "sh:name": "^geldigheidsperiode",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -375,7 +375,7 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeeenheidtype",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -419,14 +419,14 @@
           "sh:description": "Tijdsinterval waarbinnen iets geldig is.",
           "sh:maxCount": "1",
           "sh:name": "^geldigheidsperiode",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -449,16 +449,16 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeenheidtype",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
         },
         {
           "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-          "sh:description": "De aanbieder van dit perceel (TODO)",
+          "sh:description": "De aanbieder van dit perceel",
           "sh:name": "aanbieder",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#aanbieder"
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinBebouwing",
+          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelBebouwing",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.",
           "sh:maxCount": "1",
@@ -494,7 +494,7 @@
           "sh:description": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder",
           "sh:maxCount": "1",
           "sh:name": "homepageAanbieding",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding"
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding"
         },
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelInGebruik",
@@ -532,7 +532,7 @@
           "sh:description": "Tijdsinterval waarbinnen iets geldig is.",
           "sh:maxCount": "1",
           "sh:name": "^geldigheidsperiode",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
@@ -561,21 +561,21 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeeenheidstype",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
         },
         {
           "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",
           "sh:description": "Het aanspreekpunt voor informatie over deze zone.",
           "sh:maxCount": "1",
           "sh:name": "aanspreekpunt",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt"
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt"
         },
         {
           "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",
           "sh:description": "De beheerder van de informatie over deze beheerde bedrijvenzone",
           "sh:maxCount": "1",
           "sh:name": "digitalebeheerder",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder"
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
@@ -594,10 +594,10 @@
         },
         {
           "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-          "sh:description": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop. ",
+          "sh:description": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop.",
           "sh:maxCount": "1",
           "sh:name": "juridischeHandhaver",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver"
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -637,14 +637,14 @@
           "sh:description": "Tijdsinterval waarbinnen iets geldig is.",
           "sh:maxCount": "1",
           "sh:name": "^geldigheidsperiode",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -696,7 +696,7 @@
           "sh:description": "de organisatie die verantwoordelijk is voor de ontwikkeling van de zone.",
           "sh:maxCount": "1",
           "sh:name": "ontwikkelaar",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar"
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar"
         },
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus",

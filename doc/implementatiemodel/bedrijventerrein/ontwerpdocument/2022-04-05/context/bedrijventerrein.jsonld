@@ -20,12 +20,12 @@
       "@type": "@id"
     },
     "Bedrijventerrein.geldigheidsperiode": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "Bedrijventerrein.geometrie": {
       "@container": "@set",
-      "@id": "http://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
       "@type": "@id"
     },
     "Bedrijventerrein.identificator": {
@@ -42,13 +42,13 @@
       "@type": "@id"
     },
     "Bedrijventerrein.type": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
     "Bedrijventerreinperceel": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
     "Bedrijventerreinperceel.aanbieder": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.bebouwing": {
@@ -70,16 +70,16 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceel.geldigheidsperiode": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.geometrie": {
       "@container": "@set",
-      "@id": "http://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.homepageAanbieding": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Bedrijventerreinperceel.identificator": {
@@ -105,20 +105,20 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceel.type": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
     "BeheerdeBedrijvenzone.aanspreekpunt": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.digitaleBeheerder": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.geldigheidsperiode": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.geometrie": {
@@ -140,7 +140,7 @@
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.juridischeHandhaver": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.naam": {
@@ -153,7 +153,7 @@
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.type": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
     "Beperking": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -256,12 +256,12 @@
     "MiddelenOpenbaarDomein": "http://www.w3.org/2004/02/skos/core#Concept",
     "OntwikkelbareBedrijvenzone": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
     "OntwikkelbareBedrijvenzone.geldigheidsperiode": {
-      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.geometrie": {
       "@container": "@set",
-      "@id": "http://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.homepage": {
@@ -281,7 +281,7 @@
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "OntwikkelbareBedrijvenzone.ontwikkelaar": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.oppervlakte": {
