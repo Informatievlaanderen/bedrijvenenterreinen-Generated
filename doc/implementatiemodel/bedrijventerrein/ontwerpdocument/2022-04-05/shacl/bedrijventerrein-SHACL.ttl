@@ -8,7 +8,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein> <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerreinshapes> <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape>,
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein> <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerreinshapes> <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinPerceelAanbiedingShape>,
+    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#AgentShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#ContactInfoShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#FunctietypeShape>,
@@ -63,6 +64,10 @@
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
+
+<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinPerceelAanbiedingShape> a shacl:NodeShape;
+  shacl:closed false;
+  shacl:targetClass <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> .
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape> a shacl:NodeShape;
   shacl:closed false;
@@ -531,7 +536,8 @@
     shacl:description "De aard van een ruimtelijke eenheid.";
     shacl:maxCount 1;
     shacl:minCount 1;
-    shacl:name "^ruimtelijkeenheidtype"
+    shacl:name "^ruimtelijkeenheidtype";
+    shacl:path <https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone.";

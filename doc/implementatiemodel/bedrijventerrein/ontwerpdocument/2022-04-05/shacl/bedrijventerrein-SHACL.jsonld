@@ -34,6 +34,13 @@
   "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein",
   "shapes": [
     {
+      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinPerceelAanbiedingShape",
+      "@type": "sh:NodeShape",
+      "sh:closed": false,
+      "sh:property": [],
+      "sh:targetClass": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+    },
+    {
       "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#PeriodeShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -666,7 +673,7 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeenheidtype",
-          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype"
+          "sh:path": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",

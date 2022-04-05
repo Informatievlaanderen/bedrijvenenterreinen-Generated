@@ -12,7 +12,7 @@
       "foaf:mbox": "mailto:idris.peiren@vlaio.be"
     }
   ],
-  "baseURI": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#",
+  "baseURI": null,
   "baseURIabbrev": null,
   "contributors": [],
   "editors": [
@@ -33,12 +33,10 @@
   },
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "namespace": null,
-  "navigation": {
-    "prev": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01"
-  },
+  "navigation": {},
   "publication-date": "2022-04-05",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
-  "title": "Bedrijventerrein",
+  "title": "Bron Bedrijventerrein",
   "dcterms:license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
   "dcterms:mediator": {
     "foaf:homepage": "https://data.vlaanderen.be",

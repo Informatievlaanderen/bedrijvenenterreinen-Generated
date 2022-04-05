@@ -117,7 +117,21 @@
 "contributors": [
 ],
 "classes": [
-
+{
+"@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+"@type": "http://www.w3.org/2002/07/owl#Class",
+"label" : {"nl": "Bedrijventerreinperceelaanbieding"}, "ap-label-nl" : {"nl": "Bedrijventerreinperceelaanbieding"}, "ap-definition-nl" : {"nl": "TODO"},
+"extra": {"EA-Name" : "BedrijventerreinPerceelAanbieding", "EA-Guid" : "{DEF323A4-A9D6-4e87-B9E5-A48EF96BBDF3}", "EA-Package" : "Bron-Bedrijventerrein", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Bedrijventerreinperceelaanbieding", "definition" : "", "usage" : "", "ap-label-nl" : "Bedrijventerreinperceelaanbieding", "ap-definition-nl" : "TODO", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-nl", "value": "Bedrijventerreinperceelaanbieding", "note": "null" }], "Scope" : "FULL_DEFINITON", "label" : {"nl": "Bedrijventerreinperceelaanbieding"}, "ap-label-nl" : {"nl": "Bedrijventerreinperceelaanbieding"}, "ap-definition-nl" : {"nl": "TODO"}},
+"inpackage": "ACTIVE_PACKAGE",
+"name": {
+"nl": "Bedrijventerreinperceelaanbieding"},
+"description": {
+},
+"usage": {
+},
+"parents": [
+]
+}
 ],
 "properties": [
 {
@@ -787,16 +801,16 @@
 "name": {
 "nl": "is deel van"},
 "inpackage": "OTHER_PACKAGE",
-"definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."},
-"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{E48A1762-42FE-489f-8E58-F41962CAB112}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "usage" : "", "ap-label-nl" : "is deel van", "ap-definition-nl" : "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."}},
+"definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."},
+"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "OntwikkelbareBedrijvenzone", "EA-Domain-Guid" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.", "usage" : "", "ap-label-nl" : "is deel van", "ap-definition-nl" : "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."}},
 "description": {
-"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."},
+"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."},
 "usage": {
 },
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone", "EA-Name" : "OntwikkelbareBedrijvenzone" }
 ],
 "range": [
 {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }
@@ -812,16 +826,16 @@
 "name": {
 "nl": "is deel van"},
 "inpackage": "OTHER_PACKAGE",
-"definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."},
-"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "OntwikkelbareBedrijvenzone", "EA-Domain-Guid" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.", "usage" : "", "ap-label-nl" : "is deel van", "ap-definition-nl" : "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."}},
+"definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."},
+"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{E48A1762-42FE-489f-8E58-F41962CAB112}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "usage" : "", "ap-label-nl" : "is deel van", "ap-definition-nl" : "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "definition" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."}, "label" : {"nl": "is deel van"}, "ap-label-nl" : {"nl": "is deel van"}, "ap-definition-nl" : {"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."}},
 "description": {
-"nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."},
+"nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."},
 "usage": {
 },
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone", "EA-Name" : "OntwikkelbareBedrijvenzone" }
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
 ],
 "range": [
 {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }
@@ -862,31 +876,6 @@
 "name": {
 "nl": "is gerelateerd aan"},
 "inpackage": "OTHER_PACKAGE",
-"ap-usageNote-nl" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "usage" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "definition" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}, "label" : {"nl": "is gerelateerd aan"}, "ap-label-nl" : {"nl": "is gerelateerd aan"}, "ap-definition-nl" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."},
-"extra": {"EA-Name" : "isGerelateerdAan", "EA-Guid" : "{218A6742-44E9-492d-9C99-B451ECBF71DF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "OntwikkelbareBedrijvenzone", "RangeData" : {"EA-Name" : "OntwikkelbareBedrijvenzone", "EA-GUID" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone" }, "sourceRole" : "null", "destRole" : "null", "label" : "is gerelateerd aan", "definition" : "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "usage" : "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.", "ap-label-nl" : "is gerelateerd aan", "ap-definition-nl" : "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "ap-usageNote-nl" : "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/relation", "note": "null" }, { "key": "label-nl", "value": "is gerelateerd aan", "note": "null" }, { "key": "definition-nl", "value": "Een gerelateerde resource.", "note": "null" }, { "key": "ap-definition-nl", "value": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-usageNote-nl" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "usage" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "definition" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}, "label" : {"nl": "is gerelateerd aan"}, "ap-label-nl" : {"nl": "is gerelateerd aan"}, "ap-definition-nl" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}},
-"description": {
-"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."},
-"usage": {
-"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel", "EA-Name" : "Bedrijventerreinperceel" }
-],
-"range": [
-{"EA-Name" : "OntwikkelbareBedrijvenzone", "EA-GUID" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone" }
-],
-"generalization": [
-
-],
-"minCardinality": "0",
-"maxCardinality": "*"}
-, {
-"@id": "http://purl.org/dc/terms/relation",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "is gerelateerd aan"},
-"inpackage": "OTHER_PACKAGE",
 "definition" : {"nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}, "label" : {"nl": "is gerelateerd aan"}, "ap-label-nl" : {"nl": "is gerelateerd aan"}, "ap-definition-nl" : {"nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."},
 "extra": {"EA-Name" : "isGerelateerdAan", "EA-Guid" : "{A38037B7-1FA5-4228-B9B6-7B53DC537801}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerreinperceel", "RangeData" : {"EA-Name" : "Bedrijventerreinperceel", "EA-GUID" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel" }, "sourceRole" : "null", "destRole" : "null", "label" : "is gerelateerd aan", "definition" : "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "usage" : "", "ap-label-nl" : "is gerelateerd aan", "ap-definition-nl" : "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "ap-usageNote-nl" : "", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/relation", "note": "null" }, { "key": "ap-label-nl", "value": "is gerelateerd aan", "note": "null" }, { "key": "ap-definition-nl", "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "note": "null" }, { "key": "package", "value": "OSLO-Bedrijventerrein", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "definition" : {"nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}, "label" : {"nl": "is gerelateerd aan"}, "ap-label-nl" : {"nl": "is gerelateerd aan"}, "ap-definition-nl" : {"nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}},
 "description": {
@@ -905,6 +894,31 @@
 
 ],
 "minCardinality": "1",
+"maxCardinality": "*"}
+, {
+"@id": "http://purl.org/dc/terms/relation",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": {
+"nl": "is gerelateerd aan"},
+"inpackage": "OTHER_PACKAGE",
+"ap-usageNote-nl" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "usage" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "definition" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}, "label" : {"nl": "is gerelateerd aan"}, "ap-label-nl" : {"nl": "is gerelateerd aan"}, "ap-definition-nl" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."},
+"extra": {"EA-Name" : "isGerelateerdAan", "EA-Guid" : "{218A6742-44E9-492d-9C99-B451ECBF71DF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "OntwikkelbareBedrijvenzone", "RangeData" : {"EA-Name" : "OntwikkelbareBedrijvenzone", "EA-GUID" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone" }, "sourceRole" : "null", "destRole" : "null", "label" : "is gerelateerd aan", "definition" : "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "usage" : "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.", "ap-label-nl" : "is gerelateerd aan", "ap-definition-nl" : "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "ap-usageNote-nl" : "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/relation", "note": "null" }, { "key": "label-nl", "value": "is gerelateerd aan", "note": "null" }, { "key": "definition-nl", "value": "Een gerelateerde resource.", "note": "null" }, { "key": "ap-definition-nl", "value": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "ap-usageNote-nl" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "usage" : {"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."}, "definition" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}, "label" : {"nl": "is gerelateerd aan"}, "ap-label-nl" : {"nl": "is gerelateerd aan"}, "ap-definition-nl" : {"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."}},
+"description": {
+"nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."},
+"usage": {
+"nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens \u00E9\u00E9n Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."},
+"codelist": [
+],
+"domain": [
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel", "EA-Name" : "Bedrijventerreinperceel" }
+],
+"range": [
+{"EA-Name" : "OntwikkelbareBedrijvenzone", "EA-GUID" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone" }
+],
+"generalization": [
+
+],
+"minCardinality": "0",
 "maxCardinality": "*"}
 , {
 "@id": "http://schema.org/contactPoint",
@@ -1557,42 +1571,17 @@
 "minCardinality": "1",
 "maxCardinality": "1"}
 , {
-"@id": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "type"},
-"inpackage": "OTHER_PACKAGE",
-"ap-usageNote-nl" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "usage" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."},
-"extra": {"EA-Name" : "^ruimtelijkeenheidtype", "EA-Guid" : "{B3AF39B4-D63C-4f47-A8EF-9D754A393AAF}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "OntwikkelbareBedrijvenzone", "EA-Domain-Guid" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Range" : "RuimtelijkeEenheidtype", "RangeData" : {"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "type", "definition" : "De aard van een ruimtelijke eenheid.", "usage" : "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.", "ap-label-nl" : "type", "ap-definition-nl" : "De aard van een ruimtelijke eenheid.", "ap-usageNote-nl" : "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.", "ap-codelist" : "", "RawTags" : [{ "key": "definition-nl", "value": "De aard van een ruimtelijke eenheid.", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "ap-usageNote-nl", "value": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.", "note": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten." }], "Scope" : "NOTHING", "ap-usageNote-nl" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "usage" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."}},
-"description": {
-"nl": "De aard van een ruimtelijke eenheid."},
-"usage": {
-"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone", "EA-Name" : "OntwikkelbareBedrijvenzone" }
-],
-"range": [
-{"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "1"}
-, {
 "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#bebouwing",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": {
 "nl": "bebouwing"},
 "inpackage": "OTHER_PACKAGE",
-"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "ap-usageNote-nl" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur."}, "usage" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur."}, "definition" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."}, "label" : {"nl": "bebouwing"}, "ap-label-nl" : {"nl": "bebouwing"}, "ap-definition-nl" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."},
-"extra": {"EA-Name" : "bebouwing", "EA-Guid" : "{FBB2FFC2-C1B7-4212-A6D3-9A37F3793046}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "Bebouwing", "RangeData" : {"EA-Name" : "Bebouwing", "EA-GUID" : "{E22B2456-41BD-4c9a-BC0C-784CFFD66D0F}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "bebouwing", "definition" : "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.", "usage" : "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur.", "ap-label-nl" : "bebouwing", "ap-definition-nl" : "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.", "ap-usageNote-nl" : "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur.", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "RawTags" : [{ "key": "label-nl", "value": "bebouwing", "note": "null" }, { "key": "definition-nl", "value": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur.", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "note": "null" }], "Scope" : "NOTHING", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "ap-usageNote-nl" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur."}, "usage" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur."}, "definition" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."}, "label" : {"nl": "bebouwing"}, "ap-label-nl" : {"nl": "bebouwing"}, "ap-definition-nl" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."}},
+"ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "ap-usageNote-nl" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw."}, "usage" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw."}, "definition" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."}, "label" : {"nl": "bebouwing"}, "ap-label-nl" : {"nl": "bebouwing"}, "ap-definition-nl" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."},
+"extra": {"EA-Name" : "bebouwing", "EA-Guid" : "{FBB2FFC2-C1B7-4212-A6D3-9A37F3793046}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "Bebouwing", "RangeData" : {"EA-Name" : "Bebouwing", "EA-GUID" : "{E22B2456-41BD-4c9a-BC0C-784CFFD66D0F}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "bebouwing", "definition" : "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.", "usage" : "Mogelijke waarden kunnen zijn: bebouwd of onbebouw.", "ap-label-nl" : "bebouwing", "ap-definition-nl" : "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.", "ap-usageNote-nl" : "Mogelijke waarden kunnen zijn: bebouwd of onbebouw.", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "RawTags" : [{ "key": "label-nl", "value": "bebouwing", "note": "null" }, { "key": "definition-nl", "value": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw.", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "note": "null" }], "Scope" : "NOTHING", "ap-codelist" : "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinperceelBebouwing", "ap-usageNote-nl" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw."}, "usage" : {"nl": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw."}, "definition" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."}, "label" : {"nl": "bebouwing"}, "ap-label-nl" : {"nl": "bebouwing"}, "ap-definition-nl" : {"nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."}},
 "description": {
 "nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."},
 "usage": {
-"nl": "Mogelijke waarden kunnen zijn: bebouwd, onbebouw of infrastructuur."},
+"nl": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw."},
 "codelist": [
 ],
 "domain": [
@@ -2455,6 +2444,31 @@
 
 ],
 "minCardinality": "0",
+"maxCardinality": "1"}
+, {
+"@id": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": {
+"nl": "type"},
+"inpackage": "OTHER_PACKAGE",
+"ap-usageNote-nl" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "usage" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."},
+"extra": {"EA-Name" : "^ruimtelijkeenheidtype", "EA-Guid" : "{B3AF39B4-D63C-4f47-A8EF-9D754A393AAF}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "OntwikkelbareBedrijvenzone", "EA-Domain-Guid" : "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}", "EA-Range" : "RuimtelijkeEenheidtype", "RangeData" : {"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "type", "definition" : "De aard van een ruimtelijke eenheid.", "usage" : "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.", "ap-label-nl" : "type", "ap-definition-nl" : "De aard van een ruimtelijke eenheid.", "ap-usageNote-nl" : "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.", "ap-codelist" : "", "RawTags" : [{ "key": "uri", "value": "https:\/\/github.com\/Informatievlaanderen\/OSLOthema-feitelijkeVerenigingen\/invitations", "note": "null" }, { "key": "definition-nl", "value": "De aard van een ruimtelijke eenheid.", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "ap-usageNote-nl", "value": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.", "note": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten." }], "Scope" : "NOTHING", "ap-usageNote-nl" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "usage" : {"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "label" : {"nl": "type"}, "ap-label-nl" : {"nl": "type"}, "ap-definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."}},
+"description": {
+"nl": "De aard van een ruimtelijke eenheid."},
+"usage": {
+"nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."},
+"codelist": [
+],
+"domain": [
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone", "EA-Name" : "OntwikkelbareBedrijvenzone" }
+],
+"range": [
+{"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
 "maxCardinality": "1"}
 , {
 "@id": "https://schema.org/unitCode",

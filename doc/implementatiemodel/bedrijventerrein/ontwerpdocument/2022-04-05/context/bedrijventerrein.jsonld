@@ -108,6 +108,7 @@
       "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
+    "Bedrijventerreinperceelaanbieding": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
     "BeheerdeBedrijvenzone": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
     "BeheerdeBedrijvenzone.aanspreekpunt": {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
@@ -294,7 +295,7 @@
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.type": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype",
+      "@id": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.voorzieneUitgifte": {
