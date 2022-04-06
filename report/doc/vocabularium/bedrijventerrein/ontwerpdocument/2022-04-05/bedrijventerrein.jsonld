@@ -874,31 +874,6 @@
 "@id": "http://purl.org/dc/terms/relation",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": {
-},
-"inpackage": "OTHER_PACKAGE",
-"label-nl" : {"nl": "TODO"}, "definition-nl" : {"nl": "TODO"},
-"extra": {"EA-Name" : "isGerelateerdAan", "EA-Guid" : "{A38037B7-1FA5-4228-B9B6-7B53DC537801}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerreinperceel", "RangeData" : {"EA-Name" : "Bedrijventerreinperceel", "EA-GUID" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-nl" : "TODO", "definition-nl" : "TODO", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/relation", "note": "null" }, { "key": "ap-label-nl", "value": "is gerelateerd aan", "note": "null" }, { "key": "ap-definition-nl", "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "note": "null" }, { "key": "package", "value": "OSLO-Bedrijventerrein", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "label-nl" : {"nl": "TODO"}, "definition-nl" : {"nl": "TODO"}},
-"description": {
-},
-"usage": {
-},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
-],
-"range": [
-{"EA-Name" : "Bedrijventerreinperceel", "EA-GUID" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "*"}
-, {
-"@id": "http://purl.org/dc/terms/relation",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
 "nl": "is gerelateerd aan"},
 "inpackage": "OTHER_PACKAGE",
 "label-nl" : {"nl": "is gerelateerd aan"}, "definition" : {"nl": "Een gerelateerde resource."}, "label" : {"nl": "is gerelateerd aan"}, "definition-nl" : {"nl": "Een gerelateerde resource."},
@@ -919,6 +894,31 @@
 
 ],
 "minCardinality": "0",
+"maxCardinality": "*"}
+, {
+"@id": "http://purl.org/dc/terms/relation",
+"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+"name": {
+},
+"inpackage": "OTHER_PACKAGE",
+"label-nl" : {"nl": "TODO"}, "definition-nl" : {"nl": "TODO"},
+"extra": {"EA-Name" : "isGerelateerdAan", "EA-Guid" : "{A38037B7-1FA5-4228-B9B6-7B53DC537801}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerreinperceel", "RangeData" : {"EA-Name" : "Bedrijventerreinperceel", "EA-GUID" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel" }, "sourceRole" : "null", "destRole" : "null", "label" : "", "definition" : "", "usage" : "", "label-nl" : "TODO", "definition-nl" : "TODO", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/relation", "note": "null" }, { "key": "ap-label-nl", "value": "is gerelateerd aan", "note": "null" }, { "key": "ap-definition-nl", "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.", "note": "null" }, { "key": "package", "value": "OSLO-Bedrijventerrein", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "label-nl" : {"nl": "TODO"}, "definition-nl" : {"nl": "TODO"}},
+"description": {
+},
+"usage": {
+},
+"codelist": [
+],
+"domain": [
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
+],
+"range": [
+{"EA-Name" : "Bedrijventerreinperceel", "EA-GUID" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel" }
+],
+"generalization": [
+
+],
+"minCardinality": "1",
 "maxCardinality": "*"}
 , {
 "@id": "http://schema.org/contactPoint",
@@ -1499,10 +1499,10 @@
 "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": {
-},
+"nl": "juridische handhaver"},
 "inpackage": "OTHER_PACKAGE",
-"label-nl" : {"nl": "TODO"}, "definition-nl" : {"nl": "TODO"},
-"extra": {"EA-Name" : "juridischeHandhaver", "EA-Guid" : "{0D6FF0EF-246C-4911-8414-D86C84074BDF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "GeregistreerdeOrganisatie", "RangeData" : {"EA-Name" : "GeregistreerdeOrganisatie", "EA-GUID" : "{4F876AF8-EF36-4261-B5AF-6AE81854DE88}", "EA-Package" : "OSLO-Organisatie", "uri" : "http://www.w3.org/ns/regorg#RegisteredOrganization" }, "sourceRole" : "null", "destRole" : "juridischeHandhaver", "label" : "", "definition" : "", "usage" : "", "label-nl" : "TODO", "definition-nl" : "TODO", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "ap-definition-nl", "value": "NOTE", "note": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop." }, { "key": "package", "value": "NOTE", "note": "OSLO-Bedrijventerrein" }, { "key": "parentURI", "value": "NOTE", "note": "https:\/\/data.vlaanderen.be\/ns\/perceel#agentMetVerantwoordelijkheid" }, { "key": "uri", "value": "NOTE", "note": "https:\/\/bedrijventerrein.vlaanderen.be\/ns\/bedrijventerrein#juridischeHandhaver" }, { "key": "ap-label-nl", "value": "NOTE", "note": "juridische handhaver" }], "DestRoleTags" : [{ "key": "ap-definition-nl", "value": "NOTE", "note": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop." }, { "key": "package", "value": "NOTE", "note": "OSLO-Bedrijventerrein" }, { "key": "parentURI", "value": "NOTE", "note": "https:\/\/data.vlaanderen.be\/ns\/perceel#agentMetVerantwoordelijkheid" }, { "key": "uri", "value": "NOTE", "note": "https:\/\/bedrijventerrein.vlaanderen.be\/ns\/bedrijventerrein#juridischeHandhaver" }, { "key": "ap-label-nl", "value": "NOTE", "note": "juridische handhaver" }], "Scope" : "NOTHING", "label-nl" : {"nl": "TODO"}, "definition-nl" : {"nl": "TODO"}},
+"label-nl" : {"nl": "juridische handhaver"}, "label" : {"nl": "juridische handhaver"}, "definition-nl" : {"nl": "TODO"},
+"extra": {"EA-Name" : "juridischeHandhaver", "EA-Guid" : "{0D6FF0EF-246C-4911-8414-D86C84074BDF}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "GeregistreerdeOrganisatie", "RangeData" : {"EA-Name" : "GeregistreerdeOrganisatie", "EA-GUID" : "{4F876AF8-EF36-4261-B5AF-6AE81854DE88}", "EA-Package" : "OSLO-Organisatie", "uri" : "http://www.w3.org/ns/regorg#RegisteredOrganization" }, "sourceRole" : "null", "destRole" : "juridischeHandhaver", "label" : "juridische handhaver", "definition" : "", "usage" : "", "label-nl" : "juridische handhaver", "definition-nl" : "TODO", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "ap-definition-nl", "value": "NOTE", "note": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop." }, { "key": "package", "value": "NOTE", "note": "OSLO-Bedrijventerrein" }, { "key": "parentURI", "value": "NOTE", "note": "https:\/\/data.vlaanderen.be\/ns\/perceel#agentMetVerantwoordelijkheid" }, { "key": "uri", "value": "NOTE", "note": "https:\/\/bedrijventerrein.vlaanderen.be\/ns\/bedrijventerrein#juridischeHandhaver" }, { "key": "ap-label-nl", "value": "NOTE", "note": "juridische handhaver" }, { "key": "label-nl", "value": "NOTE", "note": "juridische handhaver" }], "DestRoleTags" : [{ "key": "ap-definition-nl", "value": "NOTE", "note": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop." }, { "key": "package", "value": "NOTE", "note": "OSLO-Bedrijventerrein" }, { "key": "parentURI", "value": "NOTE", "note": "https:\/\/data.vlaanderen.be\/ns\/perceel#agentMetVerantwoordelijkheid" }, { "key": "uri", "value": "NOTE", "note": "https:\/\/bedrijventerrein.vlaanderen.be\/ns\/bedrijventerrein#juridischeHandhaver" }, { "key": "ap-label-nl", "value": "NOTE", "note": "juridische handhaver" }, { "key": "label-nl", "value": "NOTE", "note": "juridische handhaver" }], "Scope" : "NOTHING", "label-nl" : {"nl": "juridische handhaver"}, "label" : {"nl": "juridische handhaver"}, "definition-nl" : {"nl": "TODO"}},
 "description": {
 },
 "usage": {
