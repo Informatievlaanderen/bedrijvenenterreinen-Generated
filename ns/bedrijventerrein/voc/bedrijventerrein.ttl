@@ -10,6 +10,12 @@
   rdfs:label "Bedrijventerreinperceelaanbieding"@nl;
   rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
 
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder> a owl:ObjectProperty;
+  rdfs:domain <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel>;
+  rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
+  rdfs:range <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+  rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> a owl:DatatypeProperty;
   rdfs:label "homepage aanbieding"@nl;
   rdfs:comment "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"@nl;
@@ -24,6 +30,8 @@
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> a rdf:Property;
   rdfs:label "juridische handhaver"@nl .
 
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> a rdf:Property .
+
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> a owl:Ontology;
   rdfs:label "bedrijventerrein"@en,
     "bedrijventerrein"@nl;
@@ -37,7 +45,8 @@
   ];
   rdfs:seeAlso <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt>,
     <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder>,
-    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver>;
+    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver>,
+    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar>;
   <http://www.w3.org/2001/02pd/rec54#editor> [
     a foaf:Person;
     schema:affiliation [foaf:name "Agentschap Informatie Vlaanderen"];

@@ -12,8 +12,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/78133d833a735fd971f4944dc994095f5368dbd6",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/78133d833a735fd971f4944dc994095f5368dbd6/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/411307e39c2699c11e7f87275bbc4d7bd5241067",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/411307e39c2699c11e7f87275bbc4d7bd5241067/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [],
@@ -34,6 +34,21 @@
     }
   ],
   "properties": [
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+      "name": {},
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
     {
       "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "name": {

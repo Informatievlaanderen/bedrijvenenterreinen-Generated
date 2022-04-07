@@ -57,6 +57,22 @@
   ],
   "properties": [
     {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {},
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "description": {
@@ -93,6 +109,11 @@
       "name": {
         "nl": "juridische handhaver"
       }
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "@type": "rdf:Property",
+      "name": {}
     }
   ],
   "@context": {
