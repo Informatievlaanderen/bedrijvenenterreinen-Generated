@@ -5628,7 +5628,7 @@
       "name": {
         "nl": "aanspreekpunt"
       },
-      "inpackage": "OTHER_PACKAGE",
+      "inpackage": "ACTIVE_PACKAGE",
       "definition": {
         "nl": "Het aanspreekpunt voor informatie over deze zone."
       },
@@ -5692,7 +5692,7 @@
           {
             "key": "package",
             "value": "NOTE",
-            "note": "OSLO-Bedrijventerrein"
+            "note": "Bron-Bedrijventerrein"
           },
           {
             "key": "parentURI",
@@ -5719,7 +5719,7 @@
           {
             "key": "package",
             "value": "NOTE",
-            "note": "OSLO-Bedrijventerrein"
+            "note": "Bron-Bedrijventerrein"
           },
           {
             "key": "parentURI",
@@ -5727,7 +5727,7 @@
             "note": "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "description": {
         "nl": "Het aanspreekpunt voor informatie over deze zone."
@@ -5760,7 +5760,7 @@
       "name": {
         "nl": "digitale beheerder"
       },
-      "inpackage": "OTHER_PACKAGE",
+      "inpackage": "ACTIVE_PACKAGE",
       "definition": {
         "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
       },
@@ -5819,7 +5819,7 @@
           {
             "key": "package",
             "value": "NOTE",
-            "note": "OSLO-Bedrijventerrein"
+            "note": "Bron-Bedrijventerrein"
           },
           {
             "key": "uri",
@@ -5851,7 +5851,7 @@
           {
             "key": "package",
             "value": "NOTE",
-            "note": "OSLO-Bedrijventerrein"
+            "note": "Bron-Bedrijventerrein"
           },
           {
             "key": "uri",
@@ -5869,7 +5869,7 @@
             "note": "digitalebeheerder"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "description": {
         "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
@@ -5902,7 +5902,7 @@
       "name": {
         "nl": "juridische handhaver"
       },
-      "inpackage": "OTHER_PACKAGE",
+      "inpackage": "ACTIVE_PACKAGE",
       "definition": {
         "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
       },
@@ -5956,7 +5956,7 @@
           {
             "key": "package",
             "value": "NOTE",
-            "note": "OSLO-Bedrijventerrein"
+            "note": "Bron-Bedrijventerrein"
           },
           {
             "key": "parentURI",
@@ -5988,7 +5988,7 @@
           {
             "key": "package",
             "value": "NOTE",
-            "note": "OSLO-Bedrijventerrein"
+            "note": "Bron-Bedrijventerrein"
           },
           {
             "key": "parentURI",
@@ -6011,7 +6011,7 @@
             "note": "juridische handhaver"
           }
         ],
-        "Scope": "NOTHING"
+        "Scope": "TRANSLATIONS_ONLY"
       },
       "description": {
         "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
@@ -10000,7 +10000,7 @@
   "navigation": {
     "prev": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01"
   },
-  "documentcommit": "ae6f1282b5993358abb250595350f56cb447223c",
-  "toolchaincommit": "707cfc556785aa5e15d99f312fd6e5ddcfe43c40",
+  "documentcommit": "78133d833a735fd971f4944dc994095f5368dbd6",
+  "toolchaincommit": "39fa0669aff39409ba92369b56d7c2b30b0741d3",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }

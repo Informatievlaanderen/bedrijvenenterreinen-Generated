@@ -12,8 +12,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/ae6f1282b5993358abb250595350f56cb447223c",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/ae6f1282b5993358abb250595350f56cb447223c/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/78133d833a735fd971f4944dc994095f5368dbd6",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/78133d833a735fd971f4944dc994095f5368dbd6/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [],
@@ -73,6 +73,20 @@
       "email": "bert.vannuffelen@vlaanderen.be"
     }
   ],
-  "external_terms": [],
+  "external_terms": [
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "name": {
+        "nl": "juridische handhaver"
+      },
+      "description": {},
+      "usage": {},
+      "sort_nl": "juridische handhaver",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    }
+  ],
   "documentroot": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-04-05"
 }

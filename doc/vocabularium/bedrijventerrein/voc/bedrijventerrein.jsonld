@@ -76,7 +76,25 @@
     }
   ],
   "externals": [],
-  "externalproperties": [],
+  "externalproperties": [
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "@type": "rdf:Property",
+      "name": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "@type": "rdf:Property",
+      "name": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "juridische handhaver"
+      }
+    }
+  ],
   "@context": {
     "vlaanderen": "http://data.vlaanderen.be/ns/",
     "owl": "http://www.w3.org/2002/07/owl#",

@@ -17,6 +17,13 @@
   rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
   rdfs:range xsd:string .
 
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> a rdf:Property .
+
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> a rdf:Property .
+
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> a rdf:Property;
+  rdfs:label "juridische handhaver"@nl .
+
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> a owl:Ontology;
   rdfs:label "bedrijventerrein"@en,
     "bedrijventerrein"@nl;
@@ -28,6 +35,9 @@
     foaf:mbox <mailto:oslo@kb.vlaanderen.be>;
     foaf:name "Data Vlaanderen"
   ];
+  rdfs:seeAlso <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt>,
+    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder>,
+    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver>;
   <http://www.w3.org/2001/02pd/rec54#editor> [
     a foaf:Person;
     schema:affiliation [foaf:name "Agentschap Informatie Vlaanderen"];
