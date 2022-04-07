@@ -12,8 +12,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/411307e39c2699c11e7f87275bbc4d7bd5241067",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/411307e39c2699c11e7f87275bbc4d7bd5241067/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [],
@@ -50,6 +50,36 @@
       ]
     },
     {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "name": {},
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "name": {},
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
       "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "name": {
         "nl": "homepage aanbieding"
@@ -66,6 +96,39 @@
         "http://www.w3.org/2001/XMLSchema#string"
       ],
       "parents": []
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "name": {
+        "nl": "juridische handhaver"
+      },
+      "sort_nl": "juridische handhaver",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "name": {},
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
     }
   ],
   "contributors": [
@@ -90,13 +153,15 @@
   ],
   "external_terms": [
     {
-      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "uri": "http://purl.org/dc/terms/description",
       "name": {
-        "nl": "juridische handhaver"
+        "nl": "opmerking"
       },
-      "description": {},
+      "description": {
+        "nl": "Bijkomende informatie over de ontwikkelbare bedrijvenzone."
+      },
       "usage": {},
-      "sort_nl": "juridische handhaver",
+      "sort_nl": "opmerking",
       "inscope": true,
       "indvl": false,
       "inpackage": false,

@@ -223,6 +223,12 @@
     shacl:description "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
     shacl:name "isGerelateerdAan";
     shacl:path dc:relation
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Bijkomende informatie over het bedrijventerreinperceel.";
+    shacl:maxCount 1;
+    shacl:name "opmerking";
+    shacl:path dc:description
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel> .
 
@@ -564,6 +570,12 @@
     shacl:maxCount 1;
     shacl:name "ontwikkelaar";
     shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Bijkomende informatie over de ontwikkelbare bedrijvenzone.";
+    shacl:maxCount 1;
+    shacl:name "opmerking";
+    shacl:path dc:description
   ], [
     <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus>;
     shacl:class skos:Concept;

@@ -99,6 +99,10 @@
       "@id": "http://purl.org/dc/terms/relation",
       "@type": "@id"
     },
+    "Bedrijventerreinperceel.opmerking": {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
     "Bedrijventerreinperceel.oppervlakte": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
@@ -284,6 +288,10 @@
     "OntwikkelbareBedrijvenzone.ontwikkelaar": {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
       "@type": "@id"
+    },
+    "OntwikkelbareBedrijvenzone.opmerking": {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "OntwikkelbareBedrijvenzone.oppervlakte": {
       "@container": "@set",

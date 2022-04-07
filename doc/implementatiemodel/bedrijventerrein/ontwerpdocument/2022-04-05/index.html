@@ -110,8 +110,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/411307e39c2699c11e7f87275bbc4d7bd5241067">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/411307e39c2699c11e7f87275bbc4d7bd5241067</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/411307e39c2699c11e7f87275bbc4d7bd5241067/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/411307e39c2699c11e7f87275bbc4d7bd5241067/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href=""></a></dd>
 
@@ -556,6 +556,7 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                       <a href="#Bedrijventerreinperceel%3Ain%20gebruik">in gebruik</a>, 
                       <a href="#Bedrijventerreinperceel%3Ais%20deel%20van">is deel van</a>, 
                       <a href="#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan">is gerelateerd aan</a>, 
+                      <a href="#Bedrijventerreinperceel%3Aopmerking">opmerking</a>, 
                       <a href="#Bedrijventerreinperceel%3Aoppervlakte">oppervlakte</a>, 
                       <a href="#Bedrijventerreinperceel%3Atype">type</a>.</dd>
                     
@@ -814,6 +815,26 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         <td>0..*</td>
                         <td property="rdfs:comment">Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.</td>
                         <td property="vann:usageNote">In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens één Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Bedrijventerreinperceel%3Aopmerking" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            opmerking</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Bijkomende informatie over het bedrijventerreinperceel.</td>
+                        <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
@@ -1275,6 +1296,7 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                       <a href="#Ontwikkelbare%20Bedrijvenzone%3Ais%20deel%20van">is deel van</a>, 
                       <a href="#Ontwikkelbare%20Bedrijvenzone%3Anaam">naam</a>, 
                       <a href="#Ontwikkelbare%20Bedrijvenzone%3Aontwikkelaar">ontwikkelaar</a>, 
+                      <a href="#Ontwikkelbare%20Bedrijvenzone%3Aopmerking">opmerking</a>, 
                       <a href="#Ontwikkelbare%20Bedrijvenzone%3Aoppervlakte">oppervlakte</a>, 
                       <a href="#Ontwikkelbare%20Bedrijvenzone%3Astatus%20ontwikkeling">status ontwikkeling</a>, 
                       <a href="#Ontwikkelbare%20Bedrijvenzone%3Atype">type</a>, 
@@ -1435,6 +1457,26 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         <td>0..1</td>
                         <td property="rdfs:comment">de organisatie die verantwoordelijk is voor de ontwikkeling van de zone.</td>
                         <td property="vann:usageNote">De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Ontwikkelbare%20Bedrijvenzone%3Aopmerking" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            opmerking</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Bijkomende informatie over de ontwikkelbare bedrijvenzone.</td>
+                        <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     

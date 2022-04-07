@@ -525,6 +525,13 @@
           "sh:description": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
           "sh:name": "isGerelateerdAan",
           "sh:path": "http://purl.org/dc/terms/relation"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "Bijkomende informatie over het bedrijventerreinperceel.",
+          "sh:maxCount": "1",
+          "sh:name": "opmerking",
+          "sh:path": "http://purl.org/dc/terms/description"
         }
       ],
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
@@ -704,6 +711,13 @@
           "sh:maxCount": "1",
           "sh:name": "ontwikkelaar",
           "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "Bijkomende informatie over de ontwikkelbare bedrijvenzone.",
+          "sh:maxCount": "1",
+          "sh:name": "opmerking",
+          "sh:path": "http://purl.org/dc/terms/description"
         },
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus",

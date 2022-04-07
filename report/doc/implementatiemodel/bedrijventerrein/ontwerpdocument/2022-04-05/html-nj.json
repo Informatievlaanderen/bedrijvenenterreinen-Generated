@@ -14,8 +14,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/411307e39c2699c11e7f87275bbc4d7bd5241067",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/411307e39c2699c11e7f87275bbc4d7bd5241067/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -661,6 +661,40 @@
           "codelist_uri": ""
         },
         {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": {
+            "nl": "opmerking"
+          },
+          "sort_nl": "opmerking",
+          "description": {
+            "nl": "Bijkomende informatie over het bedrijventerreinperceel."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+              "EA-Name": "Bedrijventerreinperceel"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
           "uri": "http://purl.org/dc/terms/isPartOf",
           "name": {
             "nl": "is deel van"
@@ -1102,6 +1136,108 @@
       ],
       "properties": [
         {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+          "name": {
+            "nl": "aanspreekpunt"
+          },
+          "sort_nl": "aanspreekpunt",
+          "description": {
+            "nl": "Het aanspreekpunt voor informatie over deze zone."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+              "EA-Name": "BeheerdeBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeregistreerdeOrganisatie",
+              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Geregistreerde Organisatie",
+              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+              "range_label": {
+                "nl": "Geregistreerde Organisatie"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+          "name": {
+            "nl": "digitale beheerder"
+          },
+          "sort_nl": "digitale beheerder",
+          "description": {
+            "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+              "EA-Name": "BeheerdeBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeregistreerdeOrganisatie",
+              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Geregistreerde Organisatie",
+              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+              "range_label": {
+                "nl": "Geregistreerde Organisatie"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+          "name": {
+            "nl": "juridische handhaver"
+          },
+          "sort_nl": "juridische handhaver",
+          "description": {
+            "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+              "EA-Name": "BeheerdeBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeregistreerdeOrganisatie",
+              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Geregistreerde Organisatie",
+              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+              "range_label": {
+                "nl": "Geregistreerde Organisatie"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
           "uri": "http://data.vlaanderen.be/ns/perceel#geometrie",
           "name": {
             "nl": "geometrie"
@@ -1272,108 +1408,6 @@
           "codelist_uri": ""
         },
         {
-          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
-          "name": {
-            "nl": "aanspreekpunt"
-          },
-          "sort_nl": "aanspreekpunt",
-          "description": {
-            "nl": "Het aanspreekpunt voor informatie over deze zone."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-              "EA-Name": "BeheerdeBedrijvenzone"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GeregistreerdeOrganisatie",
-              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Geregistreerde Organisatie",
-              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-              "range_label": {
-                "nl": "Geregistreerde Organisatie"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
-          "name": {
-            "nl": "digitale beheerder"
-          },
-          "sort_nl": "digitale beheerder",
-          "description": {
-            "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-              "EA-Name": "BeheerdeBedrijvenzone"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GeregistreerdeOrganisatie",
-              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Geregistreerde Organisatie",
-              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-              "range_label": {
-                "nl": "Geregistreerde Organisatie"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
-          "name": {
-            "nl": "juridische handhaver"
-          },
-          "sort_nl": "juridische handhaver",
-          "description": {
-            "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-              "EA-Name": "BeheerdeBedrijvenzone"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GeregistreerdeOrganisatie",
-              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Geregistreerde Organisatie",
-              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-              "range_label": {
-                "nl": "Geregistreerde Organisatie"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
           "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
           "name": {
             "nl": "type"
@@ -1500,6 +1534,76 @@
         }
       ],
       "properties": [
+        {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+          "name": {
+            "nl": "ontwikkelaar"
+          },
+          "sort_nl": "ontwikkelaar",
+          "description": {
+            "nl": "de organisatie die verantwoordelijk is voor de ontwikkeling van de zone."
+          },
+          "usage": {
+            "nl": "De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein."
+          },
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+              "EA-Name": "OntwikkelbareBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeregistreerdeOrganisatie",
+              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Geregistreerde Organisatie",
+              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+              "range_label": {
+                "nl": "Geregistreerde Organisatie"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": {
+            "nl": "opmerking"
+          },
+          "sort_nl": "opmerking",
+          "description": {
+            "nl": "Bijkomende informatie over de ontwikkelbare bedrijvenzone."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+              "EA-Name": "OntwikkelbareBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
         {
           "uri": "http://purl.org/dc/terms/isPartOf",
           "name": {
@@ -1630,42 +1734,6 @@
               "range_puri": "http://www.w3.org/2001/XMLSchema#string",
               "range_label": {
                 "nl": "String"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
-          "name": {
-            "nl": "ontwikkelaar"
-          },
-          "sort_nl": "ontwikkelaar",
-          "description": {
-            "nl": "de organisatie die verantwoordelijk is voor de ontwikkeling van de zone."
-          },
-          "usage": {
-            "nl": "De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein."
-          },
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-              "EA-Name": "OntwikkelbareBedrijvenzone"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GeregistreerdeOrganisatie",
-              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Geregistreerde Organisatie",
-              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-              "range_label": {
-                "nl": "Geregistreerde Organisatie"
               }
             }
           ],
@@ -2002,6 +2070,84 @@
       ],
       "usage": {
         "nl": "Als de beschikbaarheid aangeeft dat het Bedrijventerreinperceel verkoopbaar is dan moet er een aanbieder voorzien worden."
+      },
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "name": {
+        "nl": "aanspreekpunt"
+      },
+      "description": {
+        "nl": "Het aanspreekpunt voor informatie over deze zone."
+      },
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "usage": {},
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "name": {
+        "nl": "digitale beheerder"
+      },
+      "description": {
+        "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
+      },
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "usage": {},
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "name": {
+        "nl": "juridische handhaver"
+      },
+      "description": {
+        "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
+      },
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "usage": {},
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "name": {
+        "nl": "ontwikkelaar"
+      },
+      "description": {
+        "nl": "de organisatie die verantwoordelijk is voor de ontwikkeling van de zone."
+      },
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "usage": {
+        "nl": "De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein."
       },
       "parents": [
         "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"

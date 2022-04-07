@@ -81,6 +81,46 @@
       }
     },
     {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {
+        "nl": "Het aanspreekpunt voor informatie over deze zone."
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {
+        "nl": "aanspreekpunt"
+      },
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {
+        "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {
+        "nl": "digitale beheerder"
+      },
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "description": {
@@ -97,36 +137,57 @@
         "http://www.w3.org/2001/XMLSchema#string"
       ],
       "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {
+        "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {
+        "nl": "juridische handhaver"
+      },
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {
+        "nl": "de organisatie die verantwoordelijk is voor de ontwikkeling van de zone."
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {
+        "nl": "ontwikkelaar"
+      },
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {
+        "nl": "De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein."
+      }
     }
   ],
   "externals": [],
   "externalproperties": [
     {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property",
       "name": {
-        "nl": "aanspreekpunt"
-      }
-    },
-    {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
-      "@type": "rdf:Property",
-      "name": {
-        "nl": "digitale beheerder"
-      }
-    },
-    {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
-      "@type": "rdf:Property",
-      "name": {
-        "nl": "juridische handhaver"
-      }
-    },
-    {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
-      "@type": "rdf:Property",
-      "name": {
-        "nl": "ontwikkelaar"
+        "nl": "opmerking"
       }
     }
   ],

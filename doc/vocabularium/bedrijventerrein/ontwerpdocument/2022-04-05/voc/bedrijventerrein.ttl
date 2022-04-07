@@ -16,6 +16,18 @@
   rdfs:range <http://www.w3.org/ns/regorg#RegisteredOrganization>;
   rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
 
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> a owl:ObjectProperty;
+  rdfs:domain <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
+  rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
+  rdfs:range <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+  rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> a owl:ObjectProperty;
+  rdfs:domain <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
+  rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
+  rdfs:range <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+  rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> a owl:DatatypeProperty;
   rdfs:label "homepage aanbieding"@nl;
   rdfs:comment "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"@nl;
@@ -23,14 +35,21 @@
   rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
   rdfs:range xsd:string .
 
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> a rdf:Property .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> a owl:ObjectProperty;
+  rdfs:label "juridische handhaver"@nl;
+  rdfs:domain <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
+  rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
+  rdfs:range <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+  rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
 
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> a rdf:Property .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> a owl:ObjectProperty;
+  rdfs:domain <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
+  rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
+  rdfs:range <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+  rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
 
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> a rdf:Property;
-  rdfs:label "juridische handhaver"@nl .
-
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> a rdf:Property .
+dc:description a rdf:Property;
+  rdfs:label "opmerking"@nl .
 
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> a owl:Ontology;
   rdfs:label "bedrijventerrein"@en,
@@ -43,10 +62,7 @@
     foaf:mbox <mailto:oslo@kb.vlaanderen.be>;
     foaf:name "Data Vlaanderen"
   ];
-  rdfs:seeAlso <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt>,
-    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder>,
-    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver>,
-    <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar>;
+  rdfs:seeAlso dc:description;
   <http://www.w3.org/2001/02pd/rec54#editor> [
     a foaf:Person;
     schema:affiliation [foaf:name "Agentschap Informatie Vlaanderen"];

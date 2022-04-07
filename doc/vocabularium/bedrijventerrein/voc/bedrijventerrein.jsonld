@@ -73,6 +73,38 @@
       "usage": {}
     },
     {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {},
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {},
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "description": {
@@ -89,31 +121,50 @@
         "http://www.w3.org/2001/XMLSchema#string"
       ],
       "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {
+        "nl": "juridische handhaver"
+      },
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
+      ],
+      "generalization": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ],
+      "name": {},
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
     }
   ],
   "externals": [],
   "externalproperties": [
     {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
-      "@type": "rdf:Property",
-      "name": {}
-    },
-    {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
-      "@type": "rdf:Property",
-      "name": {}
-    },
-    {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "rdf:Property",
       "name": {
-        "nl": "juridische handhaver"
+        "nl": "opmerking"
       }
-    },
-    {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
-      "@type": "rdf:Property",
-      "name": {}
     }
   ],
   "@context": {
