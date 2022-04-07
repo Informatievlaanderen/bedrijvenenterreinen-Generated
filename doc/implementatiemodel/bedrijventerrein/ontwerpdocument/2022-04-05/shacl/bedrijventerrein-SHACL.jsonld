@@ -56,7 +56,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder",
+          "sh:description": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "homepageAanbieding",
@@ -489,7 +489,7 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype",
+          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "De aard van een ruimtelijke eenheid.",
           "sh:maxCount": "1",
@@ -817,22 +817,6 @@
       "sh:targetClass": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid"
     },
     {
-      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechtShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid.",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": "rechttype",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#Recht.type"
-        }
-      ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#Recht"
-    },
-    {
       "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
@@ -895,22 +879,6 @@
         }
       ],
       "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-    },
-    {
-      "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape",
-      "@type": "sh:NodeShape",
-      "sh:closed": false,
-      "sh:property": [
-        {
-          "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.",
-          "sh:maxCount": "1",
-          "sh:minCount": "1",
-          "sh:name": "verantwoordelijkheidtype",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type"
-        }
-      ],
-      "sh:targetClass": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid"
     },
     {
       "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GetalShape",

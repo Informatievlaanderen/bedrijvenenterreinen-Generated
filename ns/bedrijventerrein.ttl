@@ -39,8 +39,8 @@
   rdfs:subPropertyOf <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
 
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> a owl:DatatypeProperty;
-  rdfs:label "homepage aanbieding"@nl;
-  rdfs:comment "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"@nl;
+  rdfs:label "homepage"@nl;
+  rdfs:comment "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"@nl;
   rdfs:domain <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding>;
   rdfs:isDefinedBy <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein>;
   rdfs:range xsd:string .

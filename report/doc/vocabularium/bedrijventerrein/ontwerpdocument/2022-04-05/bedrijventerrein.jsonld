@@ -263,12 +263,12 @@
 "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
 "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
 "name": {
-"nl": "homepage aanbieding"},
+"nl": "homepage"},
 "inpackage": "ACTIVE_PACKAGE",
-"label-nl" : {"nl": "homepage aanbieding"}, "definition" : {"nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"}, "label" : {"nl": "homepage aanbieding"}, "definition-nl" : {"nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"},
-"extra": {"EA-Name" : "homepageAanbieding", "EA-Guid" : "{76BE8B1D-C0F4-4227-9D79-AE43182A3CEB}", "EA-Package" : "Bron-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "BedrijventerreinPerceelAanbieding", "EA-Domain-Guid" : "{DEF323A4-A9D6-4e87-B9E5-A48EF96BBDF3}", "EA-Range" : "String", "RangeData" : {"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }, "label" : "homepage aanbieding", "definition" : "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder", "usage" : "", "label-nl" : "homepage aanbieding", "definition-nl" : "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder", "note": "null" }, { "key": "label-nl", "value": "homepage aanbieding", "note": "null" }], "Scope" : "FULL_DEFINITON", "label-nl" : {"nl": "homepage aanbieding"}, "definition" : {"nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"}, "label" : {"nl": "homepage aanbieding"}, "definition-nl" : {"nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"}},
+"label-nl" : {"nl": "homepage"}, "definition" : {"nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"}, "label" : {"nl": "homepage"}, "definition-nl" : {"nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"},
+"extra": {"EA-Name" : "homepageAanbieding", "EA-Guid" : "{76BE8B1D-C0F4-4227-9D79-AE43182A3CEB}", "EA-Package" : "Bron-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "BedrijventerreinPerceelAanbieding", "EA-Domain-Guid" : "{DEF323A4-A9D6-4e87-B9E5-A48EF96BBDF3}", "EA-Range" : "String", "RangeData" : {"EA-Name" : "String", "EA-Package" : "", "uri" : "http://www.w3.org/2001/XMLSchema#string" }, "label" : "homepage", "definition" : "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder", "usage" : "", "label-nl" : "homepage", "definition-nl" : "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder", "note": "null" }, { "key": "label-nl", "value": "homepage", "note": "null" }], "Scope" : "FULL_DEFINITON", "label-nl" : {"nl": "homepage"}, "definition" : {"nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"}, "label" : {"nl": "homepage"}, "definition-nl" : {"nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"}},
 "description": {
-"nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"},
+"nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"},
 "usage": {
 },
 "codelist": [
@@ -766,19 +766,6 @@
 }
 }
 , {
-"@id": "https://data.vlaanderen.be/ns/perceel#Recht",
-"@type": "http://www.w3.org/2002/07/owl#Class",
-"inpackage": "OTHER_PACKAGE",
-"label-nl" : {"nl": "Recht"}, "usage" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "usageNote-nl" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "definition" : {"nl": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."}, "label" : {"nl": "Recht"}, "definition-nl" : {"nl": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."},
-"extra": {"EA-Name" : "Recht", "EA-Guid" : "{AC5DAA98-DFBB-4a72-9145-BA1837E4E86A}", "EA-Package" : "OSLO-Perceel", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Recht", "definition" : "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource.", "usage" : "Definitie conform ISO 19152 - Land Administration Domain Model.", "label-nl" : "Recht", "definition-nl" : "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource.", "usageNote-nl" : "Definitie conform ISO 19152 - Land Administration Domain Model.", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource.", "note": "null" }, { "key": "label-nl", "value": "Recht", "note": "null" }, { "key": "usageNote-nl", "value": "Definitie conform ISO 19152 - Land Administration Domain Model.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "Definitie conform ISO 19152 - Land Administration Domain Model.", "note": "null" }, { "key": "ap-definition-nl", "value": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource.", "note": "null" }], "Scope" : "NOTHING", "label-nl" : {"nl": "Recht"}, "usage" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "usageNote-nl" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "definition" : {"nl": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."}, "label" : {"nl": "Recht"}, "definition-nl" : {"nl": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."}},
-"name": {
-"nl": "Recht"},
-"description": {
-"nl": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."},
-"usage": {
-"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}
-}
-, {
 "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
 "@type": "http://www.w3.org/2002/07/owl#Class",
 "inpackage": "OTHER_PACKAGE",
@@ -803,19 +790,6 @@
 "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."},
 "usage": {
 }
-}
-, {
-"@id": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid",
-"@type": "http://www.w3.org/2002/07/owl#Class",
-"inpackage": "OTHER_PACKAGE",
-"label-nl" : {"nl": "Verantwoordelijkheid"}, "usage" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "usageNote-nl" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "definition" : {"nl": "Formele of informele verplichting om iets te doen."}, "label" : {"nl": "Verantwoordelijkheid"}, "definition-nl" : {"nl": "Formele of informele verplichting om iets te doen."},
-"extra": {"EA-Name" : "Verantwoordelijkheid", "EA-Guid" : "{DA2801AD-70A3-4189-885A-6FDF1601C870}", "EA-Package" : "OSLO-Perceel", "EA-Type" : "CLASS", "EA-Parents" : "", "EA-Parents2" : [], "parentclasses" : "", "label" : "Verantwoordelijkheid", "definition" : "Formele of informele verplichting om iets te doen.", "usage" : "Definitie conform ISO 19152 - Land Administration Domain Model.", "label-nl" : "Verantwoordelijkheid", "definition-nl" : "Formele of informele verplichting om iets te doen.", "usageNote-nl" : "Definitie conform ISO 19152 - Land Administration Domain Model.", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "Formele of informele verplichting om iets te doen.", "note": "null" }, { "key": "ap-definition-nl", "value": "Formele of informele verplichting om iets te doen.", "note": "null" }, { "key": "label-nl", "value": "Verantwoordelijkheid", "note": "null" }, { "key": "usageNote-nl", "value": "Definitie conform ISO 19152 - Land Administration Domain Model.", "note": "null" }, { "key": "ap-usageNote-nl", "value": "Definitie conform ISO 19152 - Land Administration Domain Model.", "note": "null" }], "Scope" : "NOTHING", "label-nl" : {"nl": "Verantwoordelijkheid"}, "usage" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "usageNote-nl" : {"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}, "definition" : {"nl": "Formele of informele verplichting om iets te doen."}, "label" : {"nl": "Verantwoordelijkheid"}, "definition-nl" : {"nl": "Formele of informele verplichting om iets te doen."}},
-"name": {
-"nl": "Verantwoordelijkheid"},
-"description": {
-"nl": "Formele of informele verplichting om iets te doen."},
-"usage": {
-"nl": "Definitie conform ISO 19152 - Land Administration Domain Model."}
 }
 , {
 "@id": "https://schema.org/Number",
@@ -1102,7 +1076,7 @@
 "nl": "is deel van"},
 "inpackage": "OTHER_PACKAGE",
 "label-nl" : {"nl": "is deel van"}, "definition" : {"nl": "Geeft aan waartoe een entiteit behoort."}, "label" : {"nl": "is deel van"}, "definition-nl" : {"nl": "Geeft aan waartoe een entiteit behoort."},
-"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{BD87F4F9-12A7-4499-9377-D358A04FDF23}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan waartoe een entiteit behoort.", "usage" : "", "label-nl" : "is deel van", "definition-nl" : "Geeft aan waartoe een entiteit behoort.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "label-nl" : {"nl": "is deel van"}, "definition" : {"nl": "Geeft aan waartoe een entiteit behoort."}, "label" : {"nl": "is deel van"}, "definition-nl" : {"nl": "Geeft aan waartoe een entiteit behoort."}},
+"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{E48A1762-42FE-489f-8E58-F41962CAB112}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan waartoe een entiteit behoort.", "usage" : "", "label-nl" : "is deel van", "definition-nl" : "Geeft aan waartoe een entiteit behoort.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "label-nl" : {"nl": "is deel van"}, "definition" : {"nl": "Geeft aan waartoe een entiteit behoort."}, "label" : {"nl": "is deel van"}, "definition-nl" : {"nl": "Geeft aan waartoe een entiteit behoort."}},
 "description": {
 "nl": "Geeft aan waartoe een entiteit behoort."},
 "usage": {
@@ -1110,7 +1084,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel", "EA-Name" : "Bedrijventerreinperceel" }
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
 ],
 "range": [
 {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }
@@ -1127,7 +1101,7 @@
 "nl": "is deel van"},
 "inpackage": "OTHER_PACKAGE",
 "label-nl" : {"nl": "is deel van"}, "definition" : {"nl": "Geeft aan waartoe een entiteit behoort."}, "label" : {"nl": "is deel van"}, "definition-nl" : {"nl": "Geeft aan waartoe een entiteit behoort."},
-"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{E48A1762-42FE-489f-8E58-F41962CAB112}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "BeheerdeBedrijvenzone", "EA-Domain-Guid" : "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan waartoe een entiteit behoort.", "usage" : "", "label-nl" : "is deel van", "definition-nl" : "Geeft aan waartoe een entiteit behoort.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.", "note": "null" }, { "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "label-nl" : {"nl": "is deel van"}, "definition" : {"nl": "Geeft aan waartoe een entiteit behoort."}, "label" : {"nl": "is deel van"}, "definition-nl" : {"nl": "Geeft aan waartoe een entiteit behoort."}},
+"extra": {"EA-Name" : "isDeelVan", "EA-Guid" : "{BD87F4F9-12A7-4499-9377-D358A04FDF23}", "derived" : "false", "EA-Package" : "", "EA-Type" : "connector", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "Bedrijventerrein", "RangeData" : {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }, "sourceRole" : "null", "destRole" : "null", "label" : "is deel van", "definition" : "Geeft aan waartoe een entiteit behoort.", "usage" : "", "label-nl" : "is deel van", "definition-nl" : "Geeft aan waartoe een entiteit behoort.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "Geeft aan waartoe een entiteit behoort.", "note": "null" }, { "key": "label-nl", "value": "is deel van", "note": "null" }, { "key": "ap-definition-nl", "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.", "note": "null" }, { "key": "uri", "value": "http:\/\/purl.org\/dc\/terms\/isPartOf", "note": "null" }], "DestRoleTags" : [], "Scope" : "NOTHING", "label-nl" : {"nl": "is deel van"}, "definition" : {"nl": "Geeft aan waartoe een entiteit behoort."}, "label" : {"nl": "is deel van"}, "definition-nl" : {"nl": "Geeft aan waartoe een entiteit behoort."}},
 "description": {
 "nl": "Geeft aan waartoe een entiteit behoort."},
 "usage": {
@@ -1135,7 +1109,7 @@
 "codelist": [
 ],
 "domain": [
-{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone", "EA-Name" : "BeheerdeBedrijvenzone" }
+{ "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel", "EA-Name" : "Bedrijventerreinperceel" }
 ],
 "range": [
 {"EA-Name" : "Bedrijventerrein", "EA-GUID" : "{9193154C-3BA8-4198-91ED-18A7CC16A477}", "EA-Package" : "OSLO-Bedrijventerrein", "uri" : "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein" }
@@ -2071,38 +2045,13 @@
 "minCardinality": "0",
 "maxCardinality": "1"}
 , {
-"@id": "https://data.vlaanderen.be/ns/perceel#Recht.type",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "type (Recht)"},
-"inpackage": "OTHER_PACKAGE",
-"label-nl" : {"nl": "type (Recht)"}, "definition" : {"nl": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid."}, "label" : {"nl": "type (Recht)"}, "definition-nl" : {"nl": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid."},
-"extra": {"EA-Name" : "rechttype", "EA-Guid" : "{D5F78A56-1DFB-4933-8DA1-CDA2CCECCB82}", "EA-Package" : "OSLO-Perceel", "EA-Type" : "attribute", "EA-Domain" : "Recht", "EA-Domain-Guid" : "{AC5DAA98-DFBB-4a72-9145-BA1837E4E86A}", "EA-Range" : "Rechttype", "RangeData" : {"EA-Name" : "Rechttype", "EA-GUID" : "{C6C396EE-9DB1-4ccd-B4D6-6CCCCBCA5FF4}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "type (Recht)", "definition" : "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid.", "usage" : "", "label-nl" : "type (Recht)", "definition-nl" : "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "definition-nl", "value": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid.", "note": "null" }, { "key": "label-nl", "value": "type (Recht)", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "name", "value": "Recht.type", "note": "null" }], "Scope" : "NOTHING", "label-nl" : {"nl": "type (Recht)"}, "definition" : {"nl": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid."}, "label" : {"nl": "type (Recht)"}, "definition-nl" : {"nl": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid."}},
-"description": {
-"nl": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid."},
-"usage": {
-},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/perceel#Recht", "EA-Name" : "Recht" }
-],
-"range": [
-{"EA-Name" : "Rechttype", "EA-GUID" : "{C6C396EE-9DB1-4ccd-B4D6-6CCCCBCA5FF4}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "1"}
-, {
 "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
 "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
 "name": {
 },
 "inpackage": "OTHER_PACKAGE",
 "label-nl" : {"nl": "TODO"}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."},
-"extra": {"EA-Name" : "^ruimtelijkeenheidtype", "EA-Guid" : "{612C4C59-C0C1-431c-B23D-BF4FCF0A233C}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "RuimtelijkeEenheidtype", "RangeData" : {"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "De aard van een ruimtelijke eenheid.", "usage" : "", "label-nl" : "TODO", "definition-nl" : "De aard van een ruimtelijke eenheid.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "uri", "value": "https:\/\/data.vlaanderen.be\/ns\/perceel#RuimtelijkeEenheid.type", "note": "null" }, { "key": "definition-nl", "value": "De aard van een ruimtelijke eenheid.", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/BedrijventerreinRuimtelijkeEenheidtype", "note": "null" }], "Scope" : "NOTHING", "label-nl" : {"nl": "TODO"}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."}},
+"extra": {"EA-Name" : "^ruimtelijkeenheidtype", "EA-Guid" : "{612C4C59-C0C1-431c-B23D-BF4FCF0A233C}", "EA-Package" : "OSLO-Bedrijventerrein", "EA-Type" : "attribute", "EA-Domain" : "Bedrijventerreinperceel", "EA-Domain-Guid" : "{706900E9-D960-43fc-88FF-FF47C2FDF172}", "EA-Range" : "RuimtelijkeEenheidtype", "RangeData" : {"EA-Name" : "RuimtelijkeEenheidtype", "EA-GUID" : "{F3E091EF-2925-4978-927A-8666C6B836C5}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "", "definition" : "De aard van een ruimtelijke eenheid.", "usage" : "", "label-nl" : "TODO", "definition-nl" : "De aard van een ruimtelijke eenheid.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "uri", "value": "https:\/\/data.vlaanderen.be\/ns\/perceel#RuimtelijkeEenheid.type", "note": "null" }, { "key": "definition-nl", "value": "De aard van een ruimtelijke eenheid.", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "ap-codelist", "value": "https:\/\/data.vlaanderen.be\/id\/conceptscheme\/RuimtelijkeEenheidtype", "note": "null" }], "Scope" : "NOTHING", "label-nl" : {"nl": "TODO"}, "definition" : {"nl": "De aard van een ruimtelijke eenheid."}, "definition-nl" : {"nl": "De aard van een ruimtelijke eenheid."}},
 "description": {
 "nl": "De aard van een ruimtelijke eenheid."},
 "usage": {
@@ -2214,31 +2163,6 @@
 ],
 "range": [
 {"EA-Name" : "KwantitatieveWaarde", "EA-GUID" : "{CE2EEE94-A0FB-4756-8337-C1AE0FF44420}", "EA-Package" : "OSLO-Generiek", "uri" : "https://schema.org/QuantitativeValue" }
-],
-"generalization": [
-
-],
-"minCardinality": "1",
-"maxCardinality": "1"}
-, {
-"@id": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type",
-"@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-"name": {
-"nl": "type (Verantwoordelijkheid)"},
-"inpackage": "OTHER_PACKAGE",
-"label-nl" : {"nl": "type (Verantwoordelijkheid)"}, "definition" : {"nl": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid."}, "label" : {"nl": "type (Verantwoordelijkheid)"}, "definition-nl" : {"nl": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid."},
-"extra": {"EA-Name" : "verantwoordelijkheidtype", "EA-Guid" : "{3C228F15-CB87-4527-BC4E-F3C8D1D3B1BA}", "EA-Package" : "OSLO-Perceel", "EA-Type" : "attribute", "EA-Domain" : "Verantwoordelijkheid", "EA-Domain-Guid" : "{DA2801AD-70A3-4189-885A-6FDF1601C870}", "EA-Range" : "Verantwoordelijkheidtype", "RangeData" : {"EA-Name" : "Verantwoordelijkheidtype", "EA-GUID" : "{46D1F2B3-D7EB-4977-94B4-31426F8F84AB}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }, "label" : "type (Verantwoordelijkheid)", "definition" : "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.", "usage" : "", "label-nl" : "type (Verantwoordelijkheid)", "definition-nl" : "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.", "usageNote-nl" : "", "label-en" : "", "definition-en" : "", "usageNote-en" : "", "equivalent" : "", "subclass" : "", "subclass1" : "", "sameAs" : "", "RawTags" : [{ "key": "label-nl", "value": "type (Verantwoordelijkheid)", "note": "null" }, { "key": "ap-label-nl", "value": "type", "note": "null" }, { "key": "definition-nl", "value": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.", "note": "null" }, { "key": "name", "value": "Verantwoordelijkheid.type", "note": "null" }], "Scope" : "NOTHING", "label-nl" : {"nl": "type (Verantwoordelijkheid)"}, "definition" : {"nl": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid."}, "label" : {"nl": "type (Verantwoordelijkheid)"}, "definition-nl" : {"nl": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid."}},
-"description": {
-"nl": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid."},
-"usage": {
-},
-"codelist": [
-],
-"domain": [
-{ "uri": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid", "EA-Name" : "Verantwoordelijkheid" }
-],
-"range": [
-{"EA-Name" : "Verantwoordelijkheidtype", "EA-GUID" : "{46D1F2B3-D7EB-4977-94B4-31426F8F84AB}", "EA-Package" : "OSLO-Perceel", "uri" : "http://www.w3.org/2004/02/skos/core#Concept" }
 ],
 "generalization": [
 

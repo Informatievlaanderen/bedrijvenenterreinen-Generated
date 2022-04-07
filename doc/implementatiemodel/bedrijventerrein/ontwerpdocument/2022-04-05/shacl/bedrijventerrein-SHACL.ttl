@@ -42,10 +42,8 @@
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OntwikkelbareBedrijvenzoneShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GestructureerdeIdentificatorShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape>,
-    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechtShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidGeometrieShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidOppervlakteShape>,
-    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GetalShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#KwantitatieveWaardeShape> .
 
@@ -83,7 +81,7 @@
     shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron>
   ], [
     shacl:datatype xsd:string;
-    shacl:description "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder";
+    shacl:description "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder";
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "homepageAanbieding";
@@ -191,7 +189,7 @@
     shacl:name "^oppervlakte";
     shacl:path <https://data.vlaanderen.be/ns/perceel#oppervlakte>
   ], [
-    <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinRuimtelijkeEenheidtype>;
+    <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype>;
     shacl:class skos:Concept;
     shacl:description "De aard van een ruimtelijke eenheid.";
     shacl:maxCount 1;
@@ -658,18 +656,6 @@
   shacl:closed false;
   shacl:targetClass skos:Concept .
 
-<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechtShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property [
-    shacl:class skos:Concept;
-    shacl:description "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid.";
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "rechttype";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#Recht.type>
-  ];
-  shacl:targetClass <https://data.vlaanderen.be/ns/perceel#Recht> .
-
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
@@ -745,18 +731,6 @@
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#SubsidietypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
-
-<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:property [
-    shacl:class skos:Concept;
-    shacl:description "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.";
-    shacl:maxCount 1;
-    shacl:minCount 1;
-    shacl:name "verantwoordelijkheidtype";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type>
-  ];
-  shacl:targetClass <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid> .
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape> a shacl:NodeShape;
   shacl:closed false;

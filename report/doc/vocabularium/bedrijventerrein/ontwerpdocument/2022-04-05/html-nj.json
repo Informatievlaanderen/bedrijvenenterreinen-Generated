@@ -12,8 +12,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/9f6fee6e304201ddbf193d4d7ceb695b123f7533",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/9f6fee6e304201ddbf193d4d7ceb695b123f7533/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/cd5ac2916cf836472a612c2d6e5a6910954a91cb",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/cd5ac2916cf836472a612c2d6e5a6910954a91cb/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [],
@@ -118,11 +118,11 @@
     {
       "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "name": {
-        "nl": "homepage aanbieding"
+        "nl": "homepage"
       },
-      "sort_nl": "homepage aanbieding",
+      "sort_nl": "homepage",
       "description": {
-        "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+        "nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
       },
       "usage": {},
       "domain": [

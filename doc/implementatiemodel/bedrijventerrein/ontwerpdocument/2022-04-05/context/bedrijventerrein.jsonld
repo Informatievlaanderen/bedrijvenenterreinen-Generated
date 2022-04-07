@@ -121,7 +121,7 @@
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
-    "Bedrijventerreinperceelaanbieding.homepageAanbieding": {
+    "Bedrijventerreinperceelaanbieding.homepage": {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
@@ -342,11 +342,6 @@
       "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
     "Planningsniveau": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Recht": "https://data.vlaanderen.be/ns/perceel#Recht",
-    "Recht.type": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#Recht.type",
-      "@type": "@id"
-    },
     "Rechttype": "http://www.w3.org/2004/02/skos/core#Concept",
     "RuimtelijkeEenheidGeometrie": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie",
     "RuimtelijkeEenheidGeometrie.default": {
@@ -379,11 +374,6 @@
     "Status": "http://www.w3.org/2004/02/skos/core#Concept",
     "StatusOntwikkeling": "http://www.w3.org/2004/02/skos/core#Concept",
     "Subsidietype": "http://www.w3.org/2004/02/skos/core#Concept",
-    "Verantwoordelijkheid": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid",
-    "Verantwoordelijkheid.type": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type",
-      "@type": "@id"
-    },
     "Verantwoordelijkheidtype": "http://www.w3.org/2004/02/skos/core#Concept"
   }
 }

@@ -144,14 +144,14 @@
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
       "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
       "description": {
-        "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+        "nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
       },
       "domain": [
         "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
       ],
       "generalization": [],
       "name": {
-        "nl": "homepage aanbieding"
+        "nl": "homepage"
       },
       "range": [
         "http://www.w3.org/2001/XMLSchema#string"

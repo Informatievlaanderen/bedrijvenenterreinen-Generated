@@ -14,8 +14,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/9f6fee6e304201ddbf193d4d7ceb695b123f7533",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/9f6fee6e304201ddbf193d4d7ceb695b123f7533/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/cd5ac2916cf836472a612c2d6e5a6910954a91cb",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/cd5ac2916cf836472a612c2d6e5a6910954a91cb/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -124,11 +124,11 @@
         {
           "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
           "name": {
-            "nl": "homepage aanbieding"
+            "nl": "homepage"
           },
-          "sort_nl": "homepage aanbieding",
+          "sort_nl": "homepage",
           "description": {
-            "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+            "nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
           },
           "usage": {},
           "domain": [
@@ -2120,108 +2120,6 @@
           ],
           "cardinality": "1",
           "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype"
-        }
-      ]
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/perceel#Recht",
-      "name": {
-        "nl": "Recht"
-      },
-      "sort_nl": "Recht",
-      "description": {
-        "nl": "Actie, activiteit of verzameling van acties dat een systeemparticipant mag uitvoeren of mag gebruik maken van een geassocieerde resource."
-      },
-      "usage": {
-        "nl": "Definitie conform ISO 19152 - Land Administration Domain Model."
-      },
-      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein#Recht",
-      "parents": [],
-      "properties": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/perceel#Recht.type",
-          "name": {
-            "nl": "type"
-          },
-          "sort_nl": "type",
-          "description": {
-            "nl": "De aard van het recht dat een agent heeft ten opzichte van een ruimtelijke eenheid."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/perceel#Recht",
-              "EA-Name": "Recht"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Rechttype",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Rechttype",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "nl": "Rechttype"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
-        }
-      ]
-    },
-    {
-      "uri": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid",
-      "name": {
-        "nl": "Verantwoordelijkheid"
-      },
-      "sort_nl": "Verantwoordelijkheid",
-      "description": {
-        "nl": "Formele of informele verplichting om iets te doen."
-      },
-      "usage": {
-        "nl": "Definitie conform ISO 19152 - Land Administration Domain Model."
-      },
-      "scopeduri": "https://data.vlaanderen.be/doc/applicatieprofiel/bedrijventerrein#Verantwoordelijkheid",
-      "parents": [],
-      "properties": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type",
-          "name": {
-            "nl": "type"
-          },
-          "sort_nl": "type",
-          "description": {
-            "nl": "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid",
-              "EA-Name": "Verantwoordelijkheid"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Verantwoordelijkheidtype",
-              "range_uri": "http://www.w3.org/2004/02/skos/core#Concept"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Verantwoordelijkheidtype",
-              "range_puri": "http://www.w3.org/2004/02/skos/core#Concept",
-              "range_label": {
-                "nl": "Verantwoordelijkheidtype"
-              }
-            }
-          ],
-          "cardinality": "1",
-          "codelist_uri": ""
         }
       ]
     }
