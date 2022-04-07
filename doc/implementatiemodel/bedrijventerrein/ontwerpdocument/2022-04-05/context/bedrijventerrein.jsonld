@@ -36,6 +36,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
+    "Bedrijventerrein.opmerking": {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
     "Bedrijventerrein.oppervlakte": {
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
@@ -46,9 +50,9 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceel": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-    "Bedrijventerreinperceel.aanbieder": {
+    "Bedrijventerreinperceel.aanbieding": {
       "@container": "@set",
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.bebouwing": {
@@ -77,10 +81,6 @@
       "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
       "@type": "@id"
-    },
-    "Bedrijventerreinperceel.homepageAanbieding": {
-      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
-      "@type": "http://www.w3.org/2001/XMLSchema#string"
     },
     "Bedrijventerreinperceel.identificator": {
       "@id": "http://www.w3.org/ns/adms#identifier",
@@ -113,6 +113,22 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceelaanbieding": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+    "Bedrijventerreinperceelaanbieding.aanbieder": {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+      "@type": "@id"
+    },
+    "Bedrijventerreinperceelaanbieding.bron": {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "Bedrijventerreinperceelaanbieding.homepageAanbieding": {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Bedrijventerreinperceelaanbieding.opmerking": {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
     "BeheerdeBedrijvenzone": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
     "BeheerdeBedrijvenzone.aanspreekpunt": {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
@@ -150,6 +166,10 @@
     },
     "BeheerdeBedrijvenzone.naam": {
       "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "BeheerdeBedrijvenzone.opmerking": {
+      "@id": "http://purl.org/dc/terms/description",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "BeheerdeBedrijvenzone.oppervlakte": {

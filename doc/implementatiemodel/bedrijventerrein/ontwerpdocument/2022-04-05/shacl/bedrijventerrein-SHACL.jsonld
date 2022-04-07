@@ -37,7 +37,39 @@
       "@id": "https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinPerceelAanbiedingShape",
       "@type": "sh:NodeShape",
       "sh:closed": false,
-      "sh:property": [],
+      "sh:property": [
+        {
+          "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+          "sh:description": "De aanbieder van dit perceel",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": "aanbieder",
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "De benaming van de bron waaruit de aanbieding afkomstig is.",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": "bron",
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder",
+          "sh:maxCount": "1",
+          "sh:minCount": "1",
+          "sh:name": "homepageAanbieding",
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "Bijkomende informatie over de aanbieding.",
+          "sh:maxCount": "1",
+          "sh:name": "opmerking",
+          "sh:path": "http://purl.org/dc/terms/description"
+        }
+      ],
       "sh:targetClass": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
     },
     {
@@ -412,6 +444,13 @@
           "sh:minCount": "1",
           "sh:name": "naam",
           "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "Bijkomende informatie over het bedrijventerrein",
+          "sh:maxCount": "1",
+          "sh:name": "opmerking",
+          "sh:path": "http://purl.org/dc/terms/description"
         }
       ],
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
@@ -459,10 +498,10 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
         },
         {
-          "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-          "sh:description": "De aanbieder van dit perceel",
-          "sh:name": "aanbieder",
-          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder"
+          "sh:class": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+          "sh:description": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. ",
+          "sh:name": "aanbieding",
+          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding"
         },
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelBebouwing",
@@ -495,13 +534,6 @@
           "sh:minCount": "1",
           "sh:name": "functie",
           "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#functie"
-        },
-        {
-          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
-          "sh:description": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder",
-          "sh:maxCount": "1",
-          "sh:name": "homepageAanbieding",
-          "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding"
         },
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelInGebruik",
@@ -620,6 +652,13 @@
           "sh:minCount": "1",
           "sh:name": "naam",
           "sh:path": "http://www.w3.org/2004/02/skos/core#prefLabel"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "Bijkomende informatie over de beheerde bedrijvenzone.",
+          "sh:maxCount": "1",
+          "sh:name": "opmerking",
+          "sh:path": "http://purl.org/dc/terms/description"
         }
       ],
       "sh:targetClass": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"

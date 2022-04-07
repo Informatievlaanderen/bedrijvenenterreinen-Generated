@@ -67,6 +67,34 @@
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinPerceelAanbiedingShape> a shacl:NodeShape;
   shacl:closed false;
+  shacl:property [
+    shacl:class <http://www.w3.org/ns/regorg#RegisteredOrganization>;
+    shacl:description "De aanbieder van dit perceel";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "aanbieder";
+    shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "De benaming van de bron waaruit de aanbieding afkomstig is.";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "bron";
+    shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "homepageAanbieding";
+    shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding>
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Bijkomende informatie over de aanbieding.";
+    shacl:maxCount 1;
+    shacl:name "opmerking";
+    shacl:path dc:description
+  ];
   shacl:targetClass <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> .
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BedrijventerreinShape> a shacl:NodeShape;
@@ -127,6 +155,12 @@
     shacl:minCount 1;
     shacl:name "naam";
     shacl:path skos:prefLabel
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Bijkomende informatie over het bedrijventerrein";
+    shacl:maxCount 1;
+    shacl:name "opmerking";
+    shacl:path dc:description
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein> .
 
@@ -165,10 +199,10 @@
     shacl:name "^ruimtelijkeenheidtype";
     shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type>
   ], [
-    shacl:class <http://www.w3.org/ns/regorg#RegisteredOrganization>;
-    shacl:description "De aanbieder van dit perceel";
-    shacl:name "aanbieder";
-    shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder>
+    shacl:class <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding>;
+    shacl:description "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. ";
+    shacl:name "aanbieding";
+    shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding>
   ], [
     <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelBebouwing>;
     shacl:class skos:Concept;
@@ -197,12 +231,6 @@
     shacl:minCount 1;
     shacl:name "functie";
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#functie>
-  ], [
-    shacl:datatype xsd:string;
-    shacl:description "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder";
-    shacl:maxCount 1;
-    shacl:name "homepageAanbieding";
-    shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding>
   ], [
     <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelInGebruik>;
     shacl:class skos:Concept;
@@ -303,6 +331,12 @@
     shacl:minCount 1;
     shacl:name "naam";
     shacl:path skos:prefLabel
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Bijkomende informatie over de beheerde bedrijvenzone.";
+    shacl:maxCount 1;
+    shacl:name "opmerking";
+    shacl:path dc:description
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> .
 

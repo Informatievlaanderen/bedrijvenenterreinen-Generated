@@ -61,7 +61,7 @@
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "description": {},
       "domain": [
-        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
       ],
       "generalization": [
         "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
@@ -69,6 +69,24 @@
       "name": {},
       "range": [
         "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "description": {
+        "nl": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "
+      },
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+      ],
+      "generalization": [],
+      "name": {
+        "nl": "aanbieding"
+      },
+      "range": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
       ],
       "usage": {}
     },
@@ -85,6 +103,24 @@
       "name": {},
       "range": [
         "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "usage": {}
+    },
+    {
+      "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "description": {
+        "nl": "De benaming van de bron waaruit de aanbieding afkomstig is."
+      },
+      "domain": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "generalization": [],
+      "name": {
+        "nl": "Bron"
+      },
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
       ],
       "usage": {}
     },
@@ -111,7 +147,7 @@
         "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
       },
       "domain": [
-        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
       ],
       "generalization": [],
       "name": {
@@ -164,6 +200,48 @@
       "@type": "rdf:Property",
       "name": {
         "nl": "opmerking"
+      }
+    },
+    {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "opmerking"
+      }
+    },
+    {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "opmerking"
+      }
+    },
+    {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "opmerking"
+      }
+    },
+    {
+      "@id": "http://purl.org/dc/terms/description",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "opmerking"
+      }
+    },
+    {
+      "@id": "http://www.w3.org/ns/regorg#legalName",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "wettelijke naam"
+      }
+    },
+    {
+      "@id": "http://www.w3.org/ns/regorg#registration",
+      "@type": "rdf:Property",
+      "name": {
+        "nl": "registratie"
       }
     }
   ],

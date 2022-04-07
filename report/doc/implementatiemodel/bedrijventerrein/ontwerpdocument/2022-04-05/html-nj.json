@@ -14,8 +14,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/9f6fee6e304201ddbf193d4d7ceb695b123f7533",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/9f6fee6e304201ddbf193d4d7ceb695b123f7533/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -48,7 +48,148 @@
       "description": {},
       "usage": {},
       "parents": [],
-      "properties": []
+      "properties": [
+        {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+          "name": {
+            "nl": "aanbieder"
+          },
+          "sort_nl": "aanbieder",
+          "description": {
+            "nl": "De aanbieder van dit perceel"
+          },
+          "usage": {
+            "nl": "Als de beschikbaarheid aangeeft dat het Bedrijventerreinperceel verkoopbaar is dan moet er een aanbieder voorzien worden."
+          },
+          "domain": [
+            {
+              "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+              "EA-Name": "BedrijventerreinPerceelAanbieding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "GeregistreerdeOrganisatie",
+              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Geregistreerde Organisatie",
+              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+              "range_label": {
+                "nl": "Geregistreerde Organisatie"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron",
+          "name": {
+            "nl": "Bron"
+          },
+          "sort_nl": "Bron",
+          "description": {
+            "nl": "De benaming van de bron waaruit de aanbieding afkomstig is."
+          },
+          "usage": {
+            "nl": "Mogelijke waarden kunnen zijn: bizLocator, Businesscenter, VLAIO of de naam van een partner die gegevens aanlevert via Decentraal Medebeheer. "
+          },
+          "domain": [
+            {
+              "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+              "EA-Name": "BedrijventerreinPerceelAanbieding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
+          "name": {
+            "nl": "homepage aanbieding"
+          },
+          "sort_nl": "homepage aanbieding",
+          "description": {
+            "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+              "EA-Name": "BedrijventerreinPerceelAanbieding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": {
+            "nl": "opmerking"
+          },
+          "sort_nl": "opmerking",
+          "description": {
+            "nl": "Bijkomende informatie over de aanbieding."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+              "EA-Name": "BedrijventerreinPerceelAanbieding"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        }
+      ]
     },
     {
       "uri": "http://purl.org/dc/terms/Agent",
@@ -257,6 +398,40 @@
         }
       ],
       "properties": [
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": {
+            "nl": "opmerking"
+          },
+          "sort_nl": "opmerking",
+          "description": {
+            "nl": "Bijkomende informatie over het bedrijventerrein"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+              "EA-Name": "Bedrijventerrein"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
         {
           "uri": "http://www.w3.org/2004/02/skos/core#altLabel",
           "name": {
@@ -591,49 +766,13 @@
       ],
       "properties": [
         {
-          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding",
           "name": {
-            "nl": "aanbieder"
+            "nl": "aanbieding"
           },
-          "sort_nl": "aanbieder",
+          "sort_nl": "aanbieding",
           "description": {
-            "nl": "De aanbieder van dit perceel"
-          },
-          "usage": {
-            "nl": "Als de beschikbaarheid aangeeft dat het Bedrijventerreinperceel verkoopbaar is dan moet er een aanbieder voorzien worden."
-          },
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-              "EA-Name": "Bedrijventerreinperceel"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "GeregistreerdeOrganisatie",
-              "range_uri": "http://www.w3.org/ns/regorg#RegisteredOrganization"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Geregistreerde Organisatie",
-              "range_puri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
-              "range_label": {
-                "nl": "Geregistreerde Organisatie"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
-          "name": {
-            "nl": "homepage aanbieding"
-          },
-          "sort_nl": "homepage aanbieding",
-          "description": {
-            "nl": "de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+            "nl": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "
           },
           "usage": {},
           "domain": [
@@ -644,20 +783,20 @@
           ],
           "range": [
             {
-              "range_label": "String",
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+              "range_label": "BedrijventerreinPerceelAanbieding",
+              "range_uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
             }
           ],
           "scopedrange": [
             {
-              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
-              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_uri": "#Bedrijventerreinperceelaanbieding",
+              "range_puri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
               "range_label": {
-                "nl": "String"
+                "nl": "Bedrijventerreinperceelaanbieding"
               }
             }
           ],
-          "cardinality": "0..1",
+          "cardinality": "0..*",
           "codelist_uri": ""
         },
         {
@@ -1269,6 +1408,40 @@
             }
           ],
           "cardinality": "1..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/description",
+          "name": {
+            "nl": "opmerking"
+          },
+          "sort_nl": "opmerking",
+          "description": {
+            "nl": "Bijkomende informatie over de beheerde bedrijvenzone."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+              "EA-Name": "BeheerdeBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
           "codelist_uri": ""
         },
         {
@@ -2074,6 +2247,23 @@
       "parents": [
         "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
       ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding",
+      "name": {
+        "nl": "aanbieding"
+      },
+      "description": {
+        "nl": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "
+      },
+      "domain": [
+        null
+      ],
+      "range": [
+        null
+      ],
+      "usage": {},
+      "parents": []
     },
     {
       "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",

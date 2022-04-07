@@ -110,8 +110,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/9f6fee6e304201ddbf193d4d7ceb695b123f7533">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/9f6fee6e304201ddbf193d4d7ceb695b123f7533</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/9f6fee6e304201ddbf193d4d7ceb695b123f7533/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/9f6fee6e304201ddbf193d4d7ceb695b123f7533/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href=""></a></dd>
 
@@ -320,6 +320,7 @@ Dit omvat niet alle informatie van de authentieke bron bedrijventerreinen, enkel
                       <a href="#Bedrijventerrein%3Ageometrie">geometrie</a>, 
                       <a href="#Bedrijventerrein%3Aidentificator">identificator</a>, 
                       <a href="#Bedrijventerrein%3Anaam">naam</a>, 
+                      <a href="#Bedrijventerrein%3Aopmerking">opmerking</a>, 
                       <a href="#Bedrijventerrein%3Aoppervlakte">oppervlakte</a>, 
                       <a href="#Bedrijventerrein%3Atype">type</a>.</dd>
                     
@@ -481,6 +482,26 @@ Dit omvat niet alle informatie van de authentieke bron bedrijventerreinen, enkel
                         <td></td>
                       </tr>
                     
+                      <tr id="Bedrijventerrein%3Aopmerking" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            opmerking</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Bijkomende informatie over het bedrijventerrein</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
                       <tr id="Bedrijventerrein%3Aoppervlakte" typeof="rdfs:Property" resource="https://data.vlaanderen.be/ns/perceel#oppervlakte">
                         <td>
                           <code property="rdfs:label">
@@ -544,14 +565,13 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                     <dt>Eigenschappen</dt>
 		     
                     <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
-                      <a href="#Bedrijventerreinperceel%3Aaanbieder">aanbieder</a>, 
+                      <a href="#Bedrijventerreinperceel%3Aaanbieding">aanbieding</a>, 
                       <a href="#Bedrijventerreinperceel%3Abebouwing">bebouwing</a>, 
                       <a href="#Bedrijventerreinperceel%3Abeperking">beperking</a>, 
                       <a href="#Bedrijventerreinperceel%3Abeschikbaarheid">beschikbaarheid</a>, 
                       <a href="#Bedrijventerreinperceel%3Afunctie">functie</a>, 
                       <a href="#Bedrijventerreinperceel%3Ageldigheidsperiode">geldigheidsperiode</a>, 
                       <a href="#Bedrijventerreinperceel%3Ageometrie">geometrie</a>, 
-                      <a href="#Bedrijventerreinperceel%3Ahomepage%20aanbieding">homepage aanbieding</a>, 
                       <a href="#Bedrijventerreinperceel%3Aidentificator">identificator</a>, 
                       <a href="#Bedrijventerreinperceel%3Ain%20gebruik">in gebruik</a>, 
                       <a href="#Bedrijventerreinperceel%3Ais%20deel%20van">is deel van</a>, 
@@ -578,23 +598,23 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
 
                     <tbody class="supertype">
                     
-                      <tr id="Bedrijventerreinperceel%3Aaanbieder" typeof="rdfs:Property" resource="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder">
+                      <tr id="Bedrijventerreinperceel%3Aaanbieding" typeof="rdfs:Property" resource="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding">
                         <td>
                           <code property="rdfs:label">
-                            <a href="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder" data-toggle="tooltip" data-content="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder" data-placement="right">
-                            aanbieder</a>
+                            <a href="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding" data-toggle="tooltip" data-content="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding" data-placement="right">
+                            aanbieding</a>
                           </code>
                         </td>
                         <td>
                           
 			    
-			    <a href="#Geregistreerde Organisatie" data-placement="right">Geregistreerde Organisatie</a>
+			    <a href="#Bedrijventerreinperceelaanbieding" data-placement="right">Bedrijventerreinperceelaanbieding</a>
 			    
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment">De aanbieder van dit perceel</td>
-                        <td property="vann:usageNote">Als de beschikbaarheid aangeeft dat het Bedrijventerreinperceel verkoopbaar is dan moet er een aanbieder voorzien worden.</td>
+                        <td property="rdfs:comment">Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. </td>
+                        <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
@@ -714,26 +734,6 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         </td>
                         <td>1..*</td>
                         <td property="rdfs:comment">Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Bedrijventerreinperceel%3Ahomepage%20aanbieding" typeof="rdfs:Property" resource="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding" data-toggle="tooltip" data-content="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding" data-placement="right">
-                            homepage aanbieding</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			     
-			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
-                            
-                          
-                        </td>
-                        <td>0..1</td>
-                        <td property="rdfs:comment">de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
@@ -892,12 +892,115 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                     
 		    
                     <dt>Eigenschappen</dt>
-		    
-                    <dd>Voor deze entiteit zijn geen eigenschappen gedefinieerd.</dd>
+		     
+                    <dd>Voor deze entiteit zijn de volgende eigenschappen gedefinieerd:
+                      <a href="#Bedrijventerreinperceelaanbieding%3Aaanbieder">aanbieder</a>, 
+                      <a href="#Bedrijventerreinperceelaanbieding%3ABron">Bron</a>, 
+                      <a href="#Bedrijventerreinperceelaanbieding%3Ahomepage%20aanbieding">homepage aanbieding</a>, 
+                      <a href="#Bedrijventerreinperceelaanbieding%3Aopmerking">opmerking</a>.</dd>
                     
                   </dl>
                 </div>
-		
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Eigenschap</th>
+                        <th class="data-table__header-title--sortable">Verwacht Type</th>
+                        <th class="data-table__header-title--sortable">Kardinaliteit</th>
+                        <th class="data-table__header-title--sortable">Beschrijving</th>
+                        <th class="data-table__header-title--sortable">Gebruik</th>
+                        <th class="data-table__header-title--sortable">Codelijst</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Bedrijventerreinperceelaanbieding%3Aaanbieder" typeof="rdfs:Property" resource="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder" data-toggle="tooltip" data-content="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder" data-placement="right">
+                            aanbieder</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Geregistreerde Organisatie" data-placement="right">Geregistreerde Organisatie</a>
+			    
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">De aanbieder van dit perceel</td>
+                        <td property="vann:usageNote">Als de beschikbaarheid aangeeft dat het Bedrijventerreinperceel verkoopbaar is dan moet er een aanbieder voorzien worden.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Bedrijventerreinperceelaanbieding%3ABron" typeof="rdfs:Property" resource="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron" data-toggle="tooltip" data-content="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron" data-placement="right">
+                            Bron</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">De benaming van de bron waaruit de aanbieding afkomstig is.</td>
+                        <td property="vann:usageNote">Mogelijke waarden kunnen zijn: bizLocator, Businesscenter, VLAIO of de naam van een partner die gegevens aanlevert via Decentraal Medebeheer. </td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Bedrijventerreinperceelaanbieding%3Ahomepage%20aanbieding" typeof="rdfs:Property" resource="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding" data-toggle="tooltip" data-content="https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding" data-placement="right">
+                            homepage aanbieding</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#string" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#string" data-placement="right">String</a>
+                            
+                          
+                        </td>
+                        <td>1</td>
+                        <td property="rdfs:comment">de homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Bedrijventerreinperceelaanbieding%3Aopmerking" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            opmerking</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Bijkomende informatie over de aanbieding.</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
             </div>
             
               <div class="region region--no-space-top">
@@ -923,6 +1026,7 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                       <a href="#Beheerde%20Bedrijvenzone%3Ais%20gerelateerd%20aan">is gerelateerd aan</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Ajuridische%20handhaver">juridische handhaver</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Anaam">naam</a>, 
+                      <a href="#Beheerde%20Bedrijvenzone%3Aopmerking">opmerking</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Aoppervlakte">oppervlakte</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Atype">type</a>.</dd>
                     
@@ -1120,6 +1224,26 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Voorkeursnaam van de Beheerde bedrijvenzone</td>
+                        <td property="vann:usageNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Beheerde%20Bedrijvenzone%3Aopmerking" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            opmerking</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-toggle="tooltip" data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" data-placement="right">TaalString</a>
+                            
+                          
+                        </td>
+                        <td>0..1</td>
+                        <td property="rdfs:comment">Bijkomende informatie over de beheerde bedrijvenzone.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>

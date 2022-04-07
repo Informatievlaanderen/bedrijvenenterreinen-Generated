@@ -12,8 +12,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/b213b5912a6fea12a9760ea62dee3cf16e0c49ec",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/b213b5912a6fea12a9760ea62dee3cf16e0c49ec/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/9f6fee6e304201ddbf193d4d7ceb695b123f7533",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/9f6fee6e304201ddbf193d4d7ceb695b123f7533/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [],
@@ -40,7 +40,7 @@
       "description": {},
       "usage": {},
       "domain": [
-        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
       ],
       "range": [
         "http://www.w3.org/ns/regorg#RegisteredOrganization"
@@ -48,6 +48,24 @@
       "parents": [
         "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
       ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding",
+      "name": {
+        "nl": "aanbieding"
+      },
+      "sort_nl": "aanbieding",
+      "description": {
+        "nl": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "
+      },
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+      ],
+      "range": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "parents": []
     },
     {
       "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
@@ -63,6 +81,24 @@
       "parents": [
         "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
       ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron",
+      "name": {
+        "nl": "Bron"
+      },
+      "sort_nl": "Bron",
+      "description": {
+        "nl": "De benaming van de bron waaruit de aanbieding afkomstig is."
+      },
+      "usage": {},
+      "domain": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
     },
     {
       "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
@@ -90,7 +126,7 @@
       },
       "usage": {},
       "domain": [
-        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
       ],
       "range": [
         "http://www.w3.org/2001/XMLSchema#string"
@@ -158,10 +194,96 @@
         "nl": "opmerking"
       },
       "description": {
+        "nl": "Bijkomende informatie over het bedrijventerreinperceel."
+      },
+      "usage": {},
+      "sort_nl": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over de beheerde bedrijvenzone."
+      },
+      "usage": {},
+      "sort_nl": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": {
+        "nl": "opmerking"
+      },
+      "description": {
         "nl": "Bijkomende informatie over de ontwikkelbare bedrijvenzone."
       },
       "usage": {},
       "sort_nl": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over het bedrijventerrein"
+      },
+      "usage": {},
+      "sort_nl": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over de aanbieding."
+      },
+      "usage": {},
+      "sort_nl": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/ns/regorg#legalName",
+      "name": {
+        "nl": "wettelijke naam"
+      },
+      "description": {},
+      "usage": {},
+      "sort_nl": "wettelijke naam",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/ns/regorg#registration",
+      "name": {
+        "nl": "registratie"
+      },
+      "description": {},
+      "usage": {},
+      "sort_nl": "registratie",
       "inscope": true,
       "indvl": false,
       "inpackage": false,
