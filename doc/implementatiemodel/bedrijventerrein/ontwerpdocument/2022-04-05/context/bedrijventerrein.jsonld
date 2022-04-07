@@ -25,7 +25,7 @@
     },
     "Bedrijventerrein.geometrie": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
       "@type": "@id"
     },
     "Bedrijventerrein.identificator": {
@@ -42,7 +42,7 @@
     },
     "Bedrijventerrein.oppervlakte": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
       "@type": "@id"
     },
     "Bedrijventerrein.type": {
@@ -79,7 +79,7 @@
     },
     "Bedrijventerreinperceel.geometrie": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.identificator": {
@@ -105,7 +105,7 @@
     },
     "Bedrijventerreinperceel.oppervlakte": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.type": {
@@ -144,7 +144,7 @@
     },
     "BeheerdeBedrijvenzone.geometrie": {
       "@container": "@set",
-      "@id": "http://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.identificator": {
@@ -174,7 +174,7 @@
     },
     "BeheerdeBedrijvenzone.oppervlakte": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.type": {
@@ -286,7 +286,7 @@
     },
     "OntwikkelbareBedrijvenzone.geometrie": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.homepage": {
@@ -315,7 +315,7 @@
     },
     "OntwikkelbareBedrijvenzone.oppervlakte": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.statusOntwikkeling": {

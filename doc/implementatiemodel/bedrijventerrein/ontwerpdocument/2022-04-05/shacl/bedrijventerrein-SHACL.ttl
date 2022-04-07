@@ -108,7 +108,7 @@
     shacl:description "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.";
     shacl:minCount 1;
     shacl:name "^geometrie";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#geometrie>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie>
   ], [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
     shacl:description "De identificator van de Ruimtelijke Eenheid.";
@@ -120,7 +120,7 @@
     shacl:class <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte>;
     shacl:description "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.";
     shacl:name "^oppervlakte";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#oppervlakte>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte>
   ], [
     shacl:class skos:Concept;
     shacl:description "De aard van een ruimtelijke eenheid.";
@@ -175,7 +175,7 @@
     shacl:description "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.";
     shacl:minCount 1;
     shacl:name "^geometrie";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#geometrie>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie>
   ], [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
     shacl:description "De identificator van de Ruimtelijke Eenheid.";
@@ -187,7 +187,7 @@
     shacl:class <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte>;
     shacl:description "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.";
     shacl:name "^oppervlakte";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#oppervlakte>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte>
   ], [
     <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype>;
     shacl:class skos:Concept;
@@ -271,7 +271,7 @@
     shacl:description "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.";
     shacl:minCount 1;
     shacl:name "^geometrie";
-    shacl:path <http://data.vlaanderen.be/ns/perceel#geometrie>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie>
   ], [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
     shacl:description "De identificator van de Ruimtelijke Eenheid.";
@@ -283,7 +283,7 @@
     shacl:class <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte>;
     shacl:description "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.";
     shacl:name "^oppervlakte";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#oppervlakte>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte>
   ], [
     shacl:class skos:Concept;
     shacl:description "De aard van een ruimtelijke eenheid.";
@@ -556,7 +556,7 @@
     shacl:description "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.";
     shacl:minCount 1;
     shacl:name "^geometrie";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#geometrie>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie>
   ], [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
     shacl:description "De identificator van de Ruimtelijke Eenheid.";
@@ -568,7 +568,7 @@
     shacl:class <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte>;
     shacl:description "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.";
     shacl:name "^oppervlakte";
-    shacl:path <https://data.vlaanderen.be/ns/perceel#oppervlakte>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte>
   ], [
     shacl:class skos:Concept;
     shacl:description "De aard van een ruimtelijke eenheid.";

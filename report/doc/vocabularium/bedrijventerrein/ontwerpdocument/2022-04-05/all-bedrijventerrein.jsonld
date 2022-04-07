@@ -3526,107 +3526,6 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "http://data.vlaanderen.be/ns/perceel#geometrie",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "geometrie"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "label": {
-        "nl": "geometrie"
-      },
-      "definition-nl": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "extra": {
-        "EA-Name": "^geometrie",
-        "EA-Guid": "{008111AA-8A49-4151-BE9F-4FF6ED700AC1}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "BeheerdeBedrijvenzone",
-        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
-        "EA-Range": "RuimtelijkeEenheidGeometrie",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        },
-        "label": {
-          "nl": "geometrie"
-        },
-        "definition": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "geometrie"
-        },
-        "definition-nl": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://data.vlaanderen.be/ns/perceel#geometrie",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Vorm- en positiekenmerken van een object.",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "geometrie",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-          "EA-Name": "BeheerdeBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "*"
-    },
-    {
       "@id": "http://purl.org/dc/terms/creator",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
@@ -4246,111 +4145,6 @@
       },
       "extra": {
         "EA-Name": "isDeelVan",
-        "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "OntwikkelbareBedrijvenzone",
-        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
-        "EA-Range": "Bedrijventerrein",
-        "RangeData": {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "is deel van"
-        },
-        "definition": {
-          "nl": "Geeft aan waartoe een entiteit behoort."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "is deel van"
-        },
-        "definition-nl": {
-          "nl": "Geeft aan waartoe een entiteit behoort."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "ap-definition-nl",
-            "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Geeft aan waartoe een entiteit behoort.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "is deel van",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/isPartOf",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Geeft aan waartoe een entiteit behoort."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "is deel van"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "is deel van"
-      },
-      "definition": {
-        "nl": "Geeft aan waartoe een entiteit behoort."
-      },
-      "label": {
-        "nl": "is deel van"
-      },
-      "definition-nl": {
-        "nl": "Geeft aan waartoe een entiteit behoort."
-      },
-      "extra": {
-        "EA-Name": "isDeelVan",
         "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
         "derived": "false",
         "EA-Package": "",
@@ -4421,6 +4215,111 @@
         {
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
           "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isPartOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "is deel van"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan waartoe een entiteit behoort."
+      },
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition-nl": {
+        "nl": "Geeft aan waartoe een entiteit behoort."
+      },
+      "extra": {
+        "EA-Name": "isDeelVan",
+        "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "OntwikkelbareBedrijvenzone",
+        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+        "EA-Range": "Bedrijventerrein",
+        "RangeData": {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "is deel van"
+        },
+        "definition": {
+          "nl": "Geeft aan waartoe een entiteit behoort."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "is deel van"
+        },
+        "definition-nl": {
+          "nl": "Geeft aan waartoe een entiteit behoort."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "ap-definition-nl",
+            "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Geeft aan waartoe een entiteit behoort.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "is deel van",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/isPartOf",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Geeft aan waartoe een entiteit behoort."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "EA-Name": "OntwikkelbareBedrijvenzone"
         }
       ],
       "range": [
@@ -4640,97 +4539,6 @@
     {
       "@id": "http://purl.org/dc/terms/relation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {},
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "TODO"
-      },
-      "definition-nl": {
-        "nl": "TODO"
-      },
-      "extra": {
-        "EA-Name": "isGerelateerdAan",
-        "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "BeheerdeBedrijvenzone",
-        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
-        "EA-Range": "Bedrijventerreinperceel",
-        "RangeData": {
-          "EA-Name": "Bedrijventerreinperceel",
-          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "label-nl": {
-          "nl": "TODO"
-        },
-        "definition-nl": {
-          "nl": "TODO"
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/relation",
-            "note": "null"
-          },
-          {
-            "key": "ap-label-nl",
-            "value": "is gerelateerd aan",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
-            "note": "null"
-          },
-          {
-            "key": "package",
-            "value": "OSLO-Bedrijventerrein",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "description": {},
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-          "EA-Name": "BeheerdeBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Bedrijventerreinperceel",
-          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/relation",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
         "nl": "is gerelateerd aan"
       },
@@ -4836,6 +4644,97 @@
       ],
       "generalization": [],
       "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/relation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {},
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "TODO"
+      },
+      "definition-nl": {
+        "nl": "TODO"
+      },
+      "extra": {
+        "EA-Name": "isGerelateerdAan",
+        "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "BeheerdeBedrijvenzone",
+        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+        "EA-Range": "Bedrijventerreinperceel",
+        "RangeData": {
+          "EA-Name": "Bedrijventerreinperceel",
+          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "label-nl": {
+          "nl": "TODO"
+        },
+        "definition-nl": {
+          "nl": "TODO"
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/relation",
+            "note": "null"
+          },
+          {
+            "key": "ap-label-nl",
+            "value": "is gerelateerd aan",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+            "note": "null"
+          },
+          {
+            "key": "package",
+            "value": "OSLO-Bedrijventerrein",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "description": {},
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Bedrijventerreinperceel",
+          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
       "maxCardinality": "*"
     },
     {
@@ -8011,6 +7910,787 @@
       "maxCardinality": "1"
     },
     {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "geometrie"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition-nl": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "extra": {
+        "EA-Name": "^geometrie",
+        "EA-Guid": "{FEAEC277-C090-4186-996C-F50D4463EB48}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "Bedrijventerreinperceel",
+        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+        "EA-Range": "RuimtelijkeEenheidGeometrie",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        },
+        "label": {
+          "nl": "geometrie"
+        },
+        "definition": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "geometrie"
+        },
+        "definition-nl": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "geometrie",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Vorm- en positiekenmerken van een object.",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+          "EA-Name": "Bedrijventerreinperceel"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "geometrie"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition-nl": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "extra": {
+        "EA-Name": "^geometrie",
+        "EA-Guid": "{008111AA-8A49-4151-BE9F-4FF6ED700AC1}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "BeheerdeBedrijvenzone",
+        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+        "EA-Range": "RuimtelijkeEenheidGeometrie",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        },
+        "label": {
+          "nl": "geometrie"
+        },
+        "definition": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "geometrie"
+        },
+        "definition-nl": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Vorm- en positiekenmerken van een object.",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "geometrie",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "geometrie"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition-nl": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "extra": {
+        "EA-Name": "^geometrie",
+        "EA-Guid": "{34F18A46-CEC3-46a8-89DC-A0B92BFABC65}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "OntwikkelbareBedrijvenzone",
+        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+        "EA-Range": "RuimtelijkeEenheidGeometrie",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        },
+        "label": {
+          "nl": "geometrie"
+        },
+        "definition": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "geometrie"
+        },
+        "definition-nl": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "geometrie",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Vorm- en positiekenmerken van een object.",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "EA-Name": "OntwikkelbareBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "geometrie"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition-nl": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "extra": {
+        "EA-Name": "^geometrie",
+        "EA-Guid": "{7B4792F8-FE0B-4ab3-A8AB-1DBF9227BDEC}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "Bedrijventerrein",
+        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+        "EA-Range": "RuimtelijkeEenheidGeometrie",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        },
+        "label": {
+          "nl": "geometrie"
+        },
+        "definition": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "geometrie"
+        },
+        "definition-nl": {
+          "nl": "Vorm- en positiekenmerken van een object."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "value": "Vorm- en positiekenmerken van een object.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "geometrie",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+          "EA-Name": "Bedrijventerrein"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidGeometrie",
+          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "oppervlakte"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "oppervlakte"
+      },
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition-nl": {
+        "nl": "TODO"
+      },
+      "extra": {
+        "EA-Name": "^oppervlakte",
+        "EA-Guid": "{A64AFBDB-AF98-45ea-A19E-9C80EA8DCB88}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "Bedrijventerreinperceel",
+        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+        "EA-Range": "RuimtelijkeEenheidOppervlakte",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        },
+        "label": {
+          "nl": "oppervlakte"
+        },
+        "definition": "",
+        "usage": "",
+        "label-nl": {
+          "nl": "oppervlakte"
+        },
+        "definition-nl": {
+          "nl": "TODO"
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "oppervlakte",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {},
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+          "EA-Name": "Bedrijventerreinperceel"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "oppervlakte"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition-nl": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "extra": {
+        "EA-Name": "^oppervlakte",
+        "EA-Guid": "{75B2BE99-6A4B-44d1-A1D6-749B2440F09E}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "BeheerdeBedrijvenzone",
+        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+        "EA-Range": "RuimtelijkeEenheidOppervlakte",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        },
+        "label": {
+          "nl": "oppervlakte"
+        },
+        "definition": {
+          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "oppervlakte"
+        },
+        "definition-nl": {
+          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "oppervlakte",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "oppervlakte"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition-nl": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "extra": {
+        "EA-Name": "^oppervlakte",
+        "EA-Guid": "{4D1A0001-E0FD-401d-9A2D-87D1791AA11B}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "OntwikkelbareBedrijvenzone",
+        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+        "EA-Range": "RuimtelijkeEenheidOppervlakte",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        },
+        "label": {
+          "nl": "oppervlakte"
+        },
+        "definition": {
+          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "oppervlakte"
+        },
+        "definition-nl": {
+          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "oppervlakte",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "EA-Name": "OntwikkelbareBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "oppervlakte"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition-nl": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "extra": {
+        "EA-Name": "^oppervlakte",
+        "EA-Guid": "{5FA58D32-3A58-4492-AE51-758017D6930F}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "Bedrijventerrein",
+        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+        "EA-Range": "RuimtelijkeEenheidOppervlakte",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        },
+        "label": {
+          "nl": "oppervlakte"
+        },
+        "definition": {
+          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "oppervlakte"
+        },
+        "definition-nl": {
+          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "oppervlakte",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+          "EA-Name": "Bedrijventerrein"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidOppervlakte",
+          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "*"
+    },
+    {
       "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {},
@@ -8958,309 +9638,6 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "geometrie"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "label": {
-        "nl": "geometrie"
-      },
-      "definition-nl": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "extra": {
-        "EA-Name": "^geometrie",
-        "EA-Guid": "{FEAEC277-C090-4186-996C-F50D4463EB48}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "Bedrijventerreinperceel",
-        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-        "EA-Range": "RuimtelijkeEenheidGeometrie",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        },
-        "label": {
-          "nl": "geometrie"
-        },
-        "definition": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "geometrie"
-        },
-        "definition-nl": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#geometrie",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "geometrie",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Vorm- en positiekenmerken van een object.",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-          "EA-Name": "Bedrijventerreinperceel"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "geometrie"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "label": {
-        "nl": "geometrie"
-      },
-      "definition-nl": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "extra": {
-        "EA-Name": "^geometrie",
-        "EA-Guid": "{34F18A46-CEC3-46a8-89DC-A0B92BFABC65}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "OntwikkelbareBedrijvenzone",
-        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
-        "EA-Range": "RuimtelijkeEenheidGeometrie",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        },
-        "label": {
-          "nl": "geometrie"
-        },
-        "definition": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "geometrie"
-        },
-        "definition-nl": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#geometrie",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "geometrie",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Vorm- en positiekenmerken van een object.",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "geometrie"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "label": {
-        "nl": "geometrie"
-      },
-      "definition-nl": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "extra": {
-        "EA-Name": "^geometrie",
-        "EA-Guid": "{7B4792F8-FE0B-4ab3-A8AB-1DBF9227BDEC}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "Bedrijventerrein",
-        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-        "EA-Range": "RuimtelijkeEenheidGeometrie",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        },
-        "label": {
-          "nl": "geometrie"
-        },
-        "definition": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "geometrie"
-        },
-        "definition-nl": {
-          "nl": "Vorm- en positiekenmerken van een object."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "definition-nl",
-            "value": "Vorm- en positiekenmerken van een object.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#geometrie",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "geometrie",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Vorm- en positiekenmerken van een object."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
-          "EA-Name": "Bedrijventerrein"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidGeometrie",
-          "EA-GUID": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidGeometrie"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "*"
-    },
-    {
       "@id": "https://data.vlaanderen.be/ns/perceel#methode",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
@@ -9449,383 +9826,6 @@
       "generalization": [],
       "minCardinality": "1",
       "maxCardinality": "1"
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "oppervlakte"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "oppervlakte"
-      },
-      "label": {
-        "nl": "oppervlakte"
-      },
-      "definition-nl": {
-        "nl": "TODO"
-      },
-      "extra": {
-        "EA-Name": "^oppervlakte",
-        "EA-Guid": "{A64AFBDB-AF98-45ea-A19E-9C80EA8DCB88}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "Bedrijventerreinperceel",
-        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-        "EA-Range": "RuimtelijkeEenheidOppervlakte",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        },
-        "label": {
-          "nl": "oppervlakte"
-        },
-        "definition": "",
-        "usage": "",
-        "label-nl": {
-          "nl": "oppervlakte"
-        },
-        "definition-nl": {
-          "nl": "TODO"
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "oppervlakte",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {},
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-          "EA-Name": "Bedrijventerreinperceel"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "oppervlakte"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "oppervlakte"
-      },
-      "definition": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "label": {
-        "nl": "oppervlakte"
-      },
-      "definition-nl": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "extra": {
-        "EA-Name": "^oppervlakte",
-        "EA-Guid": "{75B2BE99-6A4B-44d1-A1D6-749B2440F09E}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "BeheerdeBedrijvenzone",
-        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
-        "EA-Range": "RuimtelijkeEenheidOppervlakte",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        },
-        "label": {
-          "nl": "oppervlakte"
-        },
-        "definition": {
-          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "oppervlakte"
-        },
-        "definition-nl": {
-          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "value": "oppervlakte",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-          "EA-Name": "BeheerdeBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "oppervlakte"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "oppervlakte"
-      },
-      "definition": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "label": {
-        "nl": "oppervlakte"
-      },
-      "definition-nl": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "extra": {
-        "EA-Name": "^oppervlakte",
-        "EA-Guid": "{4D1A0001-E0FD-401d-9A2D-87D1791AA11B}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "OntwikkelbareBedrijvenzone",
-        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
-        "EA-Range": "RuimtelijkeEenheidOppervlakte",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        },
-        "label": {
-          "nl": "oppervlakte"
-        },
-        "definition": {
-          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "oppervlakte"
-        },
-        "definition-nl": {
-          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "oppervlakte",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "oppervlakte"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "oppervlakte"
-      },
-      "definition": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "label": {
-        "nl": "oppervlakte"
-      },
-      "definition-nl": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "extra": {
-        "EA-Name": "^oppervlakte",
-        "EA-Guid": "{5FA58D32-3A58-4492-AE51-758017D6930F}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "Bedrijventerrein",
-        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-        "EA-Range": "RuimtelijkeEenheidOppervlakte",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        },
-        "label": {
-          "nl": "oppervlakte"
-        },
-        "definition": {
-          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "oppervlakte"
-        },
-        "definition-nl": {
-          "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://data.vlaanderen.be/ns/perceel#oppervlakte",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "oppervlakte",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
-            "note": "null"
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
-          "EA-Name": "Bedrijventerrein"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidOppervlakte",
-          "EA-GUID": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "0",
-      "maxCardinality": "*"
     },
     {
       "@id": "https://data.vlaanderen.be/ns/perceel#oppervlaktetype",
@@ -10308,13 +10308,13 @@
   "standaardregisterurl": "",
   "dependencies": [],
   "config": "config/config-voc.json",
-  "dummy": 9,
+  "dummy": 10,
   "urlref": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-04-05",
   "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
   "branchtag": "dev",
   "filename": "config/bedrijventerrein-voc.json",
   "navigation": {},
-  "documentcommit": "cd5ac2916cf836472a612c2d6e5a6910954a91cb",
-  "toolchaincommit": "c4a5bf21286eda17d1d4c0309f971b8ce0e72967",
+  "documentcommit": "76fbcc662d0a7980f2be6ac7061fb436a4bcd6d6",
+  "toolchaincommit": "dcf21bb61aee35f4dae6bedfbd085f42808b0691",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }

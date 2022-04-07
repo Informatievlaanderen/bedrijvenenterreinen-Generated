@@ -392,7 +392,7 @@
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -406,7 +406,7 @@
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
           "sh:description": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
           "sh:name": "^oppervlakte",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -472,7 +472,7 @@
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -486,7 +486,7 @@
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
           "sh:description": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
           "sh:name": "^oppervlakte",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte"
         },
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype",
@@ -585,7 +585,7 @@
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "http://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -599,7 +599,7 @@
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
           "sh:description": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
           "sh:name": "^oppervlakte",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
@@ -697,7 +697,7 @@
           "sh:description": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald.",
           "sh:minCount": "1",
           "sh:name": "^geometrie",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#geometrie"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie"
         },
         {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
@@ -711,7 +711,7 @@
           "sh:class": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte",
           "sh:description": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd.",
           "sh:name": "^oppervlakte",
-          "sh:path": "https://data.vlaanderen.be/ns/perceel#oppervlakte"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte"
         },
         {
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
