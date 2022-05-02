@@ -1,12 +1,12 @@
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://xmlns.com/foaf/0.1/maker> _:g47296725466260 .
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2001/02pd/rec54#editor> _:g47296725463320 .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://xmlns.com/foaf/0.1/maker> _:g47033367127460 .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2001/02pd/rec54#editor> _:g47033361939120 .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/issued> "TODO" .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#label> "bedrijventerrein"@en .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#label> "bedrijventerrein"@nl .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/license> <https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/license> "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0" .
-<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/mediator> _:g47296725459900 .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/mediator> _:g47033361933780 .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/dc/terms/description> .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/regorg#legalName> .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/regorg#registration> .
@@ -57,21 +57,21 @@
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
 <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
-_:g47296725466260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g47296725466260 <http://schema.org/affiliation> _:g47296725465060 .
-_:g47296725466260 <http://xmlns.com/foaf/0.1/firstName> "Idris" .
-_:g47296725466260 <http://xmlns.com/foaf/0.1/lastName> "Peiren" .
-_:g47296725466260 <http://xmlns.com/foaf/0.1/mbox> <mailto:idris.peiren@vlaio.be> .
-_:g47296725465060 <http://xmlns.com/foaf/0.1/name> "Agentschap Innoveren en Ondernemen" .
-_:g47296725463320 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-_:g47296725463320 <http://schema.org/affiliation> _:g47296725462180 .
-_:g47296725463320 <http://xmlns.com/foaf/0.1/firstName> "Bert" .
-_:g47296725463320 <http://xmlns.com/foaf/0.1/lastName> "Van Nuffelen" .
-_:g47296725463320 <http://xmlns.com/foaf/0.1/mbox> <mailto:bert.vannuffelen@vlaanderen.be> .
-_:g47296725462180 <http://xmlns.com/foaf/0.1/name> "Agentschap Informatie Vlaanderen" .
-_:g47296725459900 <http://xmlns.com/foaf/0.1/homepage> <https://data.vlaanderen.be> .
-_:g47296725459900 <http://xmlns.com/foaf/0.1/mbox> <mailto:oslo@kb.vlaanderen.be> .
-_:g47296725459900 <http://xmlns.com/foaf/0.1/name> "Data Vlaanderen" .
+_:g47033367127460 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g47033367127460 <http://schema.org/affiliation> _:g47033367126780 .
+_:g47033367127460 <http://xmlns.com/foaf/0.1/firstName> "Idris" .
+_:g47033367127460 <http://xmlns.com/foaf/0.1/lastName> "Peiren" .
+_:g47033367127460 <http://xmlns.com/foaf/0.1/mbox> <mailto:idris.peiren@vlaio.be> .
+_:g47033367126780 <http://xmlns.com/foaf/0.1/name> "Agentschap Innoveren en Ondernemen" .
+_:g47033361939120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g47033361939120 <http://schema.org/affiliation> _:g47033361937720 .
+_:g47033361939120 <http://xmlns.com/foaf/0.1/firstName> "Bert" .
+_:g47033361939120 <http://xmlns.com/foaf/0.1/lastName> "Van Nuffelen" .
+_:g47033361939120 <http://xmlns.com/foaf/0.1/mbox> <mailto:bert.vannuffelen@vlaanderen.be> .
+_:g47033361937720 <http://xmlns.com/foaf/0.1/name> "Agentschap Informatie Vlaanderen" .
+_:g47033361933780 <http://xmlns.com/foaf/0.1/homepage> <https://data.vlaanderen.be> .
+_:g47033361933780 <http://xmlns.com/foaf/0.1/mbox> <mailto:oslo@kb.vlaanderen.be> .
+_:g47033361933780 <http://xmlns.com/foaf/0.1/name> "Data Vlaanderen" .
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "opmerking"@nl .
 <http://www.w3.org/ns/regorg#legalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
