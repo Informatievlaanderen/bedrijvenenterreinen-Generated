@@ -465,7 +465,13 @@
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#IdentificatorShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property _:g47372406153020, [
+  shacl:property [
+    shacl:class <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>;
+    shacl:description "Identificator vh object opgesplitst in zijn onderdelen.";
+    shacl:maxCount 1;
+    shacl:name "gestructureerdeIdentificator";
+    shacl:path <https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator>
+  ], [
     shacl:datatype rdfs:Literal;
     shacl:description "String gebruikt om het object uniek te identificeren. ";
     shacl:maxCount 1;
@@ -722,20 +728,16 @@
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidShape> a shacl:NodeShape;
   shacl:closed false;
-  shacl:property _:g47372406153020;
+  shacl:property [
+    shacl:class skos:Concept;
+    shacl:description "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.";
+    shacl:maxCount 1;
+    shacl:minCount 1;
+    shacl:name "verantwoordelijkheidtype";
+    shacl:path <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type>
+  ];
   shacl:targetClass <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid> .
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#VerantwoordelijkheidtypeShape> a shacl:NodeShape;
   shacl:closed false;
   shacl:targetClass skos:Concept .
-
-_:g47372406153020 shacl:class <https://data.vlaanderen.be/ns/generiek#GestructureerdeIdentificator>,
-    skos:Concept;
-  shacl:description "Identificator vh object opgesplitst in zijn onderdelen.",
-    "De aard van de verantwoordelijkheid die een agent heeft ten opzichte van een ruimtelijke eenheid.";
-  shacl:maxCount 1;
-  shacl:minCount 1;
-  shacl:name "gestructureerdeIdentificator",
-    "verantwoordelijkheidtype";
-  shacl:path <https://data.vlaanderen.be/ns/generiek#gestructureerdeIdentificator>,
-    <https://data.vlaanderen.be/ns/perceel#Verantwoordelijkheid.type> .
