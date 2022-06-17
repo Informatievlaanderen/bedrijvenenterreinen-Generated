@@ -417,6 +417,7 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
         },
         {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "sh:description": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen",
           "sh:maxCount": "1",
           "sh:name": "aantalBeschikbareKavels",
@@ -536,7 +537,8 @@
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
-          "sh:description": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel.",
+          "sh:description": "De hoofdfunctie die men kan terugvinden op het Bedrijventerreinperceel.",
+          "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "functie",
           "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#functie"
@@ -559,14 +561,14 @@
           "sh:path": "http://purl.org/dc/terms/isPartOf"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "sh:description": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "sh:description": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
           "sh:name": "isGerelateerdAan",
           "sh:path": "http://purl.org/dc/terms/relation"
         },
         {
-          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-          "sh:description": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "sh:description": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
           "sh:name": "isGerelateerdAan",
           "sh:path": "http://purl.org/dc/terms/relation"
         },
@@ -649,13 +651,6 @@
           "sh:minCount": "1",
           "sh:name": "isDeelVan",
           "sh:path": "http://purl.org/dc/terms/isPartOf"
-        },
-        {
-          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-          "sh:description": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
-          "sh:minCount": "1",
-          "sh:name": "isGerelateerdAan",
-          "sh:path": "http://purl.org/dc/terms/relation"
         },
         {
           "sh:class": "http://www.w3.org/ns/regorg#RegisteredOrganization",

@@ -14,8 +14,8 @@
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/228891211293997cb47044f5bc37e579fef04727",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/228891211293997cb47044f5bc37e579fef04727/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -584,8 +584,21 @@
               "EA-Name": "Bedrijventerrein"
             }
           ],
-          "range": [],
-          "scopedrange": [],
+          "range": [
+            {
+              "range_label": "Integer",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#integer",
+              "range_label": {
+                "nl": "Integer"
+              }
+            }
+          ],
           "cardinality": "0..1",
           "codelist_uri": ""
         },
@@ -929,40 +942,6 @@
           },
           "sort_nl": "is gerelateerd aan",
           "description": {
-            "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-              "EA-Name": "Bedrijventerreinperceel"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "BeheerdeBedrijvenzone",
-              "range_uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Beheerde Bedrijvenzone",
-              "range_puri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-              "range_label": {
-                "nl": "Beheerde Bedrijvenzone"
-              }
-            }
-          ],
-          "cardinality": "0..*",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/relation",
-          "name": {
-            "nl": "is gerelateerd aan"
-          },
-          "sort_nl": "is gerelateerd aan",
-          "description": {
             "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
           },
           "usage": {
@@ -986,6 +965,40 @@
               "range_puri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
               "range_label": {
                 "nl": "Ontwikkelbare Bedrijvenzone"
+              }
+            }
+          ],
+          "cardinality": "0..*",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "http://purl.org/dc/terms/relation",
+          "name": {
+            "nl": "is gerelateerd aan"
+          },
+          "sort_nl": "is gerelateerd aan",
+          "description": {
+            "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+              "EA-Name": "Bedrijventerreinperceel"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "BeheerdeBedrijvenzone",
+              "range_uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Beheerde Bedrijvenzone",
+              "range_puri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+              "range_label": {
+                "nl": "Beheerde Bedrijvenzone"
               }
             }
           ],
@@ -1141,10 +1154,10 @@
           },
           "sort_nl": "functie",
           "description": {
-            "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
+            "nl": "De hoofdfunctie die men kan terugvinden op het Bedrijventerreinperceel."
           },
           "usage": {
-            "nl": "Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage."
+            "nl": "Er kunnen meerdere functies aanwezig zijn op een Bedrijventerreinperceel. Enkel de meest dominante zal worden geregistreerd."
           },
           "domain": [
             {
@@ -1167,7 +1180,7 @@
               }
             }
           ],
-          "cardinality": "1..*",
+          "cardinality": "1",
           "codelist_uri": ""
         },
         {
@@ -1531,40 +1544,6 @@
             }
           ],
           "cardinality": "1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "http://purl.org/dc/terms/relation",
-          "name": {
-            "nl": "is gerelateerd aan"
-          },
-          "sort_nl": "is gerelateerd aan",
-          "description": {
-            "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-              "EA-Name": "BeheerdeBedrijvenzone"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Bedrijventerreinperceel",
-              "range_uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Bedrijventerreinperceel",
-              "range_puri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-              "range_label": {
-                "nl": "Bedrijventerreinperceel"
-              }
-            }
-          ],
-          "cardinality": "1..*",
           "codelist_uri": ""
         },
         {

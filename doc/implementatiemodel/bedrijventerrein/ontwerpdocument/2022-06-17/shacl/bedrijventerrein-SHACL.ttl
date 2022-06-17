@@ -128,6 +128,7 @@
     shacl:name "^ruimtelijkeeenheidtype";
     shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type>
   ], [
+    shacl:datatype xsd:integer;
     shacl:description "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen";
     shacl:maxCount 1;
     shacl:name "aantalBeschikbareKavels";
@@ -229,7 +230,8 @@
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#beschikbaarheid>
   ], [
     shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde>;
-    shacl:description "Een functie  die men kan terugvinden op het Bedrijventerreinperceel.";
+    shacl:description "De hoofdfunctie die men kan terugvinden op het Bedrijventerreinperceel.";
+    shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "functie";
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#functie>
@@ -249,13 +251,13 @@
     shacl:name "isDeelVan";
     shacl:path dc:isPartOf
   ], [
-    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
-    shacl:description "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
+    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
+    shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
     shacl:name "isGerelateerdAan";
     shacl:path dc:relation
   ], [
-    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
-    shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
+    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
+    shacl:description "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
     shacl:name "isGerelateerdAan";
     shacl:path dc:relation
   ], [
@@ -325,12 +327,6 @@
     shacl:minCount 1;
     shacl:name "isDeelVan";
     shacl:path dc:isPartOf
-  ], [
-    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel>;
-    shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
-    shacl:minCount 1;
-    shacl:name "isGerelateerdAan";
-    shacl:path dc:relation
   ], [
     shacl:class <http://www.w3.org/ns/regorg#RegisteredOrganization>;
     shacl:description "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop.";

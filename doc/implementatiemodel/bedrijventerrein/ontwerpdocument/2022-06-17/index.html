@@ -110,8 +110,8 @@
 
               <div class="head" role="metainfo" id="metainfo">
               <dl>
-              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/228891211293997cb47044f5bc37e579fef04727">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/228891211293997cb47044f5bc37e579fef04727</a></dd>
-              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/228891211293997cb47044f5bc37e579fef04727/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/228891211293997cb47044f5bc37e579fef04727/CHANGELOG</a></dd>
+              <dt>Brondata</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e</a></dd>
+              <dt>Changelog</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e/CHANGELOG">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e/CHANGELOG</a></dd>
               <dt>Opmerkingen en feedback</dt><dd><a href="https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues">https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues</a></dd>
               <dt>Standaardenregister</dt><dd><a href=""></a></dd>
 
@@ -349,6 +349,10 @@ Dit omvat niet alle informatie van de authentieke bron bedrijventerreinen, enkel
                           </code>
                         </td>
                         <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#integer" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#integer" data-placement="right">Integer</a>
+                            
                           
                         </td>
                         <td>0..1</td>
@@ -708,9 +712,9 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
 			    
                           
                         </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">Een functie  die men kan terugvinden op het Bedrijventerreinperceel.</td>
-                        <td property="vann:usageNote">Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.</td>
+                        <td>1</td>
+                        <td property="rdfs:comment">De hoofdfunctie die men kan terugvinden op het Bedrijventerreinperceel.</td>
+                        <td property="vann:usageNote">Er kunnen meerdere functies aanwezig zijn op een Bedrijventerreinperceel. Enkel de meest dominante zal worden geregistreerd.</td>
                         <td></td>
                       </tr>
                     
@@ -824,13 +828,13 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         <td>
                           
 			    
-			    <a href="#Ontwikkelbare Bedrijvenzone" data-placement="right">Ontwikkelbare Bedrijvenzone</a>
+			    <a href="#Beheerde Bedrijvenzone" data-placement="right">Beheerde Bedrijvenzone</a>
 			    
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment">Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.</td>
-                        <td property="vann:usageNote">In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens één Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.</td>
+                        <td property="rdfs:comment">Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.</td>
+                        <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>
                     
@@ -844,13 +848,13 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         <td>
                           
 			    
-			    <a href="#Beheerde Bedrijvenzone" data-placement="right">Beheerde Bedrijvenzone</a>
+			    <a href="#Ontwikkelbare Bedrijvenzone" data-placement="right">Ontwikkelbare Bedrijvenzone</a>
 			    
                           
                         </td>
                         <td>0..*</td>
-                        <td property="rdfs:comment">Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.</td>
-                        <td property="vann:usageNote"></td>
+                        <td property="rdfs:comment">Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.</td>
+                        <td property="vann:usageNote">In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens één Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft.</td>
                         <td></td>
                       </tr>
                     
@@ -1060,7 +1064,6 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                       <a href="#Beheerde%20Bedrijvenzone%3Ahomepage">homepage</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Aidentificator">identificator</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Ais%20deel%20van">is deel van</a>, 
-                      <a href="#Beheerde%20Bedrijvenzone%3Ais%20gerelateerd%20aan">is gerelateerd aan</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Ajuridische%20handhaver">juridische handhaver</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Anaam">naam</a>, 
                       <a href="#Beheerde%20Bedrijvenzone%3Aopmerking">opmerking</a>, 
@@ -1221,26 +1224,6 @@ Een bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen o
                         </td>
                         <td>1</td>
                         <td property="rdfs:comment">Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.</td>
-                        <td property="vann:usageNote"></td>
-                        <td></td>
-                      </tr>
-                    
-                      <tr id="Beheerde%20Bedrijvenzone%3Ais%20gerelateerd%20aan" typeof="rdfs:Property" resource="http://purl.org/dc/terms/relation">
-                        <td>
-                          <code property="rdfs:label">
-                            <a href="http://purl.org/dc/terms/relation" data-toggle="tooltip" data-content="http://purl.org/dc/terms/relation" data-placement="right">
-                            is gerelateerd aan</a>
-                          </code>
-                        </td>
-                        <td>
-                          
-			    
-			    <a href="#Bedrijventerreinperceel" data-placement="right">Bedrijventerreinperceel</a>
-			    
-                          
-                        </td>
-                        <td>1..*</td>
-                        <td property="rdfs:comment">Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.</td>
                         <td property="vann:usageNote"></td>
                         <td></td>
                       </tr>

@@ -9,7 +9,7 @@
     "Bedrijventerrein": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
     "Bedrijventerrein.aantalBeschikbareKavels": {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#aantalBeschikbareKavels",
-      "@type": ""
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
     },
     "Bedrijventerrein.alternatieveNaam": {
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
@@ -73,7 +73,6 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceel.functie": {
-      "@container": "@set",
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#functie",
       "@type": "@id"
     },
@@ -161,11 +160,6 @@
     },
     "BeheerdeBedrijvenzone.isDeelVan": {
       "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "@id"
-    },
-    "BeheerdeBedrijvenzone.isGerelateerdAan": {
-      "@container": "@set",
-      "@id": "http://purl.org/dc/terms/relation",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.juridischeHandhaver": {
