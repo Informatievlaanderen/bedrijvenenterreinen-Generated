@@ -4539,6 +4539,92 @@
     {
       "@id": "http://purl.org/dc/terms/relation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {},
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "TODO"
+      },
+      "definition-nl": {
+        "nl": "TODO"
+      },
+      "extra": {
+        "EA-Name": "isGerelateerdAan",
+        "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "BeheerdeBedrijvenzone",
+        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+        "EA-Range": "Bedrijventerreinperceel",
+        "RangeData": {
+          "EA-Name": "Bedrijventerreinperceel",
+          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": "",
+        "definition": "",
+        "usage": "",
+        "label-nl": {
+          "nl": "TODO"
+        },
+        "definition-nl": {
+          "nl": "TODO"
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/relation",
+            "note": "null"
+          },
+          {
+            "key": "ap-label-nl",
+            "value": "is gerelateerd aan",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "description": {},
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Bedrijventerreinperceel",
+          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "*"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/relation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
         "nl": "is gerelateerd aan"
       },
@@ -4644,97 +4730,6 @@
       ],
       "generalization": [],
       "minCardinality": "0",
-      "maxCardinality": "*"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/relation",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {},
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "TODO"
-      },
-      "definition-nl": {
-        "nl": "TODO"
-      },
-      "extra": {
-        "EA-Name": "isGerelateerdAan",
-        "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "BeheerdeBedrijvenzone",
-        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
-        "EA-Range": "Bedrijventerreinperceel",
-        "RangeData": {
-          "EA-Name": "Bedrijventerreinperceel",
-          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": "",
-        "definition": "",
-        "usage": "",
-        "label-nl": {
-          "nl": "TODO"
-        },
-        "definition-nl": {
-          "nl": "TODO"
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/relation",
-            "note": "null"
-          },
-          {
-            "key": "ap-label-nl",
-            "value": "is gerelateerd aan",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
-            "note": "null"
-          },
-          {
-            "key": "package",
-            "value": "OSLO-Bedrijventerrein",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "description": {},
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-          "EA-Name": "BeheerdeBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Bedrijventerreinperceel",
-          "EA-GUID": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
       "maxCardinality": "*"
     },
     {
@@ -5209,6 +5204,107 @@
           "EA-GUID": "{9981D30A-715C-460b-889D-CF0AB84E66ED}",
           "EA-Package": "OSLO-GeneriekVoc!!!",
           "uri": "http://www.w3.org/2000/01/rdf-schema#Literal"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "opmerking"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "opmerking"
+      },
+      "definition": {
+        "nl": "Bijkomende informatie over de organisatie"
+      },
+      "label": {
+        "nl": "opmerking"
+      },
+      "definition-nl": {
+        "nl": "Bijkomende informatie over de organisatie"
+      },
+      "extra": {
+        "EA-Name": "opmerking",
+        "EA-Guid": "{2ADC7A15-CBB9-4439-873F-B03ED1A8089D}",
+        "EA-Package": "OSLO-Organisatie",
+        "EA-Type": "attribute",
+        "EA-Domain": "GeregistreerdeOrganisatie",
+        "EA-Domain-Guid": "{4F876AF8-EF36-4261-B5AF-6AE81854DE88}",
+        "EA-Range": "TaalString",
+        "RangeData": {
+          "EA-Name": "TaalString",
+          "EA-GUID": "{527085CB-79BC-4703-925B-A73E38A6182B}",
+          "EA-Package": "OSLO-GeneriekVoc!!!",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        },
+        "label": {
+          "nl": "opmerking"
+        },
+        "definition": {
+          "nl": "Bijkomende informatie over de organisatie"
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "opmerking"
+        },
+        "definition-nl": {
+          "nl": "Bijkomende informatie over de organisatie"
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "value": "Bijkomende informatie over de organisatie",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "opmerking",
+            "note": "null"
+          },
+          {
+            "key": "NOTA-VOOR-MAPPING",
+            "value": "De keuze voor rdfs:comment is om niet in conflict te komen met organisatie-basis",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over de organisatie"
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+          "EA-Name": "GeregistreerdeOrganisatie"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "TaalString",
+          "EA-GUID": "{527085CB-79BC-4703-925B-A73E38A6182B}",
+          "EA-Package": "OSLO-GeneriekVoc!!!",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
         }
       ],
       "generalization": [],
@@ -6361,6 +6457,100 @@
         "nl": "homepage"
       },
       "definition": {
+        "nl": "Adres van de homepage van de website van de beheerde bedrijvenzone."
+      },
+      "label": {
+        "nl": "homepage"
+      },
+      "definition-nl": {
+        "nl": "Adres van de homepage van de website van de beheerde bedrijvenzone."
+      },
+      "extra": {
+        "EA-Name": "homepage",
+        "EA-Guid": "{196699E9-087E-497b-9819-969F27596D82}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "BeheerdeBedrijvenzone",
+        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+        "EA-Range": "String",
+        "RangeData": {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "label": {
+          "nl": "homepage"
+        },
+        "definition": {
+          "nl": "Adres van de homepage van de website van de beheerde bedrijvenzone."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "homepage"
+        },
+        "definition-nl": {
+          "nl": "Adres van de homepage van de website van de beheerde bedrijvenzone."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "http://xmlns.com/foaf/0.1/homepage",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Adres van de homepage van de website van de beheerde bedrijvenzone.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "homepage",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Adres van de homepage van de website van de beheerde bedrijvenzone."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "String",
+          "EA-Package": "",
+          "uri": "http://www.w3.org/2001/XMLSchema#string"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://xmlns.com/foaf/0.1/homepage",
+      "@type": "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "name": {
+        "nl": "homepage"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "homepage"
+      },
+      "definition": {
         "nl": "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone."
       },
       "label": {
@@ -6733,6 +6923,89 @@
       "maxCardinality": "1"
     },
     {
+      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#aantalBeschikbareKavels",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+      "name": {
+        "nl": "aantal beschikbare kavels"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "aantal beschikbare kavels"
+      },
+      "definition": {
+        "nl": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen"
+      },
+      "label": {
+        "nl": "aantal beschikbare kavels"
+      },
+      "definition-nl": {
+        "nl": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen"
+      },
+      "extra": {
+        "EA-Name": "aantalBeschikbareKavels",
+        "EA-Guid": "{528431A4-CB0B-4dc6-BC98-6B5E0411DF63}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "Bedrijventerrein",
+        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+        "EA-Range": "int",
+        "RangeData": {
+          "EA-Name": "",
+          "EA-Package": "",
+          "uri": "null"
+        },
+        "label": {
+          "nl": "aantal beschikbare kavels"
+        },
+        "definition": {
+          "nl": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen"
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "aantal beschikbare kavels"
+        },
+        "definition-nl": {
+          "nl": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen"
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "value": "aantal beschikbare kavels",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen",
+            "note": "null"
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen"
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+          "EA-Name": "Bedrijventerrein"
+        }
+      ],
+      "range": [],
+      "generalization": [],
+      "minCardinality": "0",
+      "maxCardinality": "1"
+    },
+    {
       "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#bebouwing",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
@@ -6844,13 +7117,13 @@
         "nl": "beperking"
       },
       "definition": {
-        "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+        "nl": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt."
       },
       "label": {
         "nl": "beperking"
       },
       "definition-nl": {
-        "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+        "nl": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt."
       },
       "extra": {
         "EA-Name": "beperking",
@@ -6870,14 +7143,14 @@
           "nl": "beperking"
         },
         "definition": {
-          "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+          "nl": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt."
         },
         "usage": "",
         "label-nl": {
           "nl": "beperking"
         },
         "definition-nl": {
-          "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+          "nl": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt."
         },
         "usageNote-nl": "",
         "label-en": "",
@@ -6895,7 +7168,7 @@
           },
           {
             "key": "definition-nl",
-            "value": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt.",
+            "value": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt.",
             "note": "null"
           },
           {
@@ -6912,7 +7185,7 @@
         "Scope": "NOTHING"
       },
       "description": {
-        "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+        "nl": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt."
       },
       "usage": {},
       "codelist": [],
@@ -7231,13 +7504,13 @@
         "nl": "functie"
       },
       "definition": {
-        "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+        "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
       },
       "label": {
         "nl": "functie"
       },
       "definition-nl": {
-        "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+        "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
       },
       "extra": {
         "EA-Name": "functie",
@@ -7257,14 +7530,14 @@
           "nl": "functie"
         },
         "definition": {
-          "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+          "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
         },
         "usage": "",
         "label-nl": {
           "nl": "functie"
         },
         "definition-nl": {
-          "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+          "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
         },
         "usageNote-nl": "",
         "label-en": "",
@@ -7282,7 +7555,7 @@
           },
           {
             "key": "definition-nl",
-            "value": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie.",
+            "value": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel.",
             "note": "null"
           },
           {
@@ -7294,7 +7567,7 @@
         "Scope": "NOTHING"
       },
       "description": {
-        "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+        "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
       },
       "usage": {},
       "codelist": [],
@@ -7423,13 +7696,13 @@
         "nl": "status ontwikkeling"
       },
       "definition": {
-        "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+        "nl": "Geeft status aan van de Ontwikkelbare Bedrijvenzone."
       },
       "label": {
         "nl": "status ontwikkeling"
       },
       "definition-nl": {
-        "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+        "nl": "Geeft status aan van de Ontwikkelbare Bedrijvenzone."
       },
       "extra": {
         "EA-Name": "statusOntwikkeling",
@@ -7449,14 +7722,14 @@
           "nl": "status ontwikkeling"
         },
         "definition": {
-          "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+          "nl": "Geeft status aan van de Ontwikkelbare Bedrijvenzone."
         },
         "usage": "",
         "label-nl": {
           "nl": "status ontwikkeling"
         },
         "definition-nl": {
-          "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+          "nl": "Geeft status aan van de Ontwikkelbare Bedrijvenzone."
         },
         "usageNote-nl": "",
         "label-en": "",
@@ -7474,7 +7747,7 @@
           },
           {
             "key": "definition-nl",
-            "value": "Geeft de status aan van de Ontwikkelbare Bedrijvezone.",
+            "value": "Geeft status aan van de Ontwikkelbare Bedrijvenzone.",
             "note": "null"
           },
           {
@@ -7484,14 +7757,14 @@
           },
           {
             "key": "ap-codelist",
-            "value": "https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus",
+            "value": "https://data.vlaanderen.be/id/conceptscheme/OntwikkelbareBedrijvenzoneOntwikkelingsstatus",
             "note": "null"
           }
         ],
         "Scope": "NOTHING"
       },
       "description": {
-        "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+        "nl": "Geeft status aan van de Ontwikkelbare Bedrijvenzone."
       },
       "usage": {},
       "codelist": [],
@@ -7524,13 +7797,13 @@
         "nl": "voorziene uitgifte"
       },
       "definition": {
-        "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+        "nl": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien."
       },
       "label": {
         "nl": "voorziene uitgifte"
       },
       "definition-nl": {
-        "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+        "nl": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien."
       },
       "extra": {
         "EA-Name": "voorzieneUitgifte",
@@ -7549,14 +7822,14 @@
           "nl": "voorziene uitgifte"
         },
         "definition": {
-          "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+          "nl": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien."
         },
         "usage": "",
         "label-nl": {
           "nl": "voorziene uitgifte"
         },
         "definition-nl": {
-          "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+          "nl": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien."
         },
         "usageNote-nl": "",
         "label-en": "",
@@ -7574,14 +7847,14 @@
           },
           {
             "key": "definition-nl",
-            "value": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn.",
+            "value": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien.",
             "note": "null"
           }
         ],
         "Scope": "NOTHING"
       },
       "description": {
-        "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+        "nl": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien."
       },
       "usage": {},
       "codelist": [],
@@ -8755,7 +9028,7 @@
           },
           {
             "key": "ap-codelist",
-            "value": "https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype",
+            "value": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelRuimtelijkeEenheidtype",
             "note": "null"
           }
         ],
@@ -8864,6 +9137,100 @@
         {
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
           "EA-Name": "BeheerdeBedrijvenzone"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "RuimtelijkeEenheidtype",
+          "EA-GUID": "{F3E091EF-2925-4978-927A-8666C6B836C5}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {},
+      "inpackage": "OTHER_PACKAGE",
+      "label-nl": {
+        "nl": "TODO"
+      },
+      "definition": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "definition-nl": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "extra": {
+        "EA-Name": "^ruimtelijkeenheidtype",
+        "EA-Guid": "{B3AF39B4-D63C-4f47-A8EF-9D754A393AAF}",
+        "EA-Package": "OSLO-Bedrijventerrein",
+        "EA-Type": "attribute",
+        "EA-Domain": "OntwikkelbareBedrijvenzone",
+        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+        "EA-Range": "RuimtelijkeEenheidtype",
+        "RangeData": {
+          "EA-Name": "RuimtelijkeEenheidtype",
+          "EA-GUID": "{F3E091EF-2925-4978-927A-8666C6B836C5}",
+          "EA-Package": "OSLO-Perceel",
+          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "label": "",
+        "definition": {
+          "nl": "De aard van een ruimtelijke eenheid."
+        },
+        "usage": "",
+        "label-nl": {
+          "nl": "TODO"
+        },
+        "definition-nl": {
+          "nl": "De aard van een ruimtelijke eenheid."
+        },
+        "usageNote-nl": "",
+        "label-en": "",
+        "definition-en": "",
+        "usageNote-en": "",
+        "equivalent": "",
+        "subclass": "",
+        "subclass1": "",
+        "sameAs": "",
+        "RawTags": [
+          {
+            "key": "uri",
+            "value": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "De aard van een ruimtelijke eenheid.",
+            "note": "null"
+          },
+          {
+            "key": "ap-label-nl",
+            "value": "type",
+            "note": "null"
+          },
+          {
+            "key": "ap-usageNote-nl",
+            "value": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.",
+            "note": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
+          }
+        ],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "EA-Name": "OntwikkelbareBedrijvenzone"
         }
       ],
       "range": [
@@ -9929,100 +10296,6 @@
       "maxCardinality": "1"
     },
     {
-      "@id": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {},
-      "inpackage": "OTHER_PACKAGE",
-      "label-nl": {
-        "nl": "TODO"
-      },
-      "definition": {
-        "nl": "De aard van een ruimtelijke eenheid."
-      },
-      "definition-nl": {
-        "nl": "De aard van een ruimtelijke eenheid."
-      },
-      "extra": {
-        "EA-Name": "^ruimtelijkeenheidtype",
-        "EA-Guid": "{B3AF39B4-D63C-4f47-A8EF-9D754A393AAF}",
-        "EA-Package": "OSLO-Bedrijventerrein",
-        "EA-Type": "attribute",
-        "EA-Domain": "OntwikkelbareBedrijvenzone",
-        "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
-        "EA-Range": "RuimtelijkeEenheidtype",
-        "RangeData": {
-          "EA-Name": "RuimtelijkeEenheidtype",
-          "EA-GUID": "{F3E091EF-2925-4978-927A-8666C6B836C5}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        },
-        "label": "",
-        "definition": {
-          "nl": "De aard van een ruimtelijke eenheid."
-        },
-        "usage": "",
-        "label-nl": {
-          "nl": "TODO"
-        },
-        "definition-nl": {
-          "nl": "De aard van een ruimtelijke eenheid."
-        },
-        "usageNote-nl": "",
-        "label-en": "",
-        "definition-en": "",
-        "usageNote-en": "",
-        "equivalent": "",
-        "subclass": "",
-        "subclass1": "",
-        "sameAs": "",
-        "RawTags": [
-          {
-            "key": "uri",
-            "value": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "De aard van een ruimtelijke eenheid.",
-            "note": "null"
-          },
-          {
-            "key": "ap-label-nl",
-            "value": "type",
-            "note": "null"
-          },
-          {
-            "key": "ap-usageNote-nl",
-            "value": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten.",
-            "note": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
-          }
-        ],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "De aard van een ruimtelijke eenheid."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "RuimtelijkeEenheidtype",
-          "EA-GUID": "{F3E091EF-2925-4978-927A-8666C6B836C5}",
-          "EA-Package": "OSLO-Perceel",
-          "uri": "http://www.w3.org/2004/02/skos/core#Concept"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
       "@id": "https://schema.org/unitCode",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "name": {
@@ -10309,12 +10582,12 @@
   "dependencies": [],
   "config": "config/config-voc.json",
   "dummy": 10,
-  "urlref": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-04-05",
+  "urlref": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-06-17",
   "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
-  "branchtag": "76fbcc662d0a7980f2be6ac7061fb436a4bcd6d6",
+  "branchtag": "dev",
   "filename": "config/bedrijventerrein-voc.json",
   "navigation": {},
-  "documentcommit": "76fbcc662d0a7980f2be6ac7061fb436a4bcd6d6",
+  "documentcommit": "194ae15261ac33c789bb2a25da1f362d647412a4",
   "toolchaincommit": "cba9ad9a77abccd6435286b862d5ddee48c4c05a",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }

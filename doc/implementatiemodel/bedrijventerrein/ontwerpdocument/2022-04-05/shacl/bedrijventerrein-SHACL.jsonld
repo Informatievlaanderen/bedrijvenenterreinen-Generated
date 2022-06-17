@@ -358,6 +358,13 @@
           "sh:path": "http://xmlns.com/foaf/0.1/homepage"
         },
         {
+          "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+          "sh:description": "Bijkomende informatie over de organisatie",
+          "sh:maxCount": "1",
+          "sh:name": "opmerking",
+          "sh:path": "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        {
           "sh:class": "http://www.w3.org/ns/adms#Identifier",
           "sh:description": "Identificator dat de organisatie verkreeg bij registratie.",
           "sh:maxCount": "1",
@@ -415,6 +422,12 @@
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeeenheidtype",
           "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
+        },
+        {
+          "sh:description": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen",
+          "sh:maxCount": "1",
+          "sh:name": "aantalBeschikbareKavels",
+          "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#aantalBeschikbareKavels"
         },
         {
           "sh:datatype": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
@@ -489,7 +502,7 @@
           "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype",
+          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelRuimtelijkeEenheidtype",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
           "sh:description": "De aard van een ruimtelijke eenheid.",
           "sh:maxCount": "1",
@@ -515,7 +528,7 @@
         {
           "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelBeperking",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt.",
+          "sh:description": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt.",
           "sh:name": "beperking",
           "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#beperking"
         },
@@ -530,7 +543,7 @@
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde",
-          "sh:description": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie.",
+          "sh:description": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel.",
           "sh:minCount": "1",
           "sh:name": "functie",
           "sh:path": "https://data.vlaanderen.be/ns/bedrijventerrein#functie"
@@ -622,6 +635,13 @@
           "sh:maxCount": "1",
           "sh:name": "digitalebeheerder",
           "sh:path": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder"
+        },
+        {
+          "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
+          "sh:description": "Adres van de homepage van de website van de beheerde bedrijvenzone.",
+          "sh:maxCount": "1",
+          "sh:name": "homepage",
+          "sh:path": "http://xmlns.com/foaf/0.1/homepage"
         },
         {
           "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
@@ -719,7 +739,7 @@
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "^ruimtelijkeenheidtype",
-          "sh:path": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations"
+          "sh:path": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type"
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#string",
@@ -759,9 +779,9 @@
           "sh:path": "http://purl.org/dc/terms/description"
         },
         {
-          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus",
+          "qb:codeList": "https://data.vlaanderen.be/id/conceptscheme/OntwikkelbareBedrijvenzoneOntwikkelingsstatus",
           "sh:class": "http://www.w3.org/2004/02/skos/core#Concept",
-          "sh:description": "Geeft de status aan van de Ontwikkelbare Bedrijvezone.",
+          "sh:description": "Geeft status aan van de Ontwikkelbare Bedrijvenzone.",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "statusOntwikkeling",
@@ -769,7 +789,7 @@
         },
         {
           "sh:datatype": "http://www.w3.org/2001/XMLSchema#date",
-          "sh:description": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn.",
+          "sh:description": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien.",
           "sh:maxCount": "1",
           "sh:minCount": "1",
           "sh:name": "voorzieneUitgifte",

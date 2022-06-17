@@ -129,6 +129,11 @@
     shacl:name "^ruimtelijkeeenheidtype";
     shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type>
   ], [
+    shacl:description "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen";
+    shacl:maxCount 1;
+    shacl:name "aantalBeschikbareKavels";
+    shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#aantalBeschikbareKavels>
+  ], [
     shacl:datatype rdf:langString;
     shacl:description "Andere naam waaronder het bedrijventerrein bekend is.";
     shacl:maxCount 1;
@@ -189,7 +194,7 @@
     shacl:name "^oppervlakte";
     shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.oppervlakte>
   ], [
-    <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype>;
+    <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelRuimtelijkeEenheidtype>;
     shacl:class skos:Concept;
     shacl:description "De aard van een ruimtelijke eenheid.";
     shacl:maxCount 1;
@@ -212,7 +217,7 @@
   ], [
     <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijventerreinperceelBeperking>;
     shacl:class skos:Concept;
-    shacl:description "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt.";
+    shacl:description "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt.";
     shacl:name "beperking";
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#beperking>
   ], [
@@ -225,7 +230,7 @@
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#beschikbaarheid>
   ], [
     shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#Functiewaarde>;
-    shacl:description "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie.";
+    shacl:description "Een functie  die men kan terugvinden op het Bedrijventerreinperceel.";
     shacl:minCount 1;
     shacl:name "functie";
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#functie>
@@ -303,6 +308,12 @@
     shacl:maxCount 1;
     shacl:name "digitalebeheerder";
     shacl:path <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder>
+  ], [
+    shacl:datatype xsd:string;
+    shacl:description "Adres van de homepage van de website van de beheerde bedrijvenzone.";
+    shacl:maxCount 1;
+    shacl:name "homepage";
+    shacl:path foaf:homepage
   ], [
     shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein>;
     shacl:description "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.";
@@ -431,6 +442,12 @@
     shacl:maxCount 1;
     shacl:name "^homepage";
     shacl:path foaf:homepage
+  ], [
+    shacl:datatype rdf:langString;
+    shacl:description "Bijkomende informatie over de organisatie";
+    shacl:maxCount 1;
+    shacl:name "opmerking";
+    shacl:path rdfs:comment
   ], [
     shacl:class <http://www.w3.org/ns/adms#Identifier>;
     shacl:description "Identificator dat de organisatie verkreeg bij registratie.";
@@ -575,7 +592,7 @@
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "^ruimtelijkeenheidtype";
-    shacl:path <https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations>
+    shacl:path <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type>
   ], [
     shacl:datatype xsd:string;
     shacl:description "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone.";
@@ -609,16 +626,16 @@
     shacl:name "opmerking";
     shacl:path dc:description
   ], [
-    <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus>;
+    <http://purl.org/linked-data/cube#codeList> <https://data.vlaanderen.be/id/conceptscheme/OntwikkelbareBedrijvenzoneOntwikkelingsstatus>;
     shacl:class skos:Concept;
-    shacl:description "Geeft de status aan van de Ontwikkelbare Bedrijvezone.";
+    shacl:description "Geeft status aan van de Ontwikkelbare Bedrijvenzone.";
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "statusOntwikkeling";
     shacl:path <https://data.vlaanderen.be/ns/bedrijventerrein#statusOntwikkeling>
   ], [
     shacl:datatype xsd:date;
-    shacl:description "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn.";
+    shacl:description "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien.";
     shacl:maxCount 1;
     shacl:minCount 1;
     shacl:name "voorzieneUitgifte";
