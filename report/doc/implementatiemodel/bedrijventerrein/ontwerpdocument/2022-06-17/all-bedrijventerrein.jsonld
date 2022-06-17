@@ -3972,6 +3972,105 @@
       },
       "inpackage": "OTHER_PACKAGE",
       "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+      },
+      "label": {
+        "nl": "is deel van"
+      },
+      "ap-label-nl": {
+        "nl": "is deel van"
+      },
+      "ap-definition-nl": {
+        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+      },
+      "extra": {
+        "EA-Name": "isDeelVan",
+        "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
+        "derived": "false",
+        "EA-Package": "",
+        "EA-Type": "connector",
+        "EA-Domain": "Bedrijventerreinperceel",
+        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+        "EA-Range": "Bedrijventerrein",
+        "RangeData": {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        },
+        "sourceRole": "null",
+        "destRole": "null",
+        "label": {
+          "nl": "is deel van"
+        },
+        "definition": {
+          "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+        },
+        "usage": "",
+        "ap-label-nl": {
+          "nl": "is deel van"
+        },
+        "ap-definition-nl": {
+          "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+        },
+        "ap-usageNote-nl": "",
+        "ap-codelist": "",
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "value": "Geeft aan waartoe een entiteit behoort.",
+            "note": "null"
+          },
+          {
+            "key": "label-nl",
+            "value": "is deel van",
+            "note": "null"
+          },
+          {
+            "key": "ap-definition-nl",
+            "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
+            "note": "null"
+          },
+          {
+            "key": "uri",
+            "value": "http://purl.org/dc/terms/isPartOf",
+            "note": "null"
+          }
+        ],
+        "DestRoleTags": [],
+        "Scope": "NOTHING"
+      },
+      "description": {
+        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+      },
+      "usage": {},
+      "codelist": [],
+      "domain": [
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+          "EA-Name": "Bedrijventerreinperceel"
+        }
+      ],
+      "range": [
+        {
+          "EA-Name": "Bedrijventerrein",
+          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        }
+      ],
+      "generalization": [],
+      "minCardinality": "1",
+      "maxCardinality": "1"
+    },
+    {
+      "@id": "http://purl.org/dc/terms/isPartOf",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "name": {
+        "nl": "is deel van"
+      },
+      "inpackage": "OTHER_PACKAGE",
+      "definition": {
         "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       },
       "label": {
@@ -4148,105 +4247,6 @@
         {
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
           "EA-Name": "OntwikkelbareBedrijvenzone"
-        }
-      ],
-      "range": [
-        {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        }
-      ],
-      "generalization": [],
-      "minCardinality": "1",
-      "maxCardinality": "1"
-    },
-    {
-      "@id": "http://purl.org/dc/terms/isPartOf",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "name": {
-        "nl": "is deel van"
-      },
-      "inpackage": "OTHER_PACKAGE",
-      "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
-      },
-      "label": {
-        "nl": "is deel van"
-      },
-      "ap-label-nl": {
-        "nl": "is deel van"
-      },
-      "ap-definition-nl": {
-        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
-      },
-      "extra": {
-        "EA-Name": "isDeelVan",
-        "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
-        "derived": "false",
-        "EA-Package": "",
-        "EA-Type": "connector",
-        "EA-Domain": "Bedrijventerreinperceel",
-        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-        "EA-Range": "Bedrijventerrein",
-        "RangeData": {
-          "EA-Name": "Bedrijventerrein",
-          "EA-GUID": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        },
-        "sourceRole": "null",
-        "destRole": "null",
-        "label": {
-          "nl": "is deel van"
-        },
-        "definition": {
-          "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
-        },
-        "usage": "",
-        "ap-label-nl": {
-          "nl": "is deel van"
-        },
-        "ap-definition-nl": {
-          "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
-        },
-        "ap-usageNote-nl": "",
-        "ap-codelist": "",
-        "RawTags": [
-          {
-            "key": "definition-nl",
-            "value": "Geeft aan waartoe een entiteit behoort.",
-            "note": "null"
-          },
-          {
-            "key": "label-nl",
-            "value": "is deel van",
-            "note": "null"
-          },
-          {
-            "key": "ap-definition-nl",
-            "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
-            "note": "null"
-          },
-          {
-            "key": "uri",
-            "value": "http://purl.org/dc/terms/isPartOf",
-            "note": "null"
-          }
-        ],
-        "DestRoleTags": [],
-        "Scope": "NOTHING"
-      },
-      "description": {
-        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
-      },
-      "usage": {},
-      "codelist": [],
-      "domain": [
-        {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-          "EA-Name": "Bedrijventerreinperceel"
         }
       ],
       "range": [
@@ -10516,12 +10516,12 @@
   "dummy": 16,
   "urlref": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17",
   "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
-  "branchtag": "dev",
+  "branchtag": "d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e",
   "filename": "config/bedrijventerrein.json",
   "navigation": {
     "prev": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01"
   },
-  "documentcommit": "605c9ff64503f37211cd3c87ef2dd92fe3b2b17f",
-  "toolchaincommit": "4c2a75c3090037b91bc48807eea25e4e22d73395",
+  "documentcommit": "d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e",
+  "toolchaincommit": "50df9968039448da403c6572b4d68e1f5e8504b6",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }
