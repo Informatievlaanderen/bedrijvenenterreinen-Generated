@@ -10564,7 +10564,7 @@
   "branchtag": "dev",
   "filename": "config/bedrijventerrein-voc.json",
   "navigation": {},
-  "documentcommit": "d18fc90c1c1aec3d00096f6c551ae39aebb3cc3e",
-  "toolchaincommit": "baefcbe1e1b805a9747fd379d3cde1dcca790cac",
+  "documentcommit": "605c9ff64503f37211cd3c87ef2dd92fe3b2b17f",
+  "toolchaincommit": "4c2a75c3090037b91bc48807eea25e4e22d73395",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }
