@@ -249,19 +249,13 @@
     shacl:name "isDeelVan";
     shacl:path dc:isPartOf
   ], [
-    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
-    shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
-    shacl:name "isGerelateerdAan";
-    shacl:path dc:relation
-  ], [
     shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
     shacl:description "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
     shacl:name "isGerelateerdAan";
     shacl:path dc:relation
   ], [
-    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel>;
+    shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
     shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.";
-    shacl:minCount 1;
     shacl:name "isGerelateerdAan";
     shacl:path dc:relation
   ], [
