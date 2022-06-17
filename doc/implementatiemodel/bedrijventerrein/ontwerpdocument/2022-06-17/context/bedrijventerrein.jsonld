@@ -7,6 +7,10 @@
     },
     "Bebouwing": "http://www.w3.org/2004/02/skos/core#Concept",
     "Bedrijventerrein": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+    "Bedrijventerrein.aantalBeschikbareKavels": {
+      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#aantalBeschikbareKavels",
+      "@type": ""
+    },
     "Bedrijventerrein.alternatieveNaam": {
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
@@ -147,6 +151,10 @@
       "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
       "@type": "@id"
     },
+    "BeheerdeBedrijvenzone.homepage": {
+      "@id": "http://xmlns.com/foaf/0.1/homepage",
+      "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
     "BeheerdeBedrijvenzone.identificator": {
       "@id": "http://www.w3.org/ns/adms#identifier",
       "@type": "@id"
@@ -220,6 +228,10 @@
     "GeregistreerdeOrganisatie.homepage": {
       "@id": "http://xmlns.com/foaf/0.1/homepage",
       "@type": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "GeregistreerdeOrganisatie.opmerking": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
     },
     "GeregistreerdeOrganisatie.registratie": {
       "@id": "http://www.w3.org/ns/regorg#registration",
@@ -323,7 +335,7 @@
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.type": {
-      "@id": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations",
+      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.voorzieneUitgifte": {

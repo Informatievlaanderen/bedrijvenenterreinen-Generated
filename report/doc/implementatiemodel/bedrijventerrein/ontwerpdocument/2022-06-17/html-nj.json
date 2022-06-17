@@ -9,13 +9,13 @@
     "filename": "bedrijventerrein",
     "navigation": {
       "prev": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01",
-      "self": "https://bedrijventerrrein.vlaanderen.be/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-04-05"
+      "self": "https://bedrijventerrrein.vlaanderen.be/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17"
     },
     "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
     "statuslabel": "Erkende Standaard",
-    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/76fbcc662d0a7980f2be6ac7061fb436a4bcd6d6",
-    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/76fbcc662d0a7980f2be6ac7061fb436a4bcd6d6/CHANGELOG",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/194ae15261ac33c789bb2a25da1f362d647412a4",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/194ae15261ac33c789bb2a25da1f362d647412a4/CHANGELOG",
     "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
     "standaardregisterurl": "",
     "dependencies": [
@@ -269,6 +269,40 @@
         }
       ],
       "properties": [
+        {
+          "uri": "http://www.w3.org/2000/01/rdf-schema#comment",
+          "name": {
+            "nl": "opmerking"
+          },
+          "sort_nl": "opmerking",
+          "description": {
+            "nl": "Bijkomende informatie over de organisatie"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "http://www.w3.org/ns/regorg#RegisteredOrganization",
+              "EA-Name": "GeregistreerdeOrganisatie"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "TaalString",
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_puri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+              "range_label": {
+                "nl": "TaalString"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
         {
           "uri": "http://www.w3.org/ns/regorg#legalName",
           "name": {
@@ -532,6 +566,27 @@
             }
           ],
           "cardinality": "1",
+          "codelist_uri": ""
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#aantalBeschikbareKavels",
+          "name": {
+            "nl": "aantal beschikbare kavels"
+          },
+          "sort_nl": "aantal beschikbare kavels",
+          "description": {
+            "nl": "Deze eigenschap geeft aan hoeveel beschikbare kavels aanwezig zijn op het bedrijventerrein en wordt berekend uit de bedrijventerreinpercelen"
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein",
+              "EA-Name": "Bedrijventerrein"
+            }
+          ],
+          "range": [],
+          "scopedrange": [],
+          "cardinality": "0..1",
           "codelist_uri": ""
         },
         {
@@ -980,7 +1035,7 @@
           },
           "sort_nl": "beperking",
           "description": {
-            "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+            "nl": "Deze eigenschap geeft aan welke mogelijke beperking(en) een bepaald bedrijventerreinperceel momenteel ondervindt."
           },
           "usage": {
             "nl": "Mogelijke waarden voor dit attribuut zijn: Te saneren, Fysisch niet realiseerbaar, Waterproblematiek, Mobiliteitsproblematiek, Herziening bestemming, Juridische procedure, Reservegrond, Bevriezing door eigenaar of Bevriezing door overheid."
@@ -1052,7 +1107,7 @@
           },
           "sort_nl": "functie",
           "description": {
-            "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+            "nl": "Een functie  die men kan terugvinden op het Bedrijventerreinperceel."
           },
           "usage": {
             "nl": "Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage."
@@ -1547,6 +1602,40 @@
           "codelist_uri": ""
         },
         {
+          "uri": "http://xmlns.com/foaf/0.1/homepage",
+          "name": {
+            "nl": "homepage"
+          },
+          "sort_nl": "homepage",
+          "description": {
+            "nl": "Adres van de homepage van de website van de beheerde bedrijvenzone."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+              "EA-Name": "BeheerdeBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "String",
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_puri": "http://www.w3.org/2001/XMLSchema#string",
+              "range_label": {
+                "nl": "String"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
+        },
+        {
           "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.geometrie",
           "name": {
             "nl": "geometrie"
@@ -1920,7 +2009,7 @@
           },
           "sort_nl": "status ontwikkeling",
           "description": {
-            "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+            "nl": "Geeft status aan van de Ontwikkelbare Bedrijvenzone."
           },
           "usage": {
             "nl": "Mogelijke waarden voor dit attribuut zijn: te ontwikkelen, in ontwikkeling, ontwikkeld, ontwikkeling geblokkeerd en niet ontwikkelbaar."
@@ -1947,7 +2036,7 @@
             }
           ],
           "cardinality": "1",
-          "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/BedrijvenzoneOntwikkelingsstatus"
+          "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/OntwikkelbareBedrijvenzoneOntwikkelingsstatus"
         },
         {
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#voorzieneUitgifte",
@@ -1956,7 +2045,7 @@
           },
           "sort_nl": "voorziene uitgifte",
           "description": {
-            "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+            "nl": "Het tijdstip waarop de eerste uitgifte binnen de ontwikkelbare bedrijvenzone is voorzien."
           },
           "usage": {},
           "domain": [
@@ -2052,41 +2141,7 @@
           "codelist_uri": ""
         },
         {
-          "uri": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
-          "name": {
-            "nl": "geldigheidsperiode"
-          },
-          "sort_nl": "geldigheidsperiode",
-          "description": {
-            "nl": "Tijdsinterval waarbinnen iets geldig is."
-          },
-          "usage": {},
-          "domain": [
-            {
-              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-              "EA-Name": "OntwikkelbareBedrijvenzone"
-            }
-          ],
-          "range": [
-            {
-              "range_label": "Periode",
-              "range_uri": "http://data.europa.eu/m8g/PeriodOfTime"
-            }
-          ],
-          "scopedrange": [
-            {
-              "range_uri": "#Periode",
-              "range_puri": "http://data.europa.eu/m8g/PeriodOfTime",
-              "range_label": {
-                "nl": "Periode"
-              }
-            }
-          ],
-          "cardinality": "0..1",
-          "codelist_uri": ""
-        },
-        {
-          "uri": "https://github.com/Informatievlaanderen/OSLOthema-feitelijkeVerenigingen/invitations",
+          "uri": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
           "name": {
             "nl": "type"
           },
@@ -2120,6 +2175,40 @@
           ],
           "cardinality": "1",
           "codelist_uri": "https://data.vlaanderen.be/id/conceptscheme/RuimtelijkeEenheidtype"
+        },
+        {
+          "uri": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+          "name": {
+            "nl": "geldigheidsperiode"
+          },
+          "sort_nl": "geldigheidsperiode",
+          "description": {
+            "nl": "Tijdsinterval waarbinnen iets geldig is."
+          },
+          "usage": {},
+          "domain": [
+            {
+              "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+              "EA-Name": "OntwikkelbareBedrijvenzone"
+            }
+          ],
+          "range": [
+            {
+              "range_label": "Periode",
+              "range_uri": "http://data.europa.eu/m8g/PeriodOfTime"
+            }
+          ],
+          "scopedrange": [
+            {
+              "range_uri": "#Periode",
+              "range_puri": "http://data.europa.eu/m8g/PeriodOfTime",
+              "range_label": {
+                "nl": "Periode"
+              }
+            }
+          ],
+          "cardinality": "0..1",
+          "codelist_uri": ""
         }
       ]
     }
@@ -3324,5 +3413,5 @@
     }
   ],
   "parents": [],
-  "documentroot": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-04-05"
+  "documentroot": "/doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17"
 }
