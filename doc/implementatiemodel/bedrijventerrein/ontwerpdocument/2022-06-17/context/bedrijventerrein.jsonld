@@ -381,7 +381,6 @@
       "@id": "https://data.vlaanderen.be/ns/perceel#oppervlaktetype",
       "@type": "@id"
     },
-    "RuimtelijkeEenheidtype": "http://www.w3.org/2004/02/skos/core#Concept",
     "StandaardEenheid": "https://data.vlaanderen.be/ns/generiek#StandaardEenheid",
     "Status": "http://www.w3.org/2004/02/skos/core#Concept",
     "StatusOntwikkeling": "http://www.w3.org/2004/02/skos/core#Concept",

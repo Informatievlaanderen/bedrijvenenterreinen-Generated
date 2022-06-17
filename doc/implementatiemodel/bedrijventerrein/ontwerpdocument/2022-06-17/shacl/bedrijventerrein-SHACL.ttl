@@ -18,7 +18,6 @@
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#BebouwingShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#LandgebruikShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OpmetingtypeShape>,
-    <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#GeometrieMethodeWaardeShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#OppervlaktetypeShape>,
     <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RechttypeShape>,
@@ -728,10 +727,6 @@
     shacl:path <https://data.vlaanderen.be/ns/perceel#oppervlaktetype>
   ];
   shacl:targetClass <https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheidOppervlakte> .
-
-<https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#RuimtelijkeEenheidtypeShape> a shacl:NodeShape;
-  shacl:closed false;
-  shacl:targetClass skos:Concept .
 
 <https://bedrijventerreinen.vlaanderen.be/shacl/bedrijventerrein#StandaardEenheidShape> a shacl:NodeShape;
   shacl:closed false;
