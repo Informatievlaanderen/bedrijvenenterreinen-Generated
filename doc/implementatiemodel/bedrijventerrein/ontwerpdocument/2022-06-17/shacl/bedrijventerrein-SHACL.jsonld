@@ -559,8 +559,21 @@
           "sh:path": "http://purl.org/dc/terms/isPartOf"
         },
         {
+          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "sh:description": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+          "sh:name": "isGerelateerdAan",
+          "sh:path": "http://purl.org/dc/terms/relation"
+        },
+        {
           "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
           "sh:description": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+          "sh:name": "isGerelateerdAan",
+          "sh:path": "http://purl.org/dc/terms/relation"
+        },
+        {
+          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+          "sh:description": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden.",
+          "sh:minCount": "1",
           "sh:name": "isGerelateerdAan",
           "sh:path": "http://purl.org/dc/terms/relation"
         },

@@ -4145,12 +4145,12 @@
       },
       "extra": {
         "EA-Name": "isDeelVan",
-        "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
+        "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
         "derived": "false",
         "EA-Package": "",
         "EA-Type": "connector",
-        "EA-Domain": "Bedrijventerreinperceel",
-        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+        "EA-Domain": "BeheerdeBedrijvenzone",
+        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
         "EA-Range": "Bedrijventerrein",
         "RangeData": {
           "EA-Name": "Bedrijventerrein",
@@ -4183,18 +4183,18 @@
         "sameAs": "",
         "RawTags": [
           {
-            "key": "definition-nl",
-            "value": "Geeft aan waartoe een entiteit behoort.",
-            "note": "null"
-          },
-          {
             "key": "label-nl",
             "value": "is deel van",
             "note": "null"
           },
           {
             "key": "ap-definition-nl",
-            "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
+            "value": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.",
+            "note": "null"
+          },
+          {
+            "key": "definition-nl",
+            "value": "Geeft aan waartoe een entiteit behoort.",
             "note": "null"
           },
           {
@@ -4213,8 +4213,8 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-          "EA-Name": "Bedrijventerreinperceel"
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
+          "EA-Name": "BeheerdeBedrijvenzone"
         }
       ],
       "range": [
@@ -4355,12 +4355,12 @@
       },
       "extra": {
         "EA-Name": "isDeelVan",
-        "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
+        "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
         "derived": "false",
         "EA-Package": "",
         "EA-Type": "connector",
-        "EA-Domain": "BeheerdeBedrijvenzone",
-        "EA-Domain-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+        "EA-Domain": "Bedrijventerreinperceel",
+        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
         "EA-Range": "Bedrijventerrein",
         "RangeData": {
           "EA-Name": "Bedrijventerrein",
@@ -4393,18 +4393,18 @@
         "sameAs": "",
         "RawTags": [
           {
+            "key": "definition-nl",
+            "value": "Geeft aan waartoe een entiteit behoort.",
+            "note": "null"
+          },
+          {
             "key": "label-nl",
             "value": "is deel van",
             "note": "null"
           },
           {
             "key": "ap-definition-nl",
-            "value": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort.",
-            "note": "null"
-          },
-          {
-            "key": "definition-nl",
-            "value": "Geeft aan waartoe een entiteit behoort.",
+            "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
             "note": "null"
           },
           {
@@ -4423,8 +4423,8 @@
       "codelist": [],
       "domain": [
         {
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
-          "EA-Name": "BeheerdeBedrijvenzone"
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+          "EA-Name": "Bedrijventerreinperceel"
         }
       ],
       "range": [
@@ -10315,6 +10315,6 @@
   "filename": "config/bedrijventerrein-voc.json",
   "navigation": {},
   "documentcommit": "76fbcc662d0a7980f2be6ac7061fb436a4bcd6d6",
-  "toolchaincommit": "a27f9bd248238130ae6d4068b4903a23d0a7d8cf",
+  "toolchaincommit": "4dff1c8eb93930a919c4d4266759d5b168a8b8cc",
   "hostname": "https://bedrijventerrrein.vlaanderen.be"
 }
