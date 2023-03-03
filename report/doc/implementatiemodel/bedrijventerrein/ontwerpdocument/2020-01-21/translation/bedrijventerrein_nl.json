@@ -779,13 +779,6 @@
       }
     },
     {
-      "EA-Guid": "{8D7ECA53-0516-4e3d-875D-68D4B7AF412A}",
-      "name": "is gerelateerd aan",
-      "label": {
-        "nl": "is gerelateerd aan"
-      }
-    },
-    {
       "EA-Guid": "{E29BC0DD-32E8-4067-9799-1EDAF6221260}",
       "name": "is gerelateerd aan",
       "label": {
@@ -793,6 +786,13 @@
       },
       "definition": {
         "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
+      }
+    },
+    {
+      "EA-Guid": "{8D7ECA53-0516-4e3d-875D-68D4B7AF412A}",
+      "name": "is gerelateerd aan",
+      "label": {
+        "nl": "is gerelateerd aan"
       }
     },
     {

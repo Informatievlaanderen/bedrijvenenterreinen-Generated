@@ -5792,100 +5792,6 @@
     {
       "@id": "http://purl.org/dc/terms/relation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{1DE00C76-16F2-4b48-A0DD-1A150D36E245}",
-      "ap-definition-nl": {
-        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-      },
-      "ap-label-nl": {
-        "nl": "is gerelateerd aan"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-      },
-      "domain": [
-        {
-          "EA-Name": "Bedrijventerreinperceel",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "Bedrijventerreinperceel",
-        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
-        "EA-Guid": "{1DE00C76-16F2-4b48-A0DD-1A150D36E245}",
-        "EA-Name": "isGerelateerdAan",
-        "EA-Package": "",
-        "EA-Range": "BeheerdeBedrijvenzone",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
-          "EA-Name": "BeheerdeBedrijvenzone",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
-        },
-        "RawTags": [
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "is gerelateerd aan"
-          },
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/relation"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "null",
-            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-          }
-        ],
-        "Scope": "NOTHING",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-        },
-        "ap-label-nl": {
-          "nl": "is gerelateerd aan"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "is gerelateerd aan"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "OTHER_PACKAGE",
-      "label": {
-        "nl": "is gerelateerd aan"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "is gerelateerd aan",
-      "range": [
-        {
-          "EA-GUID": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
-          "EA-Name": "BeheerdeBedrijvenzone",
-          "EA-Package": "OSLO-Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/relation",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
       "ap-definition-nl": {
         "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
@@ -5991,6 +5897,100 @@
       "usage": {
         "nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens één Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."
       }
+    },
+    {
+      "@id": "http://purl.org/dc/terms/relation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{1DE00C76-16F2-4b48-A0DD-1A150D36E245}",
+      "ap-definition-nl": {
+        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+      },
+      "ap-label-nl": {
+        "nl": "is gerelateerd aan"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+      },
+      "domain": [
+        {
+          "EA-Name": "Bedrijventerreinperceel",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Bedrijventerreinperceel",
+        "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+        "EA-Guid": "{1DE00C76-16F2-4b48-A0DD-1A150D36E245}",
+        "EA-Name": "isGerelateerdAan",
+        "EA-Package": "",
+        "EA-Range": "BeheerdeBedrijvenzone",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+          "EA-Name": "BeheerdeBedrijvenzone",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+        },
+        "RawTags": [
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "is gerelateerd aan"
+          },
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/relation"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "null",
+            "value": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+          }
+        ],
+        "Scope": "NOTHING",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+        },
+        "ap-label-nl": {
+          "nl": "is gerelateerd aan"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "is gerelateerd aan"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "OTHER_PACKAGE",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "is gerelateerd aan",
+      "range": [
+        {
+          "EA-GUID": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+          "EA-Name": "BeheerdeBedrijvenzone",
+          "EA-Package": "OSLO-Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+        }
+      ]
     },
     {
       "@id": "http://purl.org/dc/terms/issued",
@@ -10023,7 +10023,7 @@
   "standaardregisterurl": "",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "ae01e4a3bb4e57877e3cef4634bc586514de8217",
+  "toolchaincommit": "135f17c028215de7f3c3e1a3e7410d189f3d46cc",
   "translation": [
     {
       "language": "nl",
