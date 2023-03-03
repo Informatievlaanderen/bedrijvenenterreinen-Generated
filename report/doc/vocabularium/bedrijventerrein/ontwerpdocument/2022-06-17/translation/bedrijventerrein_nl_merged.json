@@ -89,7 +89,7 @@
       "foaf:mbox": "idris.peiren@vlaio.be"
     }
   ],
-  "branchtag": "dev",
+  "branchtag": "ee044b15679b369d92cf5a348de40b7448552b28",
   "classes": [
     {
       "@id": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
@@ -10138,7 +10138,7 @@
   "title-nl": {
     "nl": "Bron Bedrijventerrein"
   },
-  "toolchaincommit": "fe71d04fedd4716b3a12f00568eab5141dd226df",
+  "toolchaincommit": "65beb33be0ce19f41b38e3c43e30d72e73dd5e4a",
   "translation": [
     {
       "language": "nl",

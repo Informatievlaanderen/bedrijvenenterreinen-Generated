@@ -10011,13 +10011,13 @@
     "standaardregisterurl": "",
     "dependencies": [],
     "config": "config/config-voc.json",
-    "branchtag": "dev",
+    "branchtag": "ee044b15679b369d92cf5a348de40b7448552b28",
     "dummy": 14,
     "filename": "config/bedrijventerrein-voc.json",
     "navigation": {},
     "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
     "urlref": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-06-17",
     "documentcommit": "ee044b15679b369d92cf5a348de40b7448552b28",
-    "toolchaincommit": "fe71d04fedd4716b3a12f00568eab5141dd226df",
+    "toolchaincommit": "65beb33be0ce19f41b38e3c43e30d72e73dd5e4a",
     "hostname": "https://bedrijventerrein.dev-vlaanderen.be/"
 }
