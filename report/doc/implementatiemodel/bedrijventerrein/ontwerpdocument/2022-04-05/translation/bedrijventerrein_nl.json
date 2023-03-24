@@ -1,0 +1,1201 @@
+{
+  "baseURI": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#",
+  "classes": [
+    {
+      "EA-Guid": "{DEF323A4-A9D6-4e87-B9E5-A48EF96BBDF3}",
+      "name": "Bedrijventerreinperceelaanbieding",
+      "label": {
+        "nl": "Bedrijventerreinperceelaanbieding"
+      }
+    }
+  ],
+  "properties": [
+    {
+      "EA-Guid": "{F9397B6A-CA46-4e77-950C-E0C0E1483330}",
+      "name": "ontwikkelaar",
+      "label": {
+        "nl": "ontwikkelaar"
+      },
+      "definition": {
+        "nl": "de organisatie die verantwoordelijk is voor de ontwikkeling van de zone."
+      },
+      "usage": {
+        "nl": "De verantwoordelijkheid van deze agent is ontwikkeling van het bedrijventerrein."
+      }
+    },
+    {
+      "EA-Guid": "{0D6FF0EF-246C-4911-8414-D86C84074BDF}",
+      "name": "juridische handhaver",
+      "label": {
+        "nl": "juridische handhaver"
+      },
+      "definition": {
+        "nl": "de juridische handhaver is de verantwoordelijke voor alle juridische beslissingen van deze zone. Dit omvat oa. de controle op de verkoopsvoorwaarden bij doorverkoop."
+      }
+    },
+    {
+      "EA-Guid": "{76BE8B1D-C0F4-4227-9D79-AE43182A3CEB}",
+      "name": "homepage",
+      "label": {
+        "nl": "homepage"
+      },
+      "definition": {
+        "nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+      }
+    },
+    {
+      "EA-Guid": "{C42D96F1-3F19-4317-A63C-7497EF6DBE06}",
+      "name": "digitale beheerder",
+      "label": {
+        "nl": "digitale beheerder"
+      },
+      "definition": {
+        "nl": "De beheerder van de informatie over deze beheerde bedrijvenzone"
+      }
+    },
+    {
+      "EA-Guid": "{F69E9D14-38A9-4ce3-91E5-B8F4171A51CC}",
+      "name": "Bron",
+      "label": {
+        "nl": "Bron"
+      },
+      "definition": {
+        "nl": "De benaming van de bron waaruit de aanbieding afkomstig is."
+      },
+      "usage": {
+        "nl": "Mogelijke waarden kunnen zijn: bizLocator, Businesscenter, VLAIO of de naam van een partner die gegevens aanlevert via Decentraal Medebeheer. "
+      }
+    },
+    {
+      "EA-Guid": "{8ABFB982-599F-446d-84B5-6B2C171DAFF4}",
+      "name": "aanspreekpunt",
+      "label": {
+        "nl": "aanspreekpunt"
+      },
+      "definition": {
+        "nl": "Het aanspreekpunt voor informatie over deze zone."
+      }
+    },
+    {
+      "EA-Guid": "{F2132C1F-0B67-4164-805C-936E5870F93F}",
+      "name": "aanbieding",
+      "label": {
+        "nl": "aanbieding"
+      },
+      "definition": {
+        "nl": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "
+      }
+    },
+    {
+      "EA-Guid": "{1BBA17A9-984B-41da-A70B-4A613BC198D1}",
+      "name": "aanbieder",
+      "label": {
+        "nl": "aanbieder"
+      },
+      "definition": {
+        "nl": "De aanbieder van dit perceel"
+      },
+      "usage": {
+        "nl": "Als de beschikbaarheid aangeeft dat het Bedrijventerreinperceel verkoopbaar is dan moet er een aanbieder voorzien worden."
+      }
+    }
+  ],
+  "externals": [
+    {
+      "EA-Guid": "{5B0A1309-CC02-4d95-AF0E-5BAB0B2B38D8}",
+      "name": "Periode",
+      "label": {
+        "nl": "Periode"
+      },
+      "definition": {
+        "nl": "Min of meer afgebakende tijdsduur."
+      },
+      "usage": {
+        "nl": "Typisch volgt de duur uit het opgeven ve begin- en eindtijdstip."
+      }
+    },
+    {
+      "EA-Guid": "{6B55E266-AF2A-432a-8F0F-F80B5A5A74F2}",
+      "name": "Agent",
+      "label": {
+        "nl": "Agent"
+      },
+      "definition": {
+        "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
+      }
+    },
+    {
+      "EA-Guid": "{7E2B70C0-F18B-421e-985F-0D290E35CC24}",
+      "name": "Contactinfo",
+      "label": {
+        "nl": "Contactinfo"
+      },
+      "definition": {
+        "nl": "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."
+      },
+      "usage": {
+        "nl": "Enkel de informatie die minimaal gewenst is werd opgenomen. Uitgebreidere contactbeschrijvingen staan in de specificatie generiek-basis."
+      }
+    },
+    {
+      "EA-Guid": "{40CD4153-5618-4c7a-A614-19C8CDD6745E}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{46111BA8-F9B0-4998-B7F4-282D5574640B}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{3D53F259-FB73-43bf-AD7E-99D7DBBA82E4}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{E22B2456-41BD-4c9a-BC0C-784CFFD66D0F}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{4FBA66C1-C82C-445f-8BDD-6DE3D4033C38}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{34BE5B27-C983-4279-8ADD-C9B601E3B9D4}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{2273C373-B945-435f-AA3C-C05927F1082C}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{9527611A-B622-43b3-9305-0AE1ABF6EC3E}",
+      "name": "",
+      "definition": {
+        "nl": "TODO"
+      },
+      "usage": {
+        "nl": "TODO"
+      }
+    },
+    {
+      "EA-Guid": "{AE85022D-CAE7-4e4c-8FE4-B615896E4173}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{C6C396EE-9DB1-4ccd-B4D6-6CCCCBCA5FF4}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{46D1F2B3-D7EB-4977-94B4-31426F8F84AB}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{DB4BA198-9B73-44da-A0EB-4482A8FB5FB7}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{E07E5068-EABF-44ad-B10C-318F2C4526A4}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{EB35D485-6721-4a44-82EB-DA9D665E263E}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{4189A8BC-ABF2-4db8-A2B5-AB9EA6503CC2}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{5C52EE88-133F-4fb0-A83A-727E4395DB6C}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{A1201889-D865-4e72-B271-975075953BF3}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{4FB9A3A6-F772-425a-B5DE-1864F4C2E5DF}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{781D79C6-9F50-4c44-A904-B54D377C7AA1}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{4711B178-2363-4b8a-BC88-BEF2DC2CEA9E}",
+      "name": ""
+    },
+    {
+      "EA-Guid": "{D16E0487-960F-423c-83C3-4794D406EFA2}",
+      "name": "Identificator",
+      "label": {
+        "nl": "Identificator"
+      },
+      "definition": {
+        "nl": "Informatie gebruikt om een object uniek te identificeren."
+      },
+      "usage": {
+        "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
+      }
+    },
+    {
+      "EA-Guid": "{C64176D4-4253-4212-BA80-C4C9866CF826}",
+      "name": "Geometrie",
+      "label": {
+        "nl": "Geometrie"
+      },
+      "definition": {
+        "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "usage": {
+        "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten."
+      }
+    },
+    {
+      "EA-Guid": "{4F876AF8-EF36-4261-B5AF-6AE81854DE88}",
+      "name": "Geregistreerde Organisatie",
+      "label": {
+        "nl": "Geregistreerde Organisatie"
+      },
+      "definition": {
+        "nl": "Organisatie met een juridisch statuut vastgelegd door registratie. Vergelijk met Formele Organisatie waarbij dit statuut ook op een andere manier verkregen kan zijn."
+      },
+      "usage": {
+        "nl": "In België moeten oa volgende organisaties zich registreren: vennootschap (nv, bvba etc), eenmanszaak, overheidsorgaan, stichting Bij registratie krijgt de organisatie een ondernemingsnummer en worden zijn gegevens ingevoerd in de KBO."
+      }
+    },
+    {
+      "EA-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+      "name": "Bedrijventerrein",
+      "label": {
+        "nl": "Bedrijventerrein"
+      },
+      "definition": {
+        "nl": "Som van alle ruimtelijke eenheden uit de ruimtelijke planningsprocedure en met een economische bestemming vanaf de dossierfase Publicatie in Belgisch Staatsblad. Een bedrijventerrein is altijd de unie van de percelen die ertoe behoren."
+      }
+    },
+    {
+      "EA-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+      "name": "Bedrijventerreinperceel",
+      "label": {
+        "nl": "Bedrijventerreinperceel"
+      },
+      "definition": {
+        "nl": "Een ruimtelijke eenheid binnen een Bedrijventerrein met eenzelfde gebruik of functie."
+      },
+      "usage": {
+        "nl": "Dit kunnen business centra, KMO units, aaneengesloten bebouwing, meerdere kadastrale of aktepercelen, ... omvatten.\r\nEen bedrijventerreinperceel is meestal de aggegratie van meerdere aktepercelen op basis van de kennis van de bedrijventerreinbeheerder, meestal op basis van eigenaarsschap."
+      }
+    },
+    {
+      "EA-Guid": "{50B59F28-7D12-4a7f-B38D-00DEE97CCDC2}",
+      "name": "Beheerde Bedrijvenzone",
+      "label": {
+        "nl": "Beheerde Bedrijvenzone"
+      },
+      "definition": {
+        "nl": "Een ruimtelijke eenheid binnen een bedrijventerrein afgebakend door het beheer van een agent."
+      }
+    },
+    {
+      "EA-Guid": "{885B7B4E-5AF5-455c-9C55-5A19EAF3BDC7}",
+      "name": "Functiewaarde",
+      "label": {
+        "nl": "Functiewaarde"
+      },
+      "definition": {
+        "nl": "Dit data type geeft weer welke functies aanwezig zijn binnen een Bedrijventerreinperceel en de overeenkomstige percentages."
+      },
+      "usage": {
+        "nl": "De modellering van FunctieWaarde is gebaseerd op Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage.\r\nEchter omdat het percentage dikwijls niet exact kan bepaald worden en dit leidt tot een subjectieve invulling wordt dit niet opgenomen in het implementatie model.  Om de verwachtingen van de lezer ivm deze eigenschap te temperen, is er besloten om deze eigenschap (welke een optioneel element was) niet op te nemen in het implementatiemodel."
+      }
+    },
+    {
+      "EA-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+      "name": "Ontwikkelbare Bedrijvenzone",
+      "label": {
+        "nl": "Ontwikkelbare Bedrijvenzone"
+      },
+      "definition": {
+        "nl": "Een Ontwikkelbare Bedrijvenzone bevat de contouren van de Bedrijventerreinen vanaf de mijlpaal publicatie in het Belgisch Staatsblad tot aan de oplevering van de nutsvoorzieningen en infrastructuur. Deze zones kunnen nieuwe terreinen zijn of herontwikkelingstrajecten. Wanneer een (her)ontwikkeling in meerdere fasen gebeurt, dan wordt de ontwikkelbare zone opgesplitst volgens deze fasen."
+      }
+    },
+    {
+      "EA-Guid": "{69D5E626-3C87-47aa-BC3B-4C28A7F603BF}",
+      "name": "Gestructureerde Identificator",
+      "label": {
+        "nl": "Gestructureerde Identificator"
+      },
+      "definition": {
+        "nl": "Identificator van een object opgesplitst in zijn onderdelen."
+      }
+    },
+    {
+      "EA-Guid": "{090F9C96-B019-4777-A845-95142E8E3A50}",
+      "name": "Standaard Eenheid",
+      "label": {
+        "nl": "Standaard Eenheid"
+      },
+      "definition": {
+        "nl": "Eenheid vastgelegd door een standaardiserende organisatie."
+      },
+      "usage": {
+        "nl": "Datatype kan een URI zijn of een GetypeerdeString. In het eerste geval wordt verwezen naar op het web gepubliceerde eenheden, bij voorkeur deze van qudt, bv http://qudt.org/vocab/unit/M voor meter. In het geval van een  GetypeerdeString gaat de voorkeur naar de UCUM-codes, bv \"km/h\"^^http://w3id.org/lindt/custom_datatypes#ucumunit."
+      }
+    },
+    {
+      "EA-Guid": "{A17193B7-2126-4613-A337-A1C8B7EFAC5A}",
+      "name": "Ruimtelijke Eenheid Geometrie",
+      "label": {
+        "nl": "Ruimtelijke Eenheid Geometrie"
+      },
+      "definition": {
+        "nl": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."
+      }
+    },
+    {
+      "EA-Guid": "{A6A7C154-09B8-4e6b-B5FB-E3710122712B}",
+      "name": "Ruimtelijke Eenheid Oppervlakte",
+      "label": {
+        "nl": "Ruimtelijke Eenheid Oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      }
+    },
+    {
+      "EA-Guid": "{B3AE5024-370C-4ef6-A775-D66D50815E5F}",
+      "name": "Getal",
+      "label": {
+        "nl": "Getal"
+      },
+      "definition": {
+        "nl": "Aanduiding van een hoeveelheid."
+      },
+      "usage": {
+        "nl": "In praktijk de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid, zie xsd datatypes float, double, decimal, integer etc."
+      }
+    },
+    {
+      "EA-Guid": "{CE2EEE94-A0FB-4756-8337-C1AE0FF44420}",
+      "name": "Kwantitatieve Waarde",
+      "label": {
+        "nl": "Kwantitatieve Waarde"
+      },
+      "definition": {
+        "nl": "Aanduiding van de kwantiteit van een bepaald kenmerk van een object."
+      },
+      "usage": {
+        "nl": "Bv de hoogte van een object , het gewicht, de temperatuur etc. Het gaat om een kenmerk dat numeriek uitgedrukt kan worden en in een bepaalde eenheid. Kwalitatieve aanduidingen zoals hoog, laag ed vallen hier dus niet onder."
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{9EAF5139-7CD0-48a3-AE83-D82CBD2507AE}",
+      "name": "waarde",
+      "label": {
+        "nl": "waarde"
+      },
+      "definition": {
+        "nl": "Getal waarmee de kwantiteit van het kenmerk kan worden uitgedrukt."
+      }
+    },
+    {
+      "EA-Guid": "{5B8F2152-F6C6-4a49-B341-446A0DC18BFB}",
+      "name": "eenheid",
+      "label": {
+        "nl": "eenheid"
+      },
+      "definition": {
+        "nl": "De eenheid waarin de waarde is uitgedrukt."
+      },
+      "usage": {
+        "nl": "Te gebruiken als geen standaard eenheid gekend is."
+      }
+    },
+    {
+      "EA-Guid": "{8F2FE4CD-F531-41e8-BDCB-7EA7750801CD}",
+      "name": "standaard eenheid",
+      "label": {
+        "nl": "standaard eenheid"
+      },
+      "definition": {
+        "nl": "De gestandaardiseerde eenheid waarin de waarde is uitgedrukt."
+      }
+    },
+    {
+      "EA-Guid": "{B3AF39B4-D63C-4f47-A8EF-9D754A393AAF}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "usage": {
+        "nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse  Ontwikkelbare bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
+      }
+    },
+    {
+      "EA-Guid": "{062BA403-C0C3-45c5-8868-CE45546A8506}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "De methode waarop de oppervlakte bepaald werd;"
+      }
+    },
+    {
+      "EA-Guid": "{EF8D69DB-AEA8-4bc7-9042-DF95BB1E9716}",
+      "name": "officiële oppervlakte",
+      "label": {
+        "nl": "officiële oppervlakte"
+      },
+      "definition": {
+        "nl": "Geeft aan of de oppervlakte al dan niet officieel is."
+      }
+    },
+    {
+      "EA-Guid": "{0153A686-DF1D-4ade-BA72-02A429A015FF}",
+      "name": "methode",
+      "label": {
+        "nl": "methode"
+      },
+      "definition": {
+        "nl": "De methode geeft aan op welke manier de geometrie tot stand is gekomen."
+      },
+      "usage": {
+        "nl": "enkel _:ingemeten of _:ingeschetst worden gebruikt"
+      }
+    },
+    {
+      "EA-Guid": "{E28DF7CF-5317-4ede-87D3-814571B7E0DF}",
+      "name": "geldigheidsperiode",
+      "label": {
+        "nl": "geldigheidsperiode"
+      },
+      "definition": {
+        "nl": "Tijdsinterval waarbinnen iets geldig is."
+      }
+    },
+    {
+      "EA-Guid": "{CB75CE82-0B1D-4665-B1F3-82B2D53522E6}",
+      "name": "geldigheidsperiode",
+      "label": {
+        "nl": "geldigheidsperiode"
+      },
+      "definition": {
+        "nl": "Tijdsinterval waarbinnen iets geldig is."
+      }
+    },
+    {
+      "EA-Guid": "{D6E470E9-98FA-464f-B60A-42D0A587850A}",
+      "name": "geldigheidsperiode",
+      "label": {
+        "nl": "geldigheidsperiode"
+      },
+      "definition": {
+        "nl": "Tijdsinterval waarbinnen iets geldig is."
+      }
+    },
+    {
+      "EA-Guid": "{1CEDFF25-9DC9-4d24-8950-C9D7F4504EE6}",
+      "name": "geldigheidsperiode",
+      "label": {
+        "nl": "geldigheidsperiode"
+      },
+      "definition": {
+        "nl": "Tijdsinterval waarbinnen iets geldig is."
+      }
+    },
+    {
+      "EA-Guid": "{B661AA38-4E28-41d0-AAE2-33C3291F8044}",
+      "name": "default",
+      "label": {
+        "nl": "default"
+      },
+      "definition": {
+        "nl": "Geometrie die moet worden gebruikt bv bij voorstelling op kaart."
+      }
+    },
+    {
+      "EA-Guid": "{101392C3-F638-4564-8A3F-83856FDB6662}",
+      "name": "oppervlakte",
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Afmeting van een twee-dimensionaal gebied."
+      }
+    },
+    {
+      "EA-Guid": "{AE89BCB7-2BBB-4117-8798-AF5E19DF0B05}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Geometrische voorstelling van een ruimtelijke eenheid."
+      }
+    },
+    {
+      "EA-Guid": "{612C4C59-C0C1-431c-B23D-BF4FCF0A233C}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      }
+    },
+    {
+      "EA-Guid": "{5AAA8BCE-5F2E-4262-A33C-2BB948FC3B83}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "usage": {
+        "nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse Beheerde Bedrijvenzone wordt immers niet verder onderverdeeld in verschillende eniteiten."
+      }
+    },
+    {
+      "EA-Guid": "{B0E4026C-67F0-4aab-989F-AAA26CD90368}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "De aard van een ruimtelijke eenheid."
+      },
+      "usage": {
+        "nl": "De waarde van deze eigenschap is altijd gelijk aan de URI van de klasse. De klasse Bedrijventerrein wordt immers niet verder onderverdeeld in verschillende eniteiten."
+      }
+    },
+    {
+      "EA-Guid": "{A64AFBDB-AF98-45ea-A19E-9C80EA8DCB88}",
+      "name": "oppervlakte",
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      }
+    },
+    {
+      "EA-Guid": "{75B2BE99-6A4B-44d1-A1D6-749B2440F09E}",
+      "name": "oppervlakte",
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      }
+    },
+    {
+      "EA-Guid": "{4D1A0001-E0FD-401d-9A2D-87D1791AA11B}",
+      "name": "oppervlakte",
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      }
+    },
+    {
+      "EA-Guid": "{5FA58D32-3A58-4492-AE51-758017D6930F}",
+      "name": "oppervlakte",
+      "label": {
+        "nl": "oppervlakte"
+      },
+      "definition": {
+        "nl": "Oppervlakte van de ruimtelijke eenheid en metadata over de manier waarop deze bepaald werd."
+      }
+    },
+    {
+      "EA-Guid": "{FEAEC277-C090-4186-996C-F50D4463EB48}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."
+      }
+    },
+    {
+      "EA-Guid": "{008111AA-8A49-4151-BE9F-4FF6ED700AC1}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."
+      }
+    },
+    {
+      "EA-Guid": "{34F18A46-CEC3-46a8-89DC-A0B92BFABC65}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."
+      }
+    },
+    {
+      "EA-Guid": "{7B4792F8-FE0B-4ab3-A8AB-1DBF9227BDEC}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      },
+      "definition": {
+        "nl": "Geometrie van de ruimtelijke eenheid en metadata over hoe deze werd bepaald."
+      }
+    },
+    {
+      "EA-Guid": "{1BBCBAB1-0B78-4407-B89C-71691BCE0FA3}",
+      "name": "versie-identificator",
+      "label": {
+        "nl": "versie-identificator"
+      },
+      "definition": {
+        "nl": "Identificator van de specifieke versie van een object."
+      }
+    },
+    {
+      "EA-Guid": "{85908938-4F4D-4d06-8EFF-1AD13C6A6F94}",
+      "name": "naamruimte",
+      "label": {
+        "nl": "naamruimte"
+      },
+      "definition": {
+        "nl": "String die toegvoegd wordt aan de lokaleidentificator om deze globaal uniek te maken."
+      },
+      "usage": {
+        "nl": "Laat toe om objecten met dezelfde identificator maar van verschillend type en/of afkomstig uit verschillende domeinen uiteen te houden. In praktijk bv een uri samengesteld uit betekenisvolle elementen zoals een domeinnaam, type en concept (bv https://data.vlaanderen.be/id/adres/)."
+      }
+    },
+    {
+      "EA-Guid": "{EB11DFDD-C1CC-4259-943C-A15D6C390CDF}",
+      "name": "lokale identificator",
+      "label": {
+        "nl": "lokale identificator"
+      },
+      "definition": {
+        "nl": "String gebruikt om het object uniek te identificeren binnen de naamruimte."
+      }
+    },
+    {
+      "EA-Guid": "{B656C5B4-4712-45c6-BE30-2426E9272E77}",
+      "name": "gestructureerde identificator",
+      "label": {
+        "nl": "gestructureerde identificator"
+      },
+      "definition": {
+        "nl": "Identificator vh object opgesplitst in zijn onderdelen."
+      }
+    },
+    {
+      "EA-Guid": "{058FE59B-FC1F-4168-B8A5-FE97D4A10054}",
+      "name": "voorziene uitgifte",
+      "label": {
+        "nl": "voorziene uitgifte"
+      },
+      "definition": {
+        "nl": "Het voorziene tijdstip waarop de ontwikkeling van de ontwikkelbare bedrijvenzone voltooid zal zijn."
+      }
+    },
+    {
+      "EA-Guid": "{F267EFE2-1BA3-4821-B08E-EE4788293059}",
+      "name": "status ontwikkeling",
+      "label": {
+        "nl": "status ontwikkeling"
+      },
+      "definition": {
+        "nl": "Geeft de status aan van de Ontwikkelbare Bedrijvezone."
+      },
+      "usage": {
+        "nl": "Mogelijke waarden voor dit attribuut zijn: te ontwikkelen, in ontwikkeling, ontwikkeld, ontwikkeling geblokkeerd en niet ontwikkelbaar."
+      }
+    },
+    {
+      "EA-Guid": "{60158476-5242-4218-B7B1-D83D6AE9B1B1}",
+      "name": "in gebruik",
+      "label": {
+        "nl": "in gebruik"
+      },
+      "definition": {
+        "nl": "Dit attribuut geeft aan of een Bedrijventerreinperceel al dan niet in gebruik is."
+      }
+    },
+    {
+      "EA-Guid": "{06FAFDFC-5373-46af-BD92-501986142B31}",
+      "name": "functie",
+      "label": {
+        "nl": "functie"
+      },
+      "definition": {
+        "nl": "De functie geeft de (verschillende) functies aan die men kan terugvinden op het Bedrijventerreinperceel en het percentage van het perceel dat gedekt wordt door elke functie."
+      },
+      "usage": {
+        "nl": "Modellering geïnspireerd op INSPIRE HILUCS value en HILUCS percentage."
+      }
+    },
+    {
+      "EA-Guid": "{4B1CFE04-7705-41a0-85F1-21A194827F09}",
+      "name": "beschikbare oppervlakte",
+      "label": {
+        "nl": "beschikbare oppervlakte"
+      },
+      "definition": {
+        "nl": "Deze eigenschap geeft aan hoeveel oppervlakte nog beschikbaar is op het bedrijventerrein."
+      }
+    },
+    {
+      "EA-Guid": "{6891C577-F5E3-4b81-99EB-F3899A8DBD42}",
+      "name": "beschikbare kavels",
+      "label": {
+        "nl": "beschikbare kavels"
+      },
+      "definition": {
+        "nl": "Deze eigenschap geeft aan of er al dan niet beschikbare kavels aanwezig zijn op het bedrijventerrein."
+      }
+    },
+    {
+      "EA-Guid": "{AF979FBA-5AA5-461e-9E9B-5B41C5565C69}",
+      "name": "beschikbaarheid",
+      "label": {
+        "nl": "beschikbaarheid"
+      },
+      "definition": {
+        "nl": "Deze eigenschap geeft de beschikbaarheid aan van een Bedrijventerreinperceel."
+      },
+      "usage": {
+        "nl": "Mogelijke waarden voor dit attribuut zijn: Aangeboden, Niet aangeboden of optie."
+      }
+    },
+    {
+      "EA-Guid": "{61FFE20B-EDD0-4d22-9E3D-CDA346538395}",
+      "name": "beperking",
+      "label": {
+        "nl": "beperking"
+      },
+      "definition": {
+        "nl": "Deze eigenschap geeft aan welke de mogelijk beperking een bepaald bedrijventerreinperceel momenteel ondervindt."
+      },
+      "usage": {
+        "nl": "Mogelijke waarden voor dit attribuut zijn: Te saneren, Fysisch niet realiseerbaar, Waterproblematiek, Mobiliteitsproblematiek, Herziening bestemming, Juridische procedure, Reservegrond, Bevriezing door eigenaar of Bevriezing door overheid."
+      }
+    },
+    {
+      "EA-Guid": "{FBB2FFC2-C1B7-4212-A6D3-9A37F3793046}",
+      "name": "bebouwing",
+      "label": {
+        "nl": "bebouwing"
+      },
+      "definition": {
+        "nl": "Deze eigenschap geeft de aanwezigheid van bebouwing aan op het Bedrijventerreinperceel."
+      },
+      "usage": {
+        "nl": "Mogelijke waarden kunnen zijn: bebouwd of onbebouw."
+      }
+    },
+    {
+      "EA-Guid": "{6786C971-27E7-491d-A86D-8AE3CD438FEE}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "Aanduiding van het functietype."
+      },
+      "usage": {
+        "nl": "Mogelijke waarden voor dit attribuut zijn: Landbouw, bos, economie, gemeenschapsvoorziening, infrastructuur, water, wonen, braakliggend, buffer, niet gekend en gemengd."
+      }
+    },
+    {
+      "EA-Guid": "{A96BCD76-EE86-4bed-BABF-71CB4D5921B4}",
+      "name": "website",
+      "label": {
+        "nl": "website"
+      },
+      "definition": {
+        "nl": "Website waarnaar men kan surfen."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{E1B8869E-7005-48f5-B6CE-C527684EE88D}",
+      "name": "homepage",
+      "label": {
+        "nl": "homepage"
+      },
+      "definition": {
+        "nl": "Adres van de homepage van de website van de ontwikkelbare bedrijvenzone."
+      }
+    },
+    {
+      "EA-Guid": "{395012D9-39B7-4b0e-87C8-499E5A9CC26D}",
+      "name": "homepage",
+      "label": {
+        "nl": "homepage"
+      },
+      "definition": {
+        "nl": "Adres van de homepage van de website van de organisatie"
+      }
+    },
+    {
+      "EA-Guid": "{715D6899-55E8-4831-832A-64AF06470DFD}",
+      "name": "registratie",
+      "label": {
+        "nl": "registratie"
+      },
+      "definition": {
+        "nl": "Identificator dat de organisatie verkreeg bij registratie."
+      },
+      "usage": {
+        "nl": "In de KBO is dit het ondernemingsnummer."
+      }
+    },
+    {
+      "EA-Guid": "{0F78C89B-D2E2-41f6-A25B-60087AC2B265}",
+      "name": "wettelijke naam",
+      "label": {
+        "nl": "wettelijke naam"
+      },
+      "definition": {
+        "nl": "Wettelijk geregistreerde naam vd organisatie."
+      },
+      "usage": {
+        "nl": "Evt in verschillende talen."
+      }
+    },
+    {
+      "EA-Guid": "{EDF66E50-9105-4a95-AA09-B574D2874AA4}",
+      "name": "toegekend door (String)",
+      "label": {
+        "nl": "toegekend door (String)"
+      },
+      "definition": {
+        "nl": "Naam vd agent die de identificator heeft toegekend."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{84C67795-E95D-4db6-9AA9-9F9FB09F2F86}",
+      "name": "identificator",
+      "label": {
+        "nl": "identificator"
+      },
+      "definition": {
+        "nl": "De identificator van de Ruimtelijke Eenheid."
+      }
+    },
+    {
+      "EA-Guid": "{2CBC3D40-2354-409d-81A7-406181C668E8}",
+      "name": "identificator",
+      "label": {
+        "nl": "identificator"
+      },
+      "definition": {
+        "nl": "De identificator van de Ruimtelijke Eenheid."
+      }
+    },
+    {
+      "EA-Guid": "{2DE9A2A7-C8BA-4de8-9F74-5A841E73C724}",
+      "name": "identificator",
+      "label": {
+        "nl": "identificator"
+      },
+      "definition": {
+        "nl": "De identificator van de Ruimtelijke Eenheid."
+      }
+    },
+    {
+      "EA-Guid": "{37534C01-8382-4b76-8E11-45D1D966425A}",
+      "name": "identificator",
+      "label": {
+        "nl": "identificator"
+      },
+      "definition": {
+        "nl": "De identificator van de Ruimtelijke Eenheid."
+      }
+    },
+    {
+      "EA-Guid": "{018F99ED-7B1D-4446-865C-F3008C220270}",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "definition": {
+        "nl": "Voorkeursnaam van de Beheerde bedrijvenzone"
+      }
+    },
+    {
+      "EA-Guid": "{FE4790E5-4CD0-45c3-B143-0FE4E6BA2B2F}",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "definition": {
+        "nl": "Voorkeursnaam van de Ontwikkelbare Bedrijvenzone."
+      }
+    },
+    {
+      "EA-Guid": "{6E43C4CC-EB59-4cbe-AF19-659E2A710E1F}",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      },
+      "definition": {
+        "nl": "Voorkeursnaam van het Bedrijventerrein."
+      }
+    },
+    {
+      "EA-Guid": "{79DD21CF-D714-4a2f-8627-A55E3DC91137}",
+      "name": "identificator",
+      "label": {
+        "nl": "identificator"
+      },
+      "definition": {
+        "nl": "String gebruikt om het object uniek te identificeren."
+      },
+      "usage": {
+        "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
+      }
+    },
+    {
+      "EA-Guid": "{47C603B5-A7E8-4233-9984-29A56FFD3C7C}",
+      "name": "alternatieve naam",
+      "label": {
+        "nl": "alternatieve naam"
+      },
+      "definition": {
+        "nl": "Andere naam waaronder het bedrijventerrein bekend is."
+      }
+    },
+    {
+      "EA-Guid": "{9999F073-D6C8-4989-9532-45E5033E2488}",
+      "name": "wkt",
+      "label": {
+        "nl": "wkt"
+      },
+      "definition": {
+        "nl": "Geometrie uitgedrukt in wkt-formaat."
+      },
+      "usage": {
+        "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype."
+      }
+    },
+    {
+      "EA-Guid": "{96C366D9-443D-48cd-94D7-07DE4B22115F}",
+      "name": "gml",
+      "label": {
+        "nl": "gml"
+      },
+      "definition": {
+        "nl": "Geometrie uitgedrukt in gml-formaat."
+      },
+      "usage": {
+        "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
+      }
+    },
+    {
+      "EA-Guid": "{8E6C282C-118C-43c3-A447-317814D9DDE6}",
+      "name": "telefoon",
+      "label": {
+        "nl": "telefoon"
+      },
+      "definition": {
+        "nl": "Telefoonnummer waarop men kan bellen."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{76CF6F8F-BB17-4632-8F2F-6DA7C5838D72}",
+      "name": "email",
+      "label": {
+        "nl": "email"
+      },
+      "definition": {
+        "nl": "Email-adres waarnaar men kan mailen."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{7A4B60B1-901C-4b00-8263-854F1E037C46}",
+      "name": "contactinfo",
+      "label": {
+        "nl": "contactinfo"
+      },
+      "definition": {
+        "nl": "Informatie zoals email, telefoon, adres die toelaat om iemand of iets te contacteren."
+      }
+    },
+    {
+      "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
+      "name": "is gerelateerd aan",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "definition": {
+        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+      }
+    },
+    {
+      "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
+      "name": "is gerelateerd aan",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "definition": {
+        "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+      },
+      "usage": {
+        "nl": "In het geval dat de zone niet ontwikkelbaar is omwille van een of andere blokkering, dan moet er minstens één Bedrijventerreinperceel aan verbonden zijn dat de reden van de blokkering weergeeft."
+      }
+    },
+    {
+      "EA-Guid": "{019E5F41-A99D-4e6c-BE02-F3D0B7DCD582}",
+      "name": "toegekend op",
+      "label": {
+        "nl": "toegekend op"
+      },
+      "definition": {
+        "nl": "Tijdstip waarop de identificator werd uitgegeven."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+      "name": "is deel van",
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      }
+    },
+    {
+      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
+      "name": "is deel van",
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
+      }
+    },
+    {
+      "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
+      "name": "is deel van",
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+      }
+    },
+    {
+      "EA-Guid": "{BE30332D-505E-4f15-91E7-63445262B244}",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "definition": {
+        "nl": "Bijkomende informatie over het bedrijventerreinperceel."
+      }
+    },
+    {
+      "EA-Guid": "{6A1C5961-4DD6-4fb1-8D6C-43E0BB38D461}",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "definition": {
+        "nl": "Bijkomende informatie over de beheerde bedrijvenzone."
+      }
+    },
+    {
+      "EA-Guid": "{93EF2946-1153-4b92-B81D-7996EA32746D}",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "definition": {
+        "nl": "Bijkomende informatie over de ontwikkelbare bedrijvenzone."
+      }
+    },
+    {
+      "EA-Guid": "{27969FD0-7650-431a-BBD9-306F89C809AD}",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "definition": {
+        "nl": "Bijkomende informatie over het bedrijventerrein"
+      }
+    },
+    {
+      "EA-Guid": "{AF00EF18-2F66-4180-8B43-771101B82BF5}",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "definition": {
+        "nl": "Bijkomende informatie over de aanbieding."
+      }
+    },
+    {
+      "EA-Guid": "{CA41A9F9-B975-4b41-A8B8-29C5FA20819F}",
+      "name": "toegekend door",
+      "label": {
+        "nl": "toegekend door"
+      },
+      "definition": {
+        "nl": "Link naar de agent die de identificator heeft uitgegeven."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{642FB459-ADB4-428c-BB6A-CB7A24775623}",
+      "name": "begin",
+      "label": {
+        "nl": "begin"
+      },
+      "definition": {
+        "nl": "Aanvang van de tijdsduur."
+      },
+      "usage": {
+        "nl": " "
+      }
+    },
+    {
+      "EA-Guid": "{F95D9FA7-6A3D-4073-AD1C-6D458DE7DCF3}",
+      "name": "einde",
+      "label": {
+        "nl": "einde"
+      },
+      "definition": {
+        "nl": "Einde vd tijdsduur."
+      },
+      "usage": {
+        "nl": " "
+      }
+    }
+  ]
+}

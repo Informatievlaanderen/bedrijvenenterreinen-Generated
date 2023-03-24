@@ -1,0 +1,75 @@
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/license> "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0" .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/license> <https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/mediator> _:g454720 .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#label> "bedrijventerrein"@en .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#label> "bedrijventerrein"@nl .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://xmlns.com/foaf/0.1/maker> _:g454740 .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2001/02pd/rec54#editor> _:g454780 .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://purl.org/dc/terms/issued> "TODO" .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/regorg#registration> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/regorg#legalName> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/dc/terms/description> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> <http://www.w3.org/2000/01/rdf-schema#comment> "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"@nl .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> <http://www.w3.org/2000/01/rdf-schema#domain> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron> <http://www.w3.org/2000/01/rdf-schema#comment> "De benaming van de bron waaruit de aanbieding afkomstig is."@nl .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron> <http://www.w3.org/2000/01/rdf-schema#domain> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding> <http://www.w3.org/2000/01/rdf-schema#comment> "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "@nl .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding> <http://www.w3.org/2000/01/rdf-schema#domain> <https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding> <http://www.w3.org/2000/01/rdf-schema#range> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder> <http://www.w3.org/2000/01/rdf-schema#domain> <https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/regorg#RegisteredOrganization> .
+<https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid> .
+_:g454720 <http://xmlns.com/foaf/0.1/homepage> <https://data.vlaanderen.be> .
+_:g454720 <http://xmlns.com/foaf/0.1/mbox> <mailto:oslo@kb.vlaanderen.be> .
+_:g454720 <http://xmlns.com/foaf/0.1/name> "Data Vlaanderen" .
+_:g454740 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454740 <http://schema.org/affiliation> _:g454760 .
+_:g454740 <http://xmlns.com/foaf/0.1/firstName> "Idris" .
+_:g454740 <http://xmlns.com/foaf/0.1/lastName> "Peiren" .
+_:g454740 <http://xmlns.com/foaf/0.1/mbox> <mailto:idris.peiren@vlaio.be> .
+_:g454760 <http://xmlns.com/foaf/0.1/name> "Agentschap Innoveren en Ondernemen" .
+_:g454780 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:g454780 <http://schema.org/affiliation> _:g454800 .
+_:g454780 <http://xmlns.com/foaf/0.1/firstName> "Bert" .
+_:g454780 <http://xmlns.com/foaf/0.1/lastName> "Van Nuffelen" .
+_:g454780 <http://xmlns.com/foaf/0.1/mbox> <mailto:bert.vannuffelen@vlaanderen.be> .
+_:g454800 <http://xmlns.com/foaf/0.1/name> "Agentschap Informatie Vlaanderen" .
+<http://www.w3.org/ns/regorg#registration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/regorg#registration> <http://www.w3.org/2000/01/rdf-schema#label> "registratie"@nl .
+<http://www.w3.org/ns/regorg#legalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/ns/regorg#legalName> <http://www.w3.org/2000/01/rdf-schema#label> "wettelijke naam"@nl .
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "opmerking"@nl .

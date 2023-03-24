@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "title": "Bron Bedrijventerrein",
+    "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein",
+    "issued": "2022-04-05",
+    "filename": "bedrijventerrein",
+    "navigation": {
+      "self": "https://bedrijventerrein.dev-vlaanderen.be//doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-06-17"
+    },
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "documenttype": "voc",
+    "documentconfig": {},
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "statuslabel": "Erkende Standaard",
+    "repositoryurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/tree/ee044b15679b369d92cf5a348de40b7448552b28",
+    "changelogurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/blob/ee044b15679b369d92cf5a348de40b7448552b28/CHANGELOG",
+    "feedbackurl": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen/issues",
+    "standaardregisterurl": "",
+    "dependencies": [],
+    "usesVocs": [],
+    "usesAPs": []
+  },
+  "classes": [
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding",
+      "name": "Bedrijventerreinperceelaanbieding",
+      "label": {
+        "nl": "Bedrijventerreinperceelaanbieding"
+      },
+      "sort": "Bedrijventerreinperceelaanbieding",
+      "description": {},
+      "usage": {},
+      "equivalent": [],
+      "parents": []
+    }
+  ],
+  "properties": [
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#ontwikkelaar",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#juridischeHandhaver",
+      "name": "juridische handhaver",
+      "label": {
+        "nl": "juridische handhaver"
+      },
+      "sort": "juridische handhaver",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#homepageAanbieding",
+      "name": "homepage",
+      "label": {
+        "nl": "homepage"
+      },
+      "sort": "homepage",
+      "description": {
+        "nl": "De homepage waarop dit bedrijventerreinperceel wordt aangeboden door de aanbieder"
+      },
+      "usage": {},
+      "domain": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "range": [
+        "http://www.w3.org/2001/XMLSchema#string"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#digitalebeheerder",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#bron",
+      "name": "Bron",
+      "label": {
+        "nl": "Bron"
+      },
+      "sort": "Bron",
+      "description": {
+        "nl": "De benaming van de bron waaruit de aanbieding afkomstig is."
+      },
+      "usage": {},
+      "domain": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "range": [
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanspreekpunt",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieding",
+      "name": "aanbieding",
+      "label": {
+        "nl": "aanbieding"
+      },
+      "sort": "aanbieding",
+      "description": {
+        "nl": "Een commerciële activiteit m.b.t. het bedrijventerreinperceel. Dit kan verkoop en verhuur omvatten. En het aanbod kan het volledige perceel bevatten maar ook op delen ervan. B.v. enkel met m.b.t. de gebouwen die op het perceel staan. "
+      },
+      "usage": {},
+      "domain": [
+        "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel"
+      ],
+      "range": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "parents": []
+    },
+    {
+      "uri": "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#aanbieder",
+      "name": "",
+      "label": {},
+      "sort": "",
+      "description": {},
+      "usage": {},
+      "domain": [
+        "https://bedrijventerrein.vlaanderen.be/ns/bedrijventerrein#BedrijventerreinPerceelAanbieding"
+      ],
+      "range": [
+        "http://www.w3.org/ns/regorg#RegisteredOrganization"
+      ],
+      "parents": [
+        "https://data.vlaanderen.be/ns/perceel#agentMetVerantwoordelijkheid"
+      ]
+    }
+  ],
+  "contributors": [
+    {
+      "role": "A",
+      "first_name": "Idris",
+      "last_name": "Peiren",
+      "affiliation": {
+        "name": "Agentschap Innoveren en Ondernemen"
+      },
+      "email": "idris.peiren@vlaio.be"
+    },
+    {
+      "role": "E",
+      "first_name": "Bert",
+      "last_name": "Van Nuffelen",
+      "affiliation": {
+        "name": "Agentschap Informatie Vlaanderen"
+      },
+      "email": "bert.vannuffelen@vlaanderen.be"
+    }
+  ],
+  "external_terms": [
+    {
+      "uri": "http://www.w3.org/ns/regorg#registration",
+      "name": "registratie",
+      "label": {
+        "nl": "registratie"
+      },
+      "description": {},
+      "usage": {},
+      "sort": "registratie",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://www.w3.org/ns/regorg#legalName",
+      "name": "wettelijke naam",
+      "label": {
+        "nl": "wettelijke naam"
+      },
+      "description": {},
+      "usage": {},
+      "sort": "wettelijke naam",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over het bedrijventerreinperceel."
+      },
+      "usage": {},
+      "sort": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over de beheerde bedrijvenzone."
+      },
+      "usage": {},
+      "sort": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over de ontwikkelbare bedrijvenzone."
+      },
+      "usage": {},
+      "sort": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over het bedrijventerrein"
+      },
+      "usage": {},
+      "sort": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    },
+    {
+      "uri": "http://purl.org/dc/terms/description",
+      "name": "opmerking",
+      "label": {
+        "nl": "opmerking"
+      },
+      "description": {
+        "nl": "Bijkomende informatie over de aanbieding."
+      },
+      "usage": {},
+      "sort": "opmerking",
+      "inscope": true,
+      "indvl": false,
+      "inpackage": false,
+      "show": true
+    }
+  ],
+  "documentroot": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-06-17"
+}
