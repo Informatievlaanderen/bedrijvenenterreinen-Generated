@@ -802,6 +802,16 @@
       }
     },
     {
+      "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
+      "name": "is deel van",
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan waartoe een entiteit behoort."
+      }
+    },
+    {
       "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
       "name": "is deel van",
       "label": {
@@ -813,16 +823,6 @@
     },
     {
       "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
-      "name": "is deel van",
-      "label": {
-        "nl": "is deel van"
-      },
-      "definition": {
-        "nl": "Geeft aan waartoe een entiteit behoort."
-      }
-    },
-    {
-      "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
       "name": "is deel van",
       "label": {
         "nl": "is deel van"

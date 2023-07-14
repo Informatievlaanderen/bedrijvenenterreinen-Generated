@@ -10023,7 +10023,7 @@
   "standaardregisterurl": "",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "a73ef1427271aa27875d37bd1f4a2b0cc0a48daf",
+  "toolchaincommit": "8582b2865e2102c495f84eec5d95b806c7ef2e19",
   "translation": [
     {
       "language": "nl",
