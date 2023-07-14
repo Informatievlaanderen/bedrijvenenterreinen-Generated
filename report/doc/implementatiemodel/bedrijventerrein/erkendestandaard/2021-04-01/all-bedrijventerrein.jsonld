@@ -9324,6 +9324,6 @@
     "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
     "urlref": "/doc/implementatiemodel/bedrijventerrein/erkendestandaard/2021-04-01",
     "documentcommit": "ded3772e76fb25c8ff9ca0407a4432bff20f40db",
-    "toolchaincommit": "e2adb349693ee538a261d5a5994cc68ba3b9e8d1",
+    "toolchaincommit": "111bf1aa65014b848f511a407cc3960a97442768",
     "hostname": "https://bedrijventerrein.dev-vlaanderen.be/"
 }
