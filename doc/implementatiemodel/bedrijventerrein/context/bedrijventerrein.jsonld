@@ -294,7 +294,7 @@
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.type": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype",
+      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#ruimtelijkeenheidtype",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.voorzieneUitgifte": {
