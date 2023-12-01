@@ -6,7 +6,7 @@
         <dc:license>https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0</dc:license>
         <dc:license rdf:resource="https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"/>
         <dc:mediator>
-          <rdf:Description rdf:nodeID="g454720">
+          <rdf:Description rdf:nodeID="g454740">
             <foaf:homepage rdf:resource="https://data.vlaanderen.be"/>
             <foaf:mbox rdf:resource="mailto:oslo@kb.vlaanderen.be"/>
             <foaf:name>Data Vlaanderen</foaf:name>
@@ -15,9 +15,9 @@
         <rdfs:label xml:lang="en">bedrijventerrein</rdfs:label>
         <rdfs:label xml:lang="nl">bedrijventerrein</rdfs:label>
         <foaf:maker>
-          <foaf:Person rdf:nodeID="g454740">
+          <foaf:Person rdf:nodeID="g454760">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454760">
+              <rdf:Description rdf:nodeID="g454780">
                 <foaf:name>Agentschap Innoveren en Ondernemen</foaf:name>
               </rdf:Description>
             </schema:affiliation>
@@ -27,9 +27,9 @@
           </foaf:Person>
         </foaf:maker>
         <ns0:editor>
-          <foaf:Person rdf:nodeID="g454780">
+          <foaf:Person rdf:nodeID="g454800">
             <schema:affiliation>
-              <rdf:Description rdf:nodeID="g454800">
+              <rdf:Description rdf:nodeID="g454820">
                 <foaf:name>Agentschap Informatie Vlaanderen</foaf:name>
               </rdf:Description>
             </schema:affiliation>
