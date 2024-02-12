@@ -963,16 +963,6 @@
       }
     },
     {
-      "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
-      "name": "is gerelateerd aan",
-      "label": {
-        "nl": "is gerelateerd aan"
-      },
-      "definition": {
-        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-      }
-    },
-    {
       "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
       "name": "is gerelateerd aan",
       "label": {
@@ -980,6 +970,16 @@
       },
       "definition": {
         "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+      }
+    },
+    {
+      "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
+      "name": "is gerelateerd aan",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "definition": {
+        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
       }
     },
     {

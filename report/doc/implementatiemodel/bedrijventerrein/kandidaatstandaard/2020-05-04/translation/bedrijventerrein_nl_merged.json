@@ -9762,7 +9762,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "111bf1aa65014b848f511a407cc3960a97442768",
+  "toolchaincommit": "3cbee464855e43037adfbff1ff425d31bdf396fe",
   "translation": [
     {
       "language": "nl",
