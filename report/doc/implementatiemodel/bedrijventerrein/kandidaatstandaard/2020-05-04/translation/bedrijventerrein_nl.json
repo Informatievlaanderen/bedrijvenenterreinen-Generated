@@ -1003,13 +1003,13 @@
       }
     },
     {
-      "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
       "name": "is deel van",
       "label": {
         "nl": "is deel van"
       },
       "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       }
     },
     {
@@ -1023,13 +1023,13 @@
       }
     },
     {
-      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
+      "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
       "name": "is deel van",
       "label": {
         "nl": "is deel van"
       },
       "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
+        "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
       }
     },
     {
