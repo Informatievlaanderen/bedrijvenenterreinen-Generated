@@ -9710,7 +9710,7 @@
   "standaardregisterurl": "https://otl-test.data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "de5f04f6882b1e385e19e1499cd0952bd28acdd8",
+  "toolchaincommit": "1b6bbb91e8a686a4cc69aa9c5a5aba7489f00e50",
   "translation": [
     {
       "language": "nl",
