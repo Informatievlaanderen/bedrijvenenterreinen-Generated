@@ -9400,6 +9400,6 @@
     "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
     "urlref": "/doc/implementatiemodel/bedrijventerrein/kandidaatstandaard/2021-04-01",
     "documentcommit": "d18fe56ecc64ef8fc12addc1580e3f0d2266c052",
-    "toolchaincommit": "c606dac36ae233a0dc8b208c45bb61f712825cbc",
+    "toolchaincommit": "a8bc837918a1a7a8765064f45855569a276c3039",
     "hostname": "https://bedrijventerrein.dev-vlaanderen.be/"
 }
