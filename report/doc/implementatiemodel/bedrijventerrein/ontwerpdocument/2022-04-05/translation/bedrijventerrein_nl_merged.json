@@ -9809,7 +9809,7 @@
   "standaardregisterurl": "",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "4a4c7a111f2ade4d81aee9ef9728ceae80837fd8",
+  "toolchaincommit": "c606dac36ae233a0dc8b208c45bb61f712825cbc",
   "translation": [
     {
       "language": "nl",
