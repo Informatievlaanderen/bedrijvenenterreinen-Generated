@@ -20,7 +20,7 @@
       "@type": "@id"
     },
     "Bedrijventerrein.geldigheidsperiode": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "Bedrijventerrein.geometrie": {
@@ -42,7 +42,7 @@
       "@type": "@id"
     },
     "Bedrijventerrein.type": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+      "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
     "Bedrijventerreinperceel": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
@@ -70,12 +70,12 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceel.geldigheidsperiode": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.geometrie": {
       "@container": "@set",
-      "@id": "https://data.vlaanderen.be/ns/perceel#geometrie",
+      "@id": "http://data.vlaanderen.be/ns/perceel#geometrie",
       "@type": "@id"
     },
     "Bedrijventerreinperceel.homepageAanbieding": {
@@ -105,7 +105,7 @@
       "@type": "@id"
     },
     "Bedrijventerreinperceel.type": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
+      "@id": "http://data.vlaanderen.be/ns/perceel#RuimtelijkeEenheid.type",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
@@ -118,7 +118,7 @@
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.geldigheidsperiode": {
-      "@id": "https://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
+      "@id": "http://data.vlaanderen.be/ns/perceel#geldigheidsperiode",
       "@type": "@id"
     },
     "BeheerdeBedrijvenzone.geometrie": {
@@ -294,7 +294,7 @@
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.type": {
-      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#ruimtelijkeenheidtype",
+      "@id": "https://data.vlaanderen.be/ns/bedrijventerrein#^ruimtelijkeenheidtype",
       "@type": "@id"
     },
     "OntwikkelbareBedrijvenzone.voorzieneUitgifte": {
