@@ -9438,7 +9438,7 @@
   "standaardregisterurl": "",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "a8bc837918a1a7a8765064f45855569a276c3039",
+  "toolchaincommit": "374fba5c8a526763c31851361cdf4eacdc721b6e",
   "translation": [
     {
       "language": "nl",
