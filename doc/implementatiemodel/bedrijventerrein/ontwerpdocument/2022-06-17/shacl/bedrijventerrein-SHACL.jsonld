@@ -2728,22 +2728,6 @@
         {
           "@id": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/cd746eb16ccd4218999fc6c1f678bb425c94b0e2",
           "rdfs:seeAlso": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan",
-          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-          "sh:description": {
-            "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-          },
-          "sh:name": {
-            "nl": "is gerelateerd aan"
-          },
-          "sh:path": "http://purl.org/dc/terms/relation",
-          "vl:message": {
-            "nl": "De range van is gerelateerd aan moet van het type <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> zijn."
-          },
-          "vl:rule": ""
-        },
-        {
-          "@id": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/cd746eb16ccd4218999fc6c1f678bb425c94b0e2",
-          "rdfs:seeAlso": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan",
           "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone",
           "sh:description": {
             "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
@@ -2758,10 +2742,26 @@
           "vl:rule": ""
         },
         {
+          "@id": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/cd746eb16ccd4218999fc6c1f678bb425c94b0e2",
+          "rdfs:seeAlso": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan",
+          "sh:class": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+          "sh:description": {
+            "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+          },
+          "sh:name": {
+            "nl": "is gerelateerd aan"
+          },
+          "sh:path": "http://purl.org/dc/terms/relation",
+          "vl:message": {
+            "nl": "De range van is gerelateerd aan moet van het type <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> zijn."
+          },
+          "vl:rule": ""
+        },
+        {
           "@id": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/dd18783dd07efc15f8536c77dfe73cc42671ed65",
           "rdfs:seeAlso": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan",
           "sh:description": {
-            "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+            "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
           },
           "sh:name": {
             "nl": "is gerelateerd aan"
@@ -2777,7 +2777,7 @@
           "@id": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/dd18783dd07efc15f8536c77dfe73cc42671ed65",
           "rdfs:seeAlso": "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan",
           "sh:description": {
-            "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+            "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
           },
           "sh:name": {
             "nl": "is gerelateerd aan"

@@ -1043,6 +1043,16 @@
       }
     },
     {
+      "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
+      "name": "is gerelateerd aan",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "definition": {
+        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
+      }
+    },
+    {
       "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
       "name": "is gerelateerd aan",
       "label": {
@@ -1056,16 +1066,6 @@
       }
     },
     {
-      "EA-Guid": "{A38037B7-1FA5-4228-B9B6-7B53DC537801}",
-      "name": "is gerelateerd aan",
-      "label": {
-        "nl": "is gerelateerd aan"
-      },
-      "definition": {
-        "nl": "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."
-      }
-    },
-    {
       "EA-Guid": "{019E5F41-A99D-4e6c-BE02-F3D0B7DCD582}",
       "name": "toegekend op",
       "label": {
@@ -1076,16 +1076,6 @@
       },
       "usage": {
         "nl": " "
-      }
-    },
-    {
-      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
-      "name": "is deel van",
-      "label": {
-        "nl": "is deel van"
-      },
-      "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       }
     },
     {
@@ -1106,6 +1096,16 @@
       },
       "definition": {
         "nl": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort."
+      }
+    },
+    {
+      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
+      "name": "is deel van",
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       }
     },
     {

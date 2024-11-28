@@ -8976,12 +8976,12 @@
             },
             "extra": {
                 "EA-Name": "isDeelVan",
-                "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
+                "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
                 "derived": "false",
                 "EA-Package": "",
                 "EA-Type": "connector",
-                "EA-Domain": "Bedrijventerreinperceel",
-                "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
+                "EA-Domain": "OntwikkelbareBedrijvenzone",
+                "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
                 "EA-Range": "Bedrijventerrein",
                 "RangeData": {
                     "EA-Name": "Bedrijventerrein",
@@ -9014,6 +9014,11 @@
                 "sameAs": "",
                 "RawTags": [
                     {
+                        "key": "ap-definition-nl",
+                        "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
+                        "note": "null"
+                    },
+                    {
                         "key": "definition-nl",
                         "value": "Geeft aan waartoe een entiteit behoort.",
                         "note": "null"
@@ -9021,11 +9026,6 @@
                     {
                         "key": "label-nl",
                         "value": "is deel van",
-                        "note": "null"
-                    },
-                    {
-                        "key": "ap-definition-nl",
-                        "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
                         "note": "null"
                     },
                     {
@@ -9040,8 +9040,8 @@
             "codelist": [],
             "domain": [
                 {
-                    "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
-                    "EA-Name": "Bedrijventerreinperceel"
+                    "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
+                    "EA-Name": "OntwikkelbareBedrijvenzone"
                 }
             ],
             "range": [
@@ -9174,12 +9174,12 @@
             },
             "extra": {
                 "EA-Name": "isDeelVan",
-                "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+                "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
                 "derived": "false",
                 "EA-Package": "",
                 "EA-Type": "connector",
-                "EA-Domain": "OntwikkelbareBedrijvenzone",
-                "EA-Domain-Guid": "{9652E6FD-2D7A-490b-80AB-A784D0F36A44}",
+                "EA-Domain": "Bedrijventerreinperceel",
+                "EA-Domain-Guid": "{706900E9-D960-43fc-88FF-FF47C2FDF172}",
                 "EA-Range": "Bedrijventerrein",
                 "RangeData": {
                     "EA-Name": "Bedrijventerrein",
@@ -9212,11 +9212,6 @@
                 "sameAs": "",
                 "RawTags": [
                     {
-                        "key": "ap-definition-nl",
-                        "value": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort.",
-                        "note": "null"
-                    },
-                    {
                         "key": "definition-nl",
                         "value": "Geeft aan waartoe een entiteit behoort.",
                         "note": "null"
@@ -9224,6 +9219,11 @@
                     {
                         "key": "label-nl",
                         "value": "is deel van",
+                        "note": "null"
+                    },
+                    {
+                        "key": "ap-definition-nl",
+                        "value": "Geeft aan tot welk Bedrijventerrein het Bedrijventerreinperceel behoort.",
                         "note": "null"
                     },
                     {
@@ -9238,8 +9238,8 @@
             "codelist": [],
             "domain": [
                 {
-                    "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone",
-                    "EA-Name": "OntwikkelbareBedrijvenzone"
+                    "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerreinperceel",
+                    "EA-Name": "Bedrijventerreinperceel"
                 }
             ],
             "range": [
@@ -10018,6 +10018,6 @@
     "repository": "https://github.com/Informatievlaanderen/bron-bedrijventerreinen",
     "urlref": "/doc/vocabularium/bedrijventerrein/ontwerpdocument/2022-06-17",
     "documentcommit": "ee044b15679b369d92cf5a348de40b7448552b28",
-    "toolchaincommit": "e21f1954a6771900326ccf7531f38a5f286d2d2b",
+    "toolchaincommit": "461f2ae40af628d600622be8e6045361f45ecd9f",
     "hostname": "https://bedrijventerrein.dev-vlaanderen.be/"
 }

@@ -3355,100 +3355,6 @@
     {
       "@id": "http://purl.org/dc/terms/relation",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{E29BC0DD-32E8-4067-9799-1EDAF6221260}",
-      "ap-definition-nl": {
-        "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
-      },
-      "ap-label-nl": {
-        "nl": "is gerelateerd aan"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
-      },
-      "domain": [
-        {
-          "EA-Name": "Bedrijventerrein",
-          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [],
-        "EA-Domain": "Bedrijventerrein",
-        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
-        "EA-Guid": "{E29BC0DD-32E8-4067-9799-1EDAF6221260}",
-        "EA-Name": "isGerelateerdAan",
-        "EA-Package": "",
-        "EA-Range": "Planningszone",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{0DB658B8-9192-45be-A315-991C77676D09}",
-          "EA-Name": "Planningszone",
-          "EA-Package": "OSLO-Bedrijventerrein-impl",
-          "uri": "https://vlaio.vlaanderen.be/ns/bedrijventerrein#Planningszone"
-        },
-        "RawTags": [
-          {
-            "key": "uri",
-            "note": "null",
-            "value": "http://purl.org/dc/terms/relation"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "null",
-            "value": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
-          },
-          {
-            "key": "label-nl",
-            "note": "null",
-            "value": "is gerelateerd aan"
-          },
-          {
-            "key": "definition-nl",
-            "note": "null",
-            "value": "Een gerelateerde resource."
-          }
-        ],
-        "Scope": "TRANSLATIONS_ONLY",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
-        },
-        "ap-label-nl": {
-          "nl": "is gerelateerd aan"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
-        },
-        "derived": "false",
-        "destRole": "null",
-        "label": {
-          "nl": "is gerelateerd aan"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "is gerelateerd aan"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "1",
-      "name": "is gerelateerd aan",
-      "range": [
-        {
-          "EA-GUID": "{0DB658B8-9192-45be-A315-991C77676D09}",
-          "EA-Name": "Planningszone",
-          "EA-Package": "OSLO-Bedrijventerrein-impl",
-          "uri": "https://vlaio.vlaanderen.be/ns/bedrijventerrein#Planningszone"
-        }
-      ]
-    },
-    {
-      "@id": "http://purl.org/dc/terms/relation",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
       "ap-definition-nl": {
         "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreingebruiksperceel kan geassocieerd worden."
@@ -3537,6 +3443,100 @@
           "EA-Name": "OntwikkelbareBedrijvenzone",
           "EA-Package": "OSLO-Bedrijventerrein-impl",
           "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.org/dc/terms/relation",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{E29BC0DD-32E8-4067-9799-1EDAF6221260}",
+      "ap-definition-nl": {
+        "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
+      },
+      "ap-label-nl": {
+        "nl": "is gerelateerd aan"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
+      },
+      "domain": [
+        {
+          "EA-Name": "Bedrijventerrein",
+          "uri": "https://data.vlaanderen.be/ns/bedrijventerrein#Bedrijventerrein"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [],
+        "EA-Domain": "Bedrijventerrein",
+        "EA-Domain-Guid": "{9193154C-3BA8-4198-91ED-18A7CC16A477}",
+        "EA-Guid": "{E29BC0DD-32E8-4067-9799-1EDAF6221260}",
+        "EA-Name": "isGerelateerdAan",
+        "EA-Package": "",
+        "EA-Range": "Planningszone",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{0DB658B8-9192-45be-A315-991C77676D09}",
+          "EA-Name": "Planningszone",
+          "EA-Package": "OSLO-Bedrijventerrein-impl",
+          "uri": "https://vlaio.vlaanderen.be/ns/bedrijventerrein#Planningszone"
+        },
+        "RawTags": [
+          {
+            "key": "uri",
+            "note": "null",
+            "value": "http://purl.org/dc/terms/relation"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "null",
+            "value": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
+          },
+          {
+            "key": "label-nl",
+            "note": "null",
+            "value": "is gerelateerd aan"
+          },
+          {
+            "key": "definition-nl",
+            "note": "null",
+            "value": "Een gerelateerde resource."
+          }
+        ],
+        "Scope": "TRANSLATIONS_ONLY",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
+        },
+        "ap-label-nl": {
+          "nl": "is gerelateerd aan"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "Planningszone waarmee het bedrijventerrein kan geassocieerd worden."
+        },
+        "derived": "false",
+        "destRole": "null",
+        "label": {
+          "nl": "is gerelateerd aan"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "1",
+      "name": "is gerelateerd aan",
+      "range": [
+        {
+          "EA-GUID": "{0DB658B8-9192-45be-A315-991C77676D09}",
+          "EA-Name": "Planningszone",
+          "EA-Package": "OSLO-Bedrijventerrein-impl",
+          "uri": "https://vlaio.vlaanderen.be/ns/bedrijventerrein#Planningszone"
         }
       ]
     },
@@ -8179,7 +8179,7 @@
   "standaardregisterurl": "https://otl-test.data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html",
   "template": "bedrijventerrein-impl.j2",
   "title": "Bedrijventerrein",
-  "toolchaincommit": "e21f1954a6771900326ccf7531f38a5f286d2d2b",
+  "toolchaincommit": "461f2ae40af628d600622be8e6045361f45ecd9f",
   "translation": [
     {
       "language": "nl",

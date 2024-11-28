@@ -834,7 +834,7 @@
       }
     },
     {
-      "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
+      "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
       "name": "is deel van",
       "label": {
         "nl": "is deel van"
@@ -854,7 +854,7 @@
       }
     },
     {
-      "EA-Guid": "{0DEDEB32-DA32-405b-ACB6-0232B7B6CB12}",
+      "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
       "name": "is deel van",
       "label": {
         "nl": "is deel van"
