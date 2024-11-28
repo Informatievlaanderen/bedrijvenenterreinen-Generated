@@ -1025,13 +1025,13 @@
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/cd746eb16ccd4218999fc6c1f678bb425c94b0e2> rdfs:seeAlso "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan";
-  shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>,
-    <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>;
-  shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl,
-    "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl;
+  shacl:class <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone>,
+    <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone>;
+  shacl:description "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl,
+    "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl;
   shacl:name "is gerelateerd aan"@nl;
   shacl:path dc:relation;
-  <https://data.vlaanderen.be/ns/shacl#message> [<https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17nl> "De range van is gerelateerd aan moet van het type <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> zijn."], [<https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17nl> "De range van is gerelateerd aan moet van het type <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> zijn."];
+  <https://data.vlaanderen.be/ns/shacl#message> [<https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17nl> "De range van is gerelateerd aan moet van het type <https://data.vlaanderen.be/ns/bedrijventerrein#OntwikkelbareBedrijvenzone> zijn."], [<https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17nl> "De range van is gerelateerd aan moet van het type <https://data.vlaanderen.be/ns/bedrijventerrein#BeheerdeBedrijvenzone> zijn."];
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/d05ab9844cad2630aeb030a7b5d4885abbc972ae> rdfs:seeAlso "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Aopmerking";
@@ -1071,8 +1071,8 @@
   <https://data.vlaanderen.be/ns/shacl#rule> "" .
 
 <https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#BedrijventerreinperceelShape/dd18783dd07efc15f8536c77dfe73cc42671ed65> rdfs:seeAlso "https://bedrijventerrein.dev-vlaanderen.be//doc/implementatiemodel/bedrijventerrein/ontwerpdocument/2022-06-17#Bedrijventerreinperceel%3Ais%20gerelateerd%20aan";
-  shacl:description "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl,
-    "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl;
+  shacl:description "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl,
+    "Beheerde bedrijvenzone waarmee het bedrijventerreinperceel kan geassocieerd worden."@nl;
   shacl:name "is gerelateerd aan"@nl;
   shacl:nodekind "sh:BlankNodeOrIRI";
   shacl:path dc:relation;
