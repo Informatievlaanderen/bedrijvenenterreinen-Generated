@@ -976,16 +976,6 @@
       }
     },
     {
-      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
-      "name": "is deel van",
-      "label": {
-        "nl": "is deel van"
-      },
-      "definition": {
-        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
-      }
-    },
-    {
       "EA-Guid": "{BD87F4F9-12A7-4499-9377-D358A04FDF23}",
       "name": "is deel van",
       "label": {
@@ -1003,6 +993,16 @@
       },
       "definition": {
         "nl": "Geeft aan tot welk Bedrijventerrein de Ontwikkelbare Bedrijvenzone behoort."
+      }
+    },
+    {
+      "EA-Guid": "{E48A1762-42FE-489f-8E58-F41962CAB112}",
+      "name": "is deel van",
+      "label": {
+        "nl": "is deel van"
+      },
+      "definition": {
+        "nl": "Geeft aan tot welk Bedrijventerrein de Beheerde Bedrijvenzone behoort."
       }
     },
     {
