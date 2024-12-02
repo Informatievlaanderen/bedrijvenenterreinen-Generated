@@ -779,6 +779,16 @@
       }
     },
     {
+      "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
+      "name": "is gerelateerd aan",
+      "label": {
+        "nl": "is gerelateerd aan"
+      },
+      "definition": {
+        "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreingebruiksperceel kan geassocieerd worden."
+      }
+    },
+    {
       "EA-Guid": "{E29BC0DD-32E8-4067-9799-1EDAF6221260}",
       "name": "is gerelateerd aan",
       "label": {
@@ -793,16 +803,6 @@
       "name": "is gerelateerd aan",
       "label": {
         "nl": "is gerelateerd aan"
-      }
-    },
-    {
-      "EA-Guid": "{218A6742-44E9-492d-9C99-B451ECBF71DF}",
-      "name": "is gerelateerd aan",
-      "label": {
-        "nl": "is gerelateerd aan"
-      },
-      "definition": {
-        "nl": "Ontwikkelbare bedrijvenzone waarmee het bedrijventerreingebruiksperceel kan geassocieerd worden."
       }
     },
     {
